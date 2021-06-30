@@ -52,29 +52,29 @@ namespace WEB_API.Controllers
         [ResponseType(typeof(COMMON.UsersC))]
         [HttpGet]
         [Route("api/GetUsersByPassword")]
-        public COMMON.UsersC GetUsersByPassword(string password, int id)
+        public COMMON.UsersC GetUsersByPassword(string name, string password)
         {
-            if (UserManagerB.getUserByPassword(password, id) == null)
+            if (UserManagerB.getUserByPassword(name, password) == null)
                 return null;
             else
-                return UserManagerB.getUserByPassword(password, id);
+                return UserManagerB.getUserByPassword(name, password);
         }
 
         // PUT: api/Users/5
         [ResponseType(typeof(void))]
         [HttpPut]
         [Route("api/PutUsers")]
-        public IHttpActionResult PutUsers(COMMON.UsersC user)
+        public bool PutUsers(COMMON.UsersC user)
         {
             try
             {
                 UserManagerB.updateUser(user);
-                return Ok();
+                return true;
             }
             catch (Exception ex)
             {
 
-                return NotFound();
+                return false;
             }
         }
 
@@ -82,17 +82,17 @@ namespace WEB_API.Controllers
         [ResponseType(typeof(void))]
         [HttpPost]
         [Route("api/PostUsers")]
-        public IHttpActionResult PostUsers(COMMON.UsersC user)
+        public bool PostUsers(COMMON.UsersC user)
         {
             try
             {
                 UserManagerB.addUser(user);
-                return Ok();
+                return true;
             }
             catch (Exception ex)
             {
 
-                return NotFound();
+                return false;
             }
         }
 

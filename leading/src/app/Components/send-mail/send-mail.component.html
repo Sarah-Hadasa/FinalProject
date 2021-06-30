@@ -1,0 +1,6 @@
+<p>send-mail works!</p>
+<form (ngSubmit)="sendEmail()">
+    <label>to:</label><input name="to" type="text" [(ngModel)]="msg.reciever"/><br>
+    <label>subject:</label><input name="sub" type="text" [(ngModel)]="msg.subject"/><br>
+    <input type="submit" value="send-email"/>
+</form>
