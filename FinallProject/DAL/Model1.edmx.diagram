@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c79fad322b7243e180447b92762f8d25" Name="Diagram1" ZoomLevel="89">
+        <EntityTypeShape EntityType="ProjectDasiSariModel1.Drive" Width="1.5" PointX="3.375" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectDasiSariModel1.Packages" Width="1.5" PointX="7" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectDasiSariModel1.Travels" Width="1.5" PointX="5.125" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectDasiSariModel1.Users" Width="1.5" PointX="1.375" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="ProjectDasiSariModel1.FK__Drive__UserId__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectDasiSariModel1.FK__Travels__DriveId__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectDasiSariModel1.FK__Packages__UserId__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectDasiSariModel1.FK__Travels__Package__70DDC3D8" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

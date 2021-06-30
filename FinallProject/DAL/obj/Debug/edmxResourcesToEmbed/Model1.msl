@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProjectDasiSariModel1StoreContainer" CdmEntityContainer="ProjectDasiSariEntities1">
+    <EntitySetMapping Name="Drive">
+      <EntityTypeMapping TypeName="ProjectDasiSariModel1.Drive">
+        <MappingFragment StoreEntitySet="Drive">
+          <ScalarProperty Name="DriveId" ColumnName="DriveId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="PackageId" ColumnName="PackageId" />
+          <ScalarProperty Name="OriginCity" ColumnName="OriginCity" />
+          <ScalarProperty Name="OriginStreet" ColumnName="OriginStreet" />
+          <ScalarProperty Name="OriginNumBuild" ColumnName="OriginNumBuild" />
+          <ScalarProperty Name="OriginArea" ColumnName="OriginArea" />
+          <ScalarProperty Name="DestenitationCity" ColumnName="DestenitationCity" />
+          <ScalarProperty Name="DestenitationStreet" ColumnName="DestenitationStreet" />
+          <ScalarProperty Name="DestenitationNumBuild" ColumnName="DestenitationNumBuild" />
+          <ScalarProperty Name="DestenitationArea" ColumnName="DestenitationArea" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="ExitTime" ColumnName="ExitTime" />
+          <ScalarProperty Name="ArrivedTime" ColumnName="ArrivedTime" />
+          <ScalarProperty Name="PackageType" ColumnName="PackageType" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Packages">
+      <EntityTypeMapping TypeName="ProjectDasiSariModel1.Packages">
+        <MappingFragment StoreEntitySet="Packages">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="OriginCity" ColumnName="OriginCity" />
+          <ScalarProperty Name="OriginStreet" ColumnName="OriginStreet" />
+          <ScalarProperty Name="OriginNumBuild" ColumnName="OriginNumBuild" />
+          <ScalarProperty Name="OriginArea" ColumnName="OriginArea" />
+          <ScalarProperty Name="DestinationCity" ColumnName="DestinationCity" />
+          <ScalarProperty Name="DestinationStreet" ColumnName="DestinationStreet" />
+          <ScalarProperty Name="DestinationNumBuild" ColumnName="DestinationNumBuild" />
+          <ScalarProperty Name="DestinationArea" ColumnName="DestinationArea" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="ExitTime" ColumnName="ExitTime" />
+          <ScalarProperty Name="ArrivedTime" ColumnName="ArrivedTime" />
+          <ScalarProperty Name="PackageType" ColumnName="PackageType" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Travels">
+      <EntityTypeMapping TypeName="ProjectDasiSariModel1.Travels">
+        <MappingFragment StoreEntitySet="Travels">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DriveId" ColumnName="DriveId" />
+          <ScalarProperty Name="PackageId" ColumnName="PackageId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="ProjectDasiSariModel1.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Tz" ColumnName="Tz" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

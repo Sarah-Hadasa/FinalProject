@@ -1,0 +1,74 @@
+<h3>My Google Maps Demo</h3>
+<!--The div element for the map -->
+<!-- <div id="map"></div> -->
+
+<div id="right-panel">
+  
+<div id="map"></div>
+<div id="inputs">
+    <pre>
+let origin1 
+let origin2 
+let destinationA 
+let destinationB 
+        </pre>
+  </div>
+  <div>
+    <strong>Results</strong>
+  </div>
+  <div id="output">
+    
+  </div>
+</div>
+<button type="submit" (click)="show()" mdbBtn color="primary">show</button>
+<button type="submit" (click)="cancelDrive()" mdbBtn color="primary">בטל נהג</button>
+<div class="col-lg-12">
+  <table class="table table-responsive">
+      <thead>
+        <th scope="col">Name</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Mail</th>
+        <th scope="col">Origin address</th>
+        <th scope="col">Destination address</th>
+        <th scope="col">Date</th>
+        <th scope="col">Time</th>
+        <th scope="col">PackageType</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">
+          <button type="button" class="btn btn-primary">send mail</button>
+        </th>
+      </thead>
+      <tbody>
+          <tr *ngFor='let item of drivePackage'>         
+              <td>{{item.Name}}</td>
+              <td>{{item.Tz}}</td>
+              <td>{{item.Phone}}</td>
+              <td>{{item.Mail}}</td>
+              <td>{{item.OriginCity}}</td>
+              <td>{{item.OriginStreet}}</td>
+              <td>{{item.OriginNumBuild}}</td>
+              <td>{{item.OriginDistance}}</td>
+              <td>{{item.OriginDuration}}</td>
+              <td>{{item.DestinationCity}}</td>
+              <td>{{item.DestinationStreet}}</td>
+              <td>{{item.DestinationNumBuild}}</td>
+              <td>{{item.DestinationDistance}}</td>
+              <td>{{item.DestinationDuration}}</td>
+              <td>{{item.Date}}</td>
+              <td>{{item.ExitTime}}</td>
+              <td>{{item.ArrivedTime}}</td>
+              <td>{{item.PackageType}}</td>
+              <td>{{item.Remarks}}</td>
+              
+              
+          </tr>
+      </tbody>
+  </table>
+</div>

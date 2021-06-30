@@ -1,0 +1,44 @@
+<!-- <nav>
+  <ul class="nav">
+    <li><a routerLink="/home" routerLinkActive="active">Home</a></li>
+        <li><a routerLink="/addDrive" routerLinkActive="active">Add Drive</a></li>
+        <li><a routerLink="/addPackage" routerLinkActive="active">Add Package</a></li>
+        <li><a routerLink="/showDrives" routerLinkActive="active">Show Drives</a></li>
+        <li><a routerLink="/showPackages" routerLinkActive="active">Show Packages</a></li>
+        <li><a routerLink="/road_map" routerLinkActive="road_map">Row_map</a></li>
+        <li><a routerLink="/login" routerLinkActive="login">login</a></li>
+        <li><a routerLink="/track" routerLinkActive="track">track</a></li>
+  </ul>
+</nav>
+<app-road-map></app-road-map>
+The routed views render in the <router-outlet>-->
+<!-- <router-outlet></router-outlet> --> 
+
+<div class="container allpage">
+  <div class="row">
+    <div class="col logo"  >logo</div>
+  </div>
+  <div class="row linkpage">
+    <div class="col-3 col-lg" ><a routerLink="/home" routerLinkActive="active">Home</a></div>
+    <div class="col-3 col-lg" ><a routerLink="/addDrive" routerLinkActive="active">Add Drive</a></div>
+    <div class="col-3 col-lg" ><a routerLink="/addPackage" routerLinkActive="active">Add Package</a></div>
+    <div class="col-3 col-lg" ><a routerLink="/showDrives" routerLinkActive="active">Show Drives</a></div>
+    <div class="col-3 col-lg" ><a routerLink="/showPackages" routerLinkActive="active">Show Packages</a></div>
+    <div class="col-3 col-lg" ><a routerLink="/road_map" routerLinkActive="road_map">Row_map</a></div>
+    <div class="col-3 col-lg" ><a routerLink="/login" routerLinkActive="login">login</a></div>
+    <div class="col-3 col-lg" ><a routerLink="/track" routerLinkActive="track">track</a></div>
+  </div> 
+  <div class="row">
+    <div>
+      <router-outlet></router-outlet>
+    </div>
+    <div class="col-10">
+      <router-outlet></router-outlet>
+    </div>
+     <div class="col-2">
+      <app-road-map></app-road-map>
+    </div>
+  </div>  
+</div> 
+
+<!-- The routed views render in the <router-outlet>-->

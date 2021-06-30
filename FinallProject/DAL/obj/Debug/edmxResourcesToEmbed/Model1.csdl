@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProjectDasiSariModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Drive">
+    <Key>
+      <PropertyRef Name="DriveId" />
+    </Key>
+    <Property Name="DriveId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="PackageId" Type="Int32" />
+    <Property Name="OriginCity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="OriginStreet" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="OriginNumBuild" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="OriginArea" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DestenitationCity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DestenitationStreet" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DestenitationNumBuild" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DestenitationArea" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ExitTime" Type="Time" Precision="7" />
+    <Property Name="ArrivedTime" Type="Time" Precision="7" />
+    <Property Name="PackageType" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Remarks" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Drive__UserId__49C3F6B7" FromRole="Drive" ToRole="Users" />
+    <NavigationProperty Name="Travels" Relationship="Self.FK__Travels__DriveId__6FE99F9F" FromRole="Drive" ToRole="Travels" />
+  </EntityType>
+  <EntityType Name="Packages">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="OriginCity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="OriginStreet" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="OriginNumBuild" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="OriginArea" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DestinationCity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DestinationStreet" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DestinationNumBuild" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DestinationArea" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ExitTime" Type="Time" Precision="7" />
+    <Property Name="ArrivedTime" Type="Time" Precision="7" />
+    <Property Name="PackageType" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Remarks" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__Packages__UserId__5CD6CB2B" FromRole="Packages" ToRole="Users" />
+    <NavigationProperty Name="Travels" Relationship="Self.FK__Travels__Package__70DDC3D8" FromRole="Packages" ToRole="Travels" />
+  </EntityType>
+  <EntityType Name="Travels">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DriveId" Type="Int32" Nullable="false" />
+    <Property Name="PackageId" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Drive" Relationship="Self.FK__Travels__DriveId__6FE99F9F" FromRole="Travels" ToRole="Drive" />
+    <NavigationProperty Name="Packages" Relationship="Self.FK__Travels__Package__70DDC3D8" FromRole="Travels" ToRole="Packages" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tz" Type="String" MaxLength="9" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Mail" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Drive" Relationship="Self.FK__Drive__UserId__49C3F6B7" FromRole="Users" ToRole="Drive" />
+    <NavigationProperty Name="Packages" Relationship="Self.FK__Packages__UserId__5CD6CB2B" FromRole="Users" ToRole="Packages" />
+    <Property Name="Password" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <Association Name="FK__Drive__UserId__49C3F6B7">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Drive" Type="Self.Drive" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Drive">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Travels__DriveId__6FE99F9F">
+    <End Role="Drive" Type="Self.Drive" Multiplicity="1" />
+    <End Role="Travels" Type="Self.Travels" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Drive">
+        <PropertyRef Name="DriveId" />
+      </Principal>
+      <Dependent Role="Travels">
+        <PropertyRef Name="DriveId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Packages__UserId__5CD6CB2B">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Packages" Type="Self.Packages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Packages">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Travels__Package__70DDC3D8">
+    <End Role="Packages" Type="Self.Packages" Multiplicity="1" />
+    <End Role="Travels" Type="Self.Travels" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Packages">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Travels">
+        <PropertyRef Name="PackageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProjectDasiSariEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Drive" EntityType="Self.Drive" />
+    <EntitySet Name="Packages" EntityType="Self.Packages" />
+    <EntitySet Name="Travels" EntityType="Self.Travels" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK__Drive__UserId__49C3F6B7" Association="Self.FK__Drive__UserId__49C3F6B7">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Drive" EntitySet="Drive" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Travels__DriveId__6FE99F9F" Association="Self.FK__Travels__DriveId__6FE99F9F">
+      <End Role="Drive" EntitySet="Drive" />
+      <End Role="Travels" EntitySet="Travels" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Packages__UserId__5CD6CB2B" Association="Self.FK__Packages__UserId__5CD6CB2B">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Packages" EntitySet="Packages" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Travels__Package__70DDC3D8" Association="Self.FK__Travels__Package__70DDC3D8">
+      <End Role="Packages" EntitySet="Packages" />
+      <End Role="Travels" EntitySet="Travels" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,86 @@
+<p>show-packages works!</p>
+
+ <!-- <table class="table table-responsive">
+  <thead>
+    <th scope="col">Name</th>
+    <th scope="col">Origin city</th>
+    <th scope="col">Origin street</th>
+    <th scope="col">Origin numbuild</th>
+    <th scope="col">Destination city</th>
+    <th scope="col">Destination street</th>
+    <th scope="col">Destination numbuild</th>
+    <th scope="col">
+      <button type="button" class="btn btn-primary">send mail</button>
+    </th>
+  </thead>
+  <tbody>
+    <tr *ngFor='let item of allPackages'>
+      <td>{item.UserId}</td>
+      <td>{item.OriginCity}</td>
+      <td>{item.OriginStreet}</td>
+      <td>{item.OriginNumBuild}</td>
+      <td>{item.DestinationCity}</td>
+      <td>{item.DestinationStreet}</td>
+      <td>{item.DestinationNumBuild}</td>
+      <td>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+          <label class="form-check-label" for="flexCheckIndeterminate">
+            choose
+          </label>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>  -->
+
+<button type="submit" (click)="showMyPackage()" mdbBtn color="primary">הצג פרטי נסיעות שלי </button>
+<button type="submit" (click)="deletePackages()" mdbBtn color="primary">מחק</button>
+<button type="submit" (click)="searchPackages()" mdbBtn color="primary">חפש שוב</button>
+<button type="submit" (click)="updatePackages()" mdbBtn color="primary">עדכון פרטי נסיעה </button>
+<button type="submit" (click)="showDrive()" mdbBtn color="primary">הצג פרטי נהג </button>
+<!-- //<button type="submit" (click)="submit2()" mdbBtn color="primary">הצג פרטי נסיעה של הנהג המוביל</button> -->
+<!-- <li *ngFor="let item of allPackages ">
+  {{item.UserId}}
+</li> -->
+<div class="col-lg-12">
+  <table class="table table-responsive">
+      <thead>            
+        <th scope="col">Id</th>
+        <th scope="col">UserId</th>
+        <th scope="col">OriginCity</th>
+        <th scope="col">OriginStreet</th>
+        <th scope="col">OriginNumBuild</th>
+        <th scope="col">DestinationCity</th>
+        <th scope="col">DestinationStreet</th>
+        <th scope="col">DestinationNumBuild</th>
+        <th scope="col">Date</th>
+        <th scope="col">ExitTime</th>
+        <th scope="col">ArrivedTime</th>
+        <th scope="col">PackageType</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">
+          <button type="button" class="btn btn-primary">send mail</button>
+        </th>
+      </thead>
+      <tbody>
+          <tr *ngFor='let item of allPackages'>
+              <td>{{item.Id}}</td>
+              <td>{{item.UserId}}</td>
+              <td>{{item.OriginCity}}</td>
+              <td>{{item.OriginStreet}}</td>
+              <td>{{item.OriginNumBuild}}</td>
+              <td>{{item.DestinationCity}}</td>
+              <td>{{item.DestinationStreet}}</td>
+              <td>{{item.DestinationNumBuild}}</td>
+              <td>{{item.Date}}</td>
+              <td>{{item.ExitTime}}</td>
+              <td>{{item.ArrivedTime}}</td>
+              <td>{{item.PackageType}}</td>
+              <td>{{item.Remarks}}</td>     
+              <input type="checkbox" tabindex="0" class="hidden" (change)="onSelect(item)">                    
+          </tr>
+      </tbody>
+  </table>
+  
+</div>

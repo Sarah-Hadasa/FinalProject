@@ -1,0 +1,63 @@
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\COMMON\bin\Debug\COMMON.exe.config
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\COMMON\bin\Debug\COMMON.exe
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\COMMON\bin\Debug\COMMON.pdb
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\COMMON\obj\Debug\COMMON.Properties.Resources.resources
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\COMMON\obj\Debug\COMMON.csproj.GenerateResource.cache
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\COMMON\obj\Debug\COMMON.csproj.CoreCompileInputs.cache
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\COMMON\obj\Debug\COMMON.exe
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\COMMON\obj\Debug\COMMON.pdb
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\COMMON\obj\Debug\COMMON.csprojAssemblyReference.cache
+C:\Users\User\Documents\תכנות\FinallProject\COMMON\obj\Debug\COMMON.csproj.GenerateResource.cache
+C:\Users\User\Documents\תכנות\FinallProject\COMMON\obj\Debug\COMMON.exe
+C:\Users\User\Documents\תכנות\FinallProject\COMMON\obj\Debug\COMMON.pdb
+C:\Users\User\Documents\תכנות\FinallProject\COMMON\bin\Debug\COMMON.exe.config
+C:\Users\User\Documents\תכנות\FinallProject\COMMON\bin\Debug\COMMON.exe
+C:\Users\User\Documents\תכנות\FinallProject\COMMON\bin\Debug\COMMON.pdb
+C:\Users\User\Documents\תכנות\FinallProject\COMMON\obj\Debug\COMMON.Properties.Resources.resources
+C:\Users\User\Documents\תכנות\FinallProject\COMMON\obj\Debug\COMMON.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\תכנות\FinallProject\COMMON\obj\Debug\COMMON.csprojAssemblyReference.cache
+C:\Users\user\FinallProject\COMMON\bin\Debug\COMMON.exe.config
+C:\Users\user\FinallProject\COMMON\bin\Debug\COMMON.exe
+C:\Users\user\FinallProject\COMMON\bin\Debug\COMMON.pdb
+C:\Users\user\FinallProject\COMMON\obj\Debug\COMMON.Properties.Resources.resources
+C:\Users\user\FinallProject\COMMON\obj\Debug\COMMON.csproj.GenerateResource.cache
+C:\Users\user\FinallProject\COMMON\obj\Debug\COMMON.csproj.CoreCompileInputs.cache
+C:\Users\user\FinallProject\COMMON\obj\Debug\COMMON.exe
+C:\Users\user\FinallProject\COMMON\obj\Debug\COMMON.pdb
+C:\Users\user\FinallProject\COMMON\obj\Debug\COMMON.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\05-05-21\FinallProject\COMMON\bin\Debug\COMMON.exe.config
+C:\Users\user\פרויקט\05-05-21\FinallProject\COMMON\bin\Debug\COMMON.exe
+C:\Users\user\פרויקט\05-05-21\FinallProject\COMMON\bin\Debug\COMMON.pdb
+C:\Users\user\פרויקט\05-05-21\FinallProject\COMMON\obj\Debug\COMMON.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\05-05-21\FinallProject\COMMON\obj\Debug\COMMON.Properties.Resources.resources
+C:\Users\user\פרויקט\05-05-21\FinallProject\COMMON\obj\Debug\COMMON.csproj.GenerateResource.cache
+C:\Users\user\פרויקט\05-05-21\FinallProject\COMMON\obj\Debug\COMMON.csproj.CoreCompileInputs.cache
+C:\Users\user\פרויקט\05-05-21\FinallProject\COMMON\obj\Debug\COMMON.exe
+C:\Users\user\פרויקט\05-05-21\FinallProject\COMMON\obj\Debug\COMMON.pdb
+C:\Users\user\פרויקט\10-06-2021\FinallProject\COMMON\bin\Debug\COMMON.exe.config
+C:\Users\user\פרויקט\10-06-2021\FinallProject\COMMON\bin\Debug\COMMON.exe
+C:\Users\user\פרויקט\10-06-2021\FinallProject\COMMON\bin\Debug\COMMON.pdb
+C:\Users\user\פרויקט\10-06-2021\FinallProject\COMMON\obj\Debug\COMMON.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\10-06-2021\FinallProject\COMMON\obj\Debug\COMMON.Properties.Resources.resources
+C:\Users\user\פרויקט\10-06-2021\FinallProject\COMMON\obj\Debug\COMMON.csproj.GenerateResource.cache
+C:\Users\user\פרויקט\10-06-2021\FinallProject\COMMON\obj\Debug\COMMON.csproj.CoreCompileInputs.cache
+C:\Users\user\פרויקט\10-06-2021\FinallProject\COMMON\obj\Debug\COMMON.exe
+C:\Users\user\פרויקט\10-06-2021\FinallProject\COMMON\obj\Debug\COMMON.pdb
+C:\Users\user\פרויקט\20-06-21\FinallProject\COMMON\bin\Debug\COMMON.exe.config
+C:\Users\user\פרויקט\20-06-21\FinallProject\COMMON\bin\Debug\COMMON.exe
+C:\Users\user\פרויקט\20-06-21\FinallProject\COMMON\bin\Debug\COMMON.pdb
+C:\Users\user\פרויקט\20-06-21\FinallProject\COMMON\obj\Debug\COMMON.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\20-06-21\FinallProject\COMMON\obj\Debug\COMMON.Properties.Resources.resources
+C:\Users\user\פרויקט\20-06-21\FinallProject\COMMON\obj\Debug\COMMON.csproj.GenerateResource.cache
+C:\Users\user\פרויקט\20-06-21\FinallProject\COMMON\obj\Debug\COMMON.csproj.CoreCompileInputs.cache
+C:\Users\user\פרויקט\20-06-21\FinallProject\COMMON\obj\Debug\COMMON.exe
+C:\Users\user\פרויקט\20-06-21\FinallProject\COMMON\obj\Debug\COMMON.pdb
+C:\Users\user\פרויקט\25-06-21\FinallProject\COMMON\bin\Debug\COMMON.exe.config
+C:\Users\user\פרויקט\25-06-21\FinallProject\COMMON\bin\Debug\COMMON.exe
+C:\Users\user\פרויקט\25-06-21\FinallProject\COMMON\bin\Debug\COMMON.pdb
+C:\Users\user\פרויקט\25-06-21\FinallProject\COMMON\obj\Debug\COMMON.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\25-06-21\FinallProject\COMMON\obj\Debug\COMMON.Properties.Resources.resources
+C:\Users\user\פרויקט\25-06-21\FinallProject\COMMON\obj\Debug\COMMON.csproj.GenerateResource.cache
+C:\Users\user\פרויקט\25-06-21\FinallProject\COMMON\obj\Debug\COMMON.csproj.CoreCompileInputs.cache
+C:\Users\user\פרויקט\25-06-21\FinallProject\COMMON\obj\Debug\COMMON.exe
+C:\Users\user\פרויקט\25-06-21\FinallProject\COMMON\obj\Debug\COMMON.pdb

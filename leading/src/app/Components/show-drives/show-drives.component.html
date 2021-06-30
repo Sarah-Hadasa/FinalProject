@@ -1,0 +1,133 @@
+<!-- <p>show-drives works!</p> -->
+<h3>My Google Maps Demo</h3>
+
+<!-- <div id="right-panel">
+  <div id="inputs">
+    <pre>
+let origin1 
+let origin2 
+let destinationA 
+let destinationB 
+        </pre>
+  </div>
+  <div>
+    <strong>Results</strong>
+  </div>
+  <div id="output">
+    
+  </div>
+</div>
+<div id="map"></div> -->
+
+
+<!-- <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Mail</th>
+      <th scope="col">Origin address</th>
+      <th scope="col">Destination address</th>
+      <th scope="col">Date</th>
+      <th scope="col">Time</th>
+      <th scope="col">PackageType</th>
+      <th scope="col">Remarks</th>
+      <th scope="col">
+        <button type="button" class="btn btn-primary">send mail</button>
+      </th>
+    </tr>
+  </thead> -->
+  <!-- <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+      <td>Mark</td>
+      <td>Mark</td>
+      <td>Mark</td>
+      <td>Mark</td>
+      <td>Mark</td>
+      <td>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+          <label class="form-check-label" for="flexCheckIndeterminate">
+            choose
+          </label>
+        </div>
+      </td>
+
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+
+
+
+  </tbody>
+</table> -->
+<button type="submit" (click)="DestinationOrder()" mdbBtn color="primary">מיין לפי יעד</button>
+<button type="submit" (click)="OriginOrder()" mdbBtn color="primary">מיין לפי מוצא</button>
+<button type="submit" (click)="showTrack()" mdbBtn color="primary">הצג מסלול במפה</button>
+<button type="submit" (click)="showAllTrack()" mdbBtn color="primary">הצג את הנהגים בקיימים</button>
+<button type="submit" (click)="saveDrive()" mdbBtn color="primary">שמור נהג</button>
+
+<div class="col-lg-12">
+  <table class="table table-responsive">
+      <thead>
+        <th scope="col">Name</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Mail</th>
+        <th scope="col">Origin address</th>
+        <th scope="col">Destination address</th>
+        <th scope="col">Date</th>
+        <th scope="col">Time</th>
+        <th scope="col">PackageType</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">Remarks</th>
+        <th scope="col">
+          <button type="button" class="btn btn-primary">send mail</button>
+        </th>
+      </thead>
+      <tbody>
+          <tr *ngFor='let item of Package'>
+              <td>{{item.Name}}</td>
+              <td>{{item.Tz}}</td>
+              <td>{{item.Phone}}</td>
+              <td>{{item.Mail}}</td>
+              <td>{{item.OriginCity}}</td>
+              <td>{{item.OriginStreet}}</td>
+              <td>{{item.OriginNumBuild}}</td>
+              <td>{{item.OriginDistance}}</td>
+              <td>{{item.OriginDuration}}</td>
+              <td>{{item.DestinationCity}}</td>
+              <td>{{item.DestinationStreet}}</td>
+              <td>{{item.DestinationNumBuild}}</td>
+              <td>{{item.DestinationDistance}}</td>
+              <td>{{item.DestinationDuration}}</td>
+              <td>{{item.Date}}</td>
+              <td>{{item.PackageType}}</td>
+              <td>{{item.Remarks}}</td>
+              <input type="checkbox" tabindex="0" class="hidden" (change)="onSelect(item)">
+              
+          </tr>
+      </tbody>
+  </table>
+</div>
+<!-- <button> -->
+  
+ <!-- //<button type="submit" class="btn btn-primary" (click)="save()">save</button> -->

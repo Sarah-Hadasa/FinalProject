@@ -1,0 +1,180 @@
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\bin\Debug\BLL.exe.config
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\bin\Debug\BLL.exe
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\bin\Debug\BLL.pdb
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\bin\Debug\COMMON.exe
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\bin\Debug\DAL.exe
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\bin\Debug\EntityFramework.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\bin\Debug\COMMON.pdb
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\bin\Debug\COMMON.exe.config
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\bin\Debug\DAL.pdb
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\bin\Debug\DAL.exe.config
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\bin\Debug\EntityFramework.xml
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\obj\Debug\BLL.Properties.Resources.resources
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\obj\Debug\BLL.csproj.GenerateResource.cache
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\obj\Debug\BLL.csproj.CopyComplete
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\obj\Debug\BLL.exe
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\obj\Debug\BLL.pdb
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\bin\Debug\ProjectDasiSari.mdf
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\BLL\bin\Debug\ProjectDasiSari_log.ldf
+C:\Users\User\Documents\תכנות\FinallProject\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\User\Documents\תכנות\FinallProject\BLL\obj\Debug\BLL.Properties.Resources.resources
+C:\Users\User\Documents\תכנות\FinallProject\BLL\obj\Debug\BLL.csproj.GenerateResource.cache
+C:\Users\User\Documents\תכנות\FinallProject\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\תכנות\FinallProject\BLL\obj\Debug\BLL.exe
+C:\Users\User\Documents\תכנות\FinallProject\BLL\obj\Debug\BLL.pdb
+C:\Users\User\Documents\תכנות\FinallProject\BLL\bin\Debug\ProjectDasiSari.mdf
+C:\Users\User\Documents\תכנות\FinallProject\BLL\bin\Debug\ProjectDasiSari_log.ldf
+C:\Users\User\Documents\תכנות\FinallProject\BLL\bin\Debug\BLL.exe.config
+C:\Users\User\Documents\תכנות\FinallProject\BLL\bin\Debug\BLL.exe
+C:\Users\User\Documents\תכנות\FinallProject\BLL\bin\Debug\BLL.pdb
+C:\Users\User\Documents\תכנות\FinallProject\BLL\bin\Debug\COMMON.exe
+C:\Users\User\Documents\תכנות\FinallProject\BLL\bin\Debug\DAL.exe
+C:\Users\User\Documents\תכנות\FinallProject\BLL\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\תכנות\FinallProject\BLL\bin\Debug\COMMON.pdb
+C:\Users\User\Documents\תכנות\FinallProject\BLL\bin\Debug\COMMON.exe.config
+C:\Users\User\Documents\תכנות\FinallProject\BLL\bin\Debug\DAL.pdb
+C:\Users\User\Documents\תכנות\FinallProject\BLL\bin\Debug\DAL.exe.config
+C:\Users\User\Documents\תכנות\FinallProject\BLL\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\תכנות\FinallProject\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\FinallProject\BLL\bin\Debug\ProjectDasiSari.mdf
+C:\Users\user\FinallProject\BLL\bin\Debug\ProjectDasiSari_log.ldf
+C:\Users\user\FinallProject\BLL\bin\Debug\BLL.exe.config
+C:\Users\user\FinallProject\BLL\bin\Debug\BLL.exe
+C:\Users\user\FinallProject\BLL\bin\Debug\BLL.pdb
+C:\Users\user\FinallProject\BLL\bin\Debug\COMMON.exe
+C:\Users\user\FinallProject\BLL\bin\Debug\DAL.exe
+C:\Users\user\FinallProject\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\FinallProject\BLL\bin\Debug\COMMON.pdb
+C:\Users\user\FinallProject\BLL\bin\Debug\COMMON.exe.config
+C:\Users\user\FinallProject\BLL\bin\Debug\DAL.pdb
+C:\Users\user\FinallProject\BLL\bin\Debug\DAL.exe.config
+C:\Users\user\FinallProject\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\FinallProject\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\user\FinallProject\BLL\obj\Debug\BLL.Properties.Resources.resources
+C:\Users\user\FinallProject\BLL\obj\Debug\BLL.csproj.GenerateResource.cache
+C:\Users\user\FinallProject\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\FinallProject\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\FinallProject\BLL\obj\Debug\BLL.exe
+C:\Users\user\FinallProject\BLL\obj\Debug\BLL.pdb
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\bin\Debug\ProjectDasiSari.mdf
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\bin\Debug\ProjectDasiSari_log.ldf
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\bin\Debug\BLL.exe.config
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\bin\Debug\BLL.exe
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\bin\Debug\BLL.pdb
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\bin\Debug\COMMON.exe
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\bin\Debug\DAL.exe
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\bin\Debug\COMMON.pdb
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\bin\Debug\COMMON.exe.config
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\bin\Debug\DAL.pdb
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\bin\Debug\DAL.exe.config
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\obj\Debug\BLL.Properties.Resources.resources
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\obj\Debug\BLL.csproj.GenerateResource.cache
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\obj\Debug\BLL.exe
+C:\Users\user\פרויקט\05-05-21\FinallProject\BLL\obj\Debug\BLL.pdb
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\bin\Debug\ProjectDasiSari.mdf
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\bin\Debug\ProjectDasiSari_log.ldf
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\bin\Debug\BLL.exe.config
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\bin\Debug\BLL.exe
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\bin\Debug\BLL.pdb
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\bin\Debug\COMMON.exe
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\bin\Debug\DAL.exe
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\bin\Debug\COMMON.pdb
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\bin\Debug\COMMON.exe.config
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\bin\Debug\DAL.pdb
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\bin\Debug\DAL.exe.config
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\obj\Debug\BLL.Properties.Resources.resources
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\obj\Debug\BLL.csproj.GenerateResource.cache
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\obj\Debug\BLL.exe
+C:\Users\user\פרויקט\08-06-21\FinallProject\BLL\obj\Debug\BLL.pdb
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\bin\Debug\ProjectDasiSari.mdf
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\bin\Debug\ProjectDasiSari_log.ldf
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\bin\Debug\BLL.exe.config
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\bin\Debug\BLL.exe
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\bin\Debug\BLL.pdb
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\bin\Debug\COMMON.exe
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\bin\Debug\DAL.exe
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\bin\Debug\COMMON.pdb
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\bin\Debug\COMMON.exe.config
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\bin\Debug\DAL.pdb
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\bin\Debug\DAL.exe.config
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\obj\Debug\BLL.Properties.Resources.resources
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\obj\Debug\BLL.csproj.GenerateResource.cache
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\obj\Debug\BLL.exe
+C:\Users\user\פרויקט\10-06-2021\FinallProject\BLL\obj\Debug\BLL.pdb
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\bin\Debug\ProjectDasiSari.mdf
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\bin\Debug\ProjectDasiSari_log.ldf
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\bin\Debug\BLL.exe.config
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\bin\Debug\BLL.exe
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\bin\Debug\BLL.pdb
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\bin\Debug\COMMON.exe
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\bin\Debug\DAL.exe
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\bin\Debug\COMMON.pdb
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\bin\Debug\COMMON.exe.config
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\bin\Debug\DAL.pdb
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\bin\Debug\DAL.exe.config
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\obj\Debug\BLL.Properties.Resources.resources
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\obj\Debug\BLL.csproj.GenerateResource.cache
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\obj\Debug\BLL.exe
+C:\Users\user\פרויקט\20-06-21\FinallProject\BLL\obj\Debug\BLL.pdb
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\bin\Debug\ProjectDasiSari.mdf
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\bin\Debug\ProjectDasiSari_log.ldf
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\bin\Debug\BLL.exe.config
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\bin\Debug\BLL.exe
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\bin\Debug\BLL.pdb
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\bin\Debug\COMMON.exe
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\bin\Debug\DAL.exe
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\bin\Debug\COMMON.pdb
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\bin\Debug\COMMON.exe.config
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\bin\Debug\DAL.pdb
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\bin\Debug\DAL.exe.config
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\obj\Debug\BLL.Properties.Resources.resources
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\obj\Debug\BLL.csproj.GenerateResource.cache
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\obj\Debug\BLL.exe
+C:\Users\user\פרויקט\24-06-21\FinallProject\BLL\obj\Debug\BLL.pdb
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\bin\Debug\ProjectDasiSari.mdf
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\bin\Debug\ProjectDasiSari_log.ldf
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\bin\Debug\BLL.exe.config
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\bin\Debug\BLL.exe
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\bin\Debug\BLL.pdb
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\bin\Debug\COMMON.exe
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\bin\Debug\DAL.exe
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\bin\Debug\EntityFramework.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\bin\Debug\COMMON.pdb
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\bin\Debug\COMMON.exe.config
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\bin\Debug\DAL.pdb
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\bin\Debug\DAL.exe.config
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\bin\Debug\EntityFramework.xml
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\obj\Debug\BLL.Properties.Resources.resources
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\obj\Debug\BLL.csproj.GenerateResource.cache
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\obj\Debug\BLL.exe
+C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\obj\Debug\BLL.pdb

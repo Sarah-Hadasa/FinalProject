@@ -1,0 +1,711 @@
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\WEB API.dll.config
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\WEB API.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\WEB API.pdb
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\csc.exe
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\csc.exe.config
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\csc.rsp
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\csi.exe
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\csi.exe.config
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\csi.rsp
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\Microsoft.Managed.Core.targets
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.AppContext.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Collections.Immutable.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Console.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Diagnostics.StackTrace.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.IO.Compression.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.IO.FileSystem.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.IO.Pipes.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Reflection.Metadata.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Security.AccessControl.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Security.Claims.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Security.Principal.Windows.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Text.Encoding.CodePages.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.ValueTuple.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Xml.ReaderWriter.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Xml.XmlDocument.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Xml.XPath.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\System.Xml.XPath.XDocument.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\vbc.exe
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\vbc.exe.config
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\vbc.rsp
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\VBCSCompiler.exe
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\roslyn\VBCSCompiler.exe.config
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\BLL.exe
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\COMMON.exe
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\DAL.exe
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\EntityFramework.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\EntityFramework.SqlServer.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\Newtonsoft.Json.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\System.Net.Http.Formatting.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\System.Web.Http.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\System.Web.Http.WebHost.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\BLL.pdb
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\BLL.exe.config
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\COMMON.pdb
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\COMMON.exe.config
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\DAL.pdb
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\DAL.exe.config
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\EntityFramework.xml
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\EntityFramework.SqlServer.xml
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\Newtonsoft.Json.xml
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\System.Net.Http.Formatting.xml
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\System.Web.Http.xml
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\System.Web.Http.WebHost.xml
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\obj\Debug\API.csprojAssemblyReference.cache
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\obj\Debug\API.csproj.CoreCompileInputs.cache
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\obj\Debug\API.csproj.CopyComplete
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\obj\Debug\WEB API.dll
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\obj\Debug\WEB API.pdb
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\ProjectDasiSari.mdf
+I:\גיבוי - פרטי\הדס\לימודים\כתה יד\פרויקט גמר\DAL\WEB API\bin\ProjectDasiSari_log.ldf
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\ProjectDasiSari.mdf
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\ProjectDasiSari_log.ldf
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\WEB API.dll.config
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\WEB API.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\WEB API.pdb
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\csc.exe
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\csc.exe.config
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\csc.rsp
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\csi.exe
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\csi.exe.config
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\csi.rsp
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.AppContext.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Console.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Security.Claims.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\vbc.exe
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\vbc.exe.config
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\vbc.rsp
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\BLL.exe
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\COMMON.exe
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\DAL.exe
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\EntityFramework.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\Newtonsoft.Json.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\System.Web.Http.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\BLL.pdb
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\BLL.exe.config
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\COMMON.pdb
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\COMMON.exe.config
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\DAL.pdb
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\DAL.exe.config
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\EntityFramework.xml
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\Newtonsoft.Json.xml
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\System.Web.Http.xml
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\obj\Debug\API.csproj.CopyComplete
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\obj\Debug\WEB API.dll
+C:\Users\User\Documents\תכנות\FinallProject\WEB API\obj\Debug\WEB API.pdb
+C:\Users\user\FinallProject\WEB API\bin\ProjectDasiSari.mdf
+C:\Users\user\FinallProject\WEB API\bin\ProjectDasiSari_log.ldf
+C:\Users\user\FinallProject\WEB API\bin\WEB API.dll.config
+C:\Users\user\FinallProject\WEB API\bin\WEB API.dll
+C:\Users\user\FinallProject\WEB API\bin\WEB API.pdb
+C:\Users\user\FinallProject\WEB API\bin\roslyn\csc.exe
+C:\Users\user\FinallProject\WEB API\bin\roslyn\csc.exe.config
+C:\Users\user\FinallProject\WEB API\bin\roslyn\csc.rsp
+C:\Users\user\FinallProject\WEB API\bin\roslyn\csi.exe
+C:\Users\user\FinallProject\WEB API\bin\roslyn\csi.exe.config
+C:\Users\user\FinallProject\WEB API\bin\roslyn\csi.rsp
+C:\Users\user\FinallProject\WEB API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\FinallProject\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\FinallProject\WEB API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.AppContext.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Console.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Security.Claims.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\FinallProject\WEB API\bin\roslyn\vbc.exe
+C:\Users\user\FinallProject\WEB API\bin\roslyn\vbc.exe.config
+C:\Users\user\FinallProject\WEB API\bin\roslyn\vbc.rsp
+C:\Users\user\FinallProject\WEB API\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\FinallProject\WEB API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\FinallProject\WEB API\bin\BLL.exe
+C:\Users\user\FinallProject\WEB API\bin\COMMON.exe
+C:\Users\user\FinallProject\WEB API\bin\DAL.exe
+C:\Users\user\FinallProject\WEB API\bin\EntityFramework.dll
+C:\Users\user\FinallProject\WEB API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\FinallProject\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\FinallProject\WEB API\bin\Newtonsoft.Json.dll
+C:\Users\user\FinallProject\WEB API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\FinallProject\WEB API\bin\System.Web.Http.dll
+C:\Users\user\FinallProject\WEB API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\FinallProject\WEB API\bin\BLL.pdb
+C:\Users\user\FinallProject\WEB API\bin\BLL.exe.config
+C:\Users\user\FinallProject\WEB API\bin\COMMON.pdb
+C:\Users\user\FinallProject\WEB API\bin\COMMON.exe.config
+C:\Users\user\FinallProject\WEB API\bin\DAL.pdb
+C:\Users\user\FinallProject\WEB API\bin\DAL.exe.config
+C:\Users\user\FinallProject\WEB API\bin\EntityFramework.xml
+C:\Users\user\FinallProject\WEB API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\FinallProject\WEB API\bin\Newtonsoft.Json.xml
+C:\Users\user\FinallProject\WEB API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\FinallProject\WEB API\bin\System.Web.Http.xml
+C:\Users\user\FinallProject\WEB API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\FinallProject\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\FinallProject\WEB API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\user\FinallProject\WEB API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\user\FinallProject\WEB API\obj\Debug\API.csproj.CopyComplete
+C:\Users\user\FinallProject\WEB API\obj\Debug\WEB API.dll
+C:\Users\user\FinallProject\WEB API\obj\Debug\WEB API.pdb
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\ProjectDasiSari.mdf
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\ProjectDasiSari_log.ldf
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\WEB API.dll.config
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\WEB API.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\WEB API.pdb
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\csc.exe
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\csc.exe.config
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\csc.rsp
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\csi.exe
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\csi.exe.config
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\csi.rsp
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.AppContext.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Console.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Security.Claims.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\vbc.exe
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\vbc.exe.config
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\vbc.rsp
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\BLL.exe
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\COMMON.exe
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\DAL.exe
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\EntityFramework.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\Newtonsoft.Json.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\System.Web.Http.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\BLL.pdb
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\BLL.exe.config
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\COMMON.pdb
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\COMMON.exe.config
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\DAL.pdb
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\DAL.exe.config
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\EntityFramework.xml
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\Newtonsoft.Json.xml
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\System.Web.Http.xml
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\obj\Debug\API.csproj.CopyComplete
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\obj\Debug\WEB API.dll
+C:\Users\user\פרויקט\05-05-21\FinallProject\WEB API\obj\Debug\WEB API.pdb
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\ProjectDasiSari.mdf
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\ProjectDasiSari_log.ldf
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\WEB API.dll.config
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\WEB API.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\WEB API.pdb
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\csc.exe
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\csc.exe.config
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\csc.rsp
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\csi.exe
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\csi.exe.config
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\csi.rsp
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.AppContext.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Console.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Claims.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\vbc.exe
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\vbc.exe.config
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\vbc.rsp
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\BLL.exe
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\COMMON.exe
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\DAL.exe
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\EntityFramework.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\Newtonsoft.Json.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\System.Web.Http.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\BLL.pdb
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\BLL.exe.config
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\COMMON.pdb
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\COMMON.exe.config
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\DAL.pdb
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\DAL.exe.config
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\EntityFramework.xml
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\Newtonsoft.Json.xml
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\System.Web.Http.xml
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\obj\Debug\API.csproj.CopyComplete
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\obj\Debug\WEB API.dll
+C:\Users\user\פרויקט\08-06-21\FinallProject\WEB API\obj\Debug\WEB API.pdb
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\ProjectDasiSari.mdf
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\ProjectDasiSari_log.ldf
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\WEB API.dll.config
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\WEB API.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\WEB API.pdb
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\csc.exe
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\csc.exe.config
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\csc.rsp
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\csi.exe
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\csi.exe.config
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\csi.rsp
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.AppContext.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Console.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Security.Claims.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\vbc.exe
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\vbc.exe.config
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\vbc.rsp
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\BLL.exe
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\COMMON.exe
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\DAL.exe
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\EntityFramework.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\Newtonsoft.Json.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\System.Web.Http.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\BLL.pdb
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\BLL.exe.config
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\COMMON.pdb
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\COMMON.exe.config
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\DAL.pdb
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\DAL.exe.config
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\EntityFramework.xml
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\Newtonsoft.Json.xml
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\System.Web.Http.xml
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\obj\Debug\API.csproj.CopyComplete
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\obj\Debug\WEB API.dll
+C:\Users\user\פרויקט\10-06-2021\FinallProject\WEB API\obj\Debug\WEB API.pdb
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\ProjectDasiSari.mdf
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\ProjectDasiSari_log.ldf
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\WEB API.dll.config
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\WEB API.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\WEB API.pdb
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\csc.exe
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\csc.exe.config
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\csc.rsp
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\csi.exe
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\csi.exe.config
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\csi.rsp
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.AppContext.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Console.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Claims.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\vbc.exe
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\vbc.exe.config
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\vbc.rsp
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\BLL.exe
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\COMMON.exe
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\DAL.exe
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\EntityFramework.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\Newtonsoft.Json.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\System.Web.Http.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\BLL.pdb
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\BLL.exe.config
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\COMMON.pdb
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\COMMON.exe.config
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\DAL.pdb
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\DAL.exe.config
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\EntityFramework.xml
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\Newtonsoft.Json.xml
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\System.Web.Http.xml
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\obj\Debug\API.csproj.CopyComplete
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\obj\Debug\WEB API.dll
+C:\Users\user\פרויקט\20-06-21\FinallProject\WEB API\obj\Debug\WEB API.pdb
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\ProjectDasiSari.mdf
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\ProjectDasiSari_log.ldf
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\WEB API.dll.config
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\WEB API.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\WEB API.pdb
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\csc.exe
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\csc.exe.config
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\csc.rsp
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\csi.exe
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\csi.exe.config
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\csi.rsp
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.AppContext.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Console.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Claims.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\vbc.exe
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\vbc.exe.config
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\vbc.rsp
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\BLL.exe
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\COMMON.exe
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\DAL.exe
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\EntityFramework.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\Newtonsoft.Json.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\System.Web.Http.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\BLL.pdb
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\BLL.exe.config
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\COMMON.pdb
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\COMMON.exe.config
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\DAL.pdb
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\DAL.exe.config
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\EntityFramework.xml
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\Newtonsoft.Json.xml
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\System.Web.Http.xml
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\obj\Debug\API.csproj.CopyComplete
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\obj\Debug\WEB API.dll
+C:\Users\user\פרויקט\24-06-21\FinallProject\WEB API\obj\Debug\WEB API.pdb
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\ProjectDasiSari.mdf
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\ProjectDasiSari_log.ldf
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\WEB API.dll.config
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\WEB API.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\WEB API.pdb
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\csc.exe
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\csc.exe.config
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\csc.rsp
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\csi.exe
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\csi.exe.config
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\csi.rsp
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.AppContext.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Console.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.IO.Pipes.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Claims.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\vbc.exe
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\vbc.exe.config
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\vbc.rsp
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\BLL.exe
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\COMMON.exe
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\DAL.exe
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\EntityFramework.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\Newtonsoft.Json.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\System.Web.Http.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\BLL.pdb
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\BLL.exe.config
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\COMMON.pdb
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\COMMON.exe.config
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\DAL.pdb
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\DAL.exe.config
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\EntityFramework.xml
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\Newtonsoft.Json.xml
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\System.Web.Http.xml
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\obj\Debug\API.csprojAssemblyReference.cache
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\obj\Debug\API.csproj.CopyComplete
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\obj\Debug\WEB API.dll
+C:\Users\user\פרויקט\25-06-21\FinallProject\WEB API\obj\Debug\WEB API.pdb

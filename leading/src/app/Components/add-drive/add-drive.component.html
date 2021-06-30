@@ -1,0 +1,179 @@
+<p>add-drive works!</p>
+<!-- Extended material form grid -->
+<div>
+
+<div style="float:left">
+<form>
+    <!-- Grid row -->
+    <div class="form-row">
+      <!-- Grid column -->
+      <div class="col-md-6">
+        <!-- Material input -->
+        <div class="md-form form-group">
+            <label for="inputUserId4MD">UserId</label>
+          <input mdbInput type="number" class="form-control" id="inputUserId4MD" placeholder="UserId" name="userid" [(ngModel)]="drive.UserId"  >
+        
+        </div>
+      </div>
+      <!-- Grid column -->
+  
+      <!-- Grid column -->
+      <div class="col-md-6">
+        <!-- Material input -->
+        <div class="md-form form-group">
+            <label for="inputArrivedTime4MD">ArrivedTime</label>
+          <input mdbInput type="time" class="form-control" id="inputArrivedTime4MD" placeholder="ArrivedTime" name="ArrivedTimee" [(ngModel)]="drive.ArrivedTime">
+          
+        </div>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  
+    <!-- Grid row -->
+    <div class="row">
+      <!-- Grid column -->
+      <div class="col-md-12">
+        <!-- Material input -->
+        <div class="md-form form-group">
+            <label for="inputoriginCityMD">City</label>
+          <input mdbInput type="text" class="form-control" id="inputoriginCityMD" placeholder="City" name="origincit" [(ngModel)]="drive.OriginCity">
+         
+        </div>
+      </div>
+      <!-- Grid column -->
+  
+      <!-- Grid column -->
+      <div class="col-md-12">
+        <!-- Material input -->
+        <div class="md-form form-group">
+            <label for="inputoriginStreet2MD">Street</label>
+          <input mdbInput type="text" class="form-control" id="inputoriginStreet2MD" placeholder="Street" name="originStreett" [(ngModel)]="drive.OriginStreet">
+          
+        </div>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  
+    <!-- Grid row -->
+    <div class="form-row">
+      <!-- Grid column -->
+      <div class="col-md-6">
+        <!-- Material input -->
+        <div class="md-form form-group">
+            <label for="inputoriginNumBuildMD">NumBuild</label>
+          <input mdbInput type="number" class="form-control" id="inputoriginNumBuildMD" placeholder="NumBuild" name="originNumBuildd" [(ngModel)]="drive.OriginNumBuild">
+
+        </div>
+      </div>
+      <!-- Grid column -->
+  
+      <!-- Grid column -->
+      <div class="col-md-6">
+        <!-- Material input -->
+        <div class="md-form form-group">
+            <label for="inputoriginAreaMD">Area</label>
+          <input mdbInput type="text" class="form-control" id="inputoriginAreaMD" placeholder="Area" name="originAreaa" [(ngModel)]="drive.OriginArea">
+          
+        </div>
+      </div>
+      <!-- Grid column -->
+    </div>
+
+    <!-- Grid row -->
+    
+  </form>
+  <!-- Extended material form grid -->
+</div>
+
+
+
+<div style="float:right">
+  <form>
+    <!-- Grid row -->
+    <div class="form-row">
+      <!-- Grid column -->
+      <div class="col-md-6">
+        <!-- Material input -->
+        <div class="md-form form-group">
+            <label for="inputDate4MD">Date</label>
+          <input mdbInput type="datetime" class="form-control" id="inputDate4MD" placeholder="Date" name="Datee" [(ngModel)]="drive.Date">
+        
+        </div>
+      </div>
+      <!-- Grid column -->
+  
+      <!-- Grid column -->
+      <div class="col-md-6">
+        <!-- Material input -->
+        <div class="md-form form-group">
+            <label for="inputExitTime4MD">ExitTime</label>
+          <input mdbInput type="time" class="form-control" id="inputExitTime4MD" placeholder="ExitTime" name="ExitTimee" [(ngModel)]="drive.ExitTime">
+          
+        </div>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  
+    <!-- Grid row -->
+    <div class="row">
+      <!-- Grid column -->
+      <div class="col-md-12">
+        <!-- Material input -->
+        <div class="md-form form-group">
+            <label for="inputDestenitationCityMD">City</label>
+          <input mdbInput type="text" class="form-control" id="inputDestenitationCityMD" placeholder="City" name="DestenitationCityy" [(ngModel)]="drive.DestinationCity">
+         
+        </div>
+      </div>
+      <!-- Grid column -->
+  
+      <!-- Grid column -->
+      <div class="col-md-12">
+        <!-- Material input -->
+        <div class="md-form form-group">
+            <label for="inputDestenitationStreet2MD">Street</label>
+          <input mdbInput type="text" class="form-control" id="inputDestenitationStreet2MD" placeholder="Street" name="DestenitationCityy" [(ngModel)]="drive.DestinationStreet">
+          
+        </div>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  
+    <!-- Grid row -->
+    <div class="form-row">
+      <!-- Grid column -->
+      <div class="col-md-6">
+        <!-- Material input -->
+        <div class="md-form form-group">
+            <label for="inputDestenitationNumBuildMD">Build</label>
+          <input mdbInput type="text" class="form-control" id="inputDestenitationNumBuildMD" placeholder="Build" name="DestenitationNumBuildd" [(ngModel)]="drive.DestinationNumBuild">
+         
+        </div>
+      </div>
+      <!-- Grid column -->
+  
+      <!-- Grid column -->
+      <div class="col-md-6">
+        <!-- Material input -->
+        <div class="md-form form-group">
+            <label for="inputDestinationAreaMD">Area</label>
+          <input mdbInput type="text" class="form-control" id="inputDestinationAreaMD" placeholder="Area"  name="DestinationAreaa" [(ngModel)]="drive.DestinationArea">
+          
+        </div>
+      </div>
+      <!-- Grid column -->
+    </div>
+
+    <!-- Grid row -->
+    
+    <button type="submit" (click)="submit2()" mdbBtn color="primary">Save</button>
+    <button type="submit" mdbBtn color="primary">Update</button>
+  </form>
+</div>
+
+</div>
+  <!-- Extended material form grid -->
