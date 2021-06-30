@@ -2,12 +2,14 @@ import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AddDriveComponent } from './Components/add-drive/add-drive.component';
 import { AddPackageComponent } from './Components/add-package/add-package.component';
+import { AddUserComponent } from './Components/add-user/add-user.component';
 import { HomeComponent } from './Components/home/home.component';
 import { LoginComponent } from './Components/login/login.component';
 import { RoadMapComponent } from './Components/road-map/road-map.component';
 import { ShowDrivesComponent } from './Components/show-drives/show-drives.component';
 import { ShowPackagesComponent } from './Components/show-packages/show-packages.component';
 import { TrackComponent } from './Components/track/track.component';
+import { UpdateUserComponent } from './Components/update-user/update-user.component';
 
 
 const routes: Routes = [
@@ -24,7 +26,8 @@ const routes: Routes = [
 {path:"showDrives/:package1", component: ShowDrivesComponent},
 {path:"track/:drive", component:TrackComponent},
 {path:"road_map/:drive", component:RoadMapComponent},
-
+{path:"addUser",component:AddUserComponent},
+{path:"updateUser",component:UpdateUserComponent}
 
 
 ];

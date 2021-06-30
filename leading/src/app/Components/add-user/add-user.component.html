@@ -1,0 +1,222 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script >
+   /*Dropdown Menu*/
+$('.dropdown').click(function () {
+  $(this).attr('tabindex', 1).focus();
+  $(this).toggleClass('active');
+  $(this).find('.dropdown-menu').slideToggle(300);
+});
+$('.dropdown').focusout(function () {
+  $(this).removeClass('active');
+  $(this).find('.dropdown-menu').slideUp(300);
+});
+$('.dropdown .dropdown-menu li').click(function () {
+  $(this).parents('.dropdown').find('span').text($(this).text());
+  $(this).parents('.dropdown').find('input').attr('value', $(this).attr('id'));
+});
+/*End Dropdown Menu*/
+$('.dropdown-menu li').click(function () {
+  var input = '<strong>' + $(this).parents('.dropdown').find('input').val() + '</strong>',
+    msg = '<span class="msg">Hidden input value: ';
+  $('.msg').html(msg + input + '</span>');
+}); 
+
+</script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+<!------ Include the above in your HEAD tag ---------->
+
+<!-- <div class="sidenav">
+   <div class="login-main-text">
+      <img src="assets/images/image3.jpg"  width="280" height="100" /><br/>
+      <p>Guidance system for seizing shelter in emergencies</p>
+   </div>
+</div> -->
+<div class="main p-0">
+   <div class="col-md-6 col-sm-12">
+      <div class="login-form">
+         <!-- <form #frm="ngForm"   (ngSubmit)="AddNewUser()" > -->
+            <!-- <mat-form-field class="example-full-width">
+               <mat-label class="font">Name</mat-label>
+               <input class="font" matInput placeholder="enter your name" [(ngModel)]="NewUser.Name" name="Name">
+            </mat-form-field> -->
+            <!-- <mat-form-field class="example-full-width">
+               <mat-label class="font">Last name</mat-label>
+               <input class="font" matInput placeholder="enter your last name" [(ngModel)]="NewUser.UserFamilyName" name="LastName">
+            </mat-form-field> -->
+
+
+
+
+
+            
+            <!-- <mat-form-field class="example-full-width">
+               <mat-label class="font">Password</mat-label>
+               <input type="password"class="font" matInput placeholder="Type a password" [(ngModel)]="NewUser.Password" name="Password">
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+               <mat-label class="font">Phone</mat-label>
+               <input class="font" matInput placeholder="enter your Phone" [(ngModel)]="NewUser.Phone" name="Phone">
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+               <mat-label class="font">Identity</mat-label>
+               <input pattern="[0-9]{9}" class="font" matInput placeholder="enter your identity" [(ngModel)]="NewUser.Tz" name="Tz">
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+                <mat-label class="font">Mail</mat-label>
+                <input class="font" matInput placeholder="enter your Mail" [(ngModel)]="NewUser.Mail" name="Mail">
+             </mat-form-field> -->
+
+
+
+
+
+
+            <!-- <label id="label">Choose your disability status: </label>
+            <select name="occupation" class="select" [(ngModel)]="NewUser.Disability" >
+               <option class="option" value="10"> 10% </option>
+               <option class="option" value="20"> 20% </option>
+               <option class="option" value="30"> 30% </option>
+               <option class="option" value="40"> 40% </option>
+               <option class="option" value="50"> 50% </option>
+               <option class="option" value="60"> 60% </option>
+               <option class="option" value="70"> 70% </option>
+               <option class="option" value="80"> 80% </option>
+               <option class="option" value="90"> 90% </option>
+               <option class="option" value="90"> 100% </option>
+            </select>
+            <br /><br /> -->
+<!-- ------------------------------------------------------------------------------------------ -->
+<!-- קשור לסקריפט למעלה -->
+<!-- <div class="container">
+   
+   <span class="choose">Choose Gender</span>
+ 
+     <div class="dropdown" >
+       <div class="select">
+         <span>Select Gender</span>
+         <i class="fa fa-chevron-left"></i>
+       </div>
+       <input type="hidden" name="gender">
+       <ul class="dropdown-menu">
+         <li id="male">Male</li>
+         <li id="female">Female</li>
+       </ul>
+     </div>
+ 
+ <span class="msg"></span>
+</div> -->
+<!-- <label id="label">Click on your fitness status:  </label><br/>
+<ul class="chec-radio">
+   <li class="pz">
+      <label class="radio-inline">
+         <input type="radio" checked="" id="pro-chx-residential" name="property_type" class="pro-chx" value="1" [(ngModel)]="NewUser.PhysicalFitnessState"  >
+         <div class="clab">Wheelchair</div>
+      </label>
+   </li><br/>
+   <li class="pz">
+      <label class="radio-inline">
+         <input type="radio" checked="" id="pro-chx-residential" name="property_type" class="pro-chx" value="2" [(ngModel)]="NewUser.PhysicalFitnessState"  >
+         <div class="clab">Slow walking</div>
+      </label>
+   </li><br/>
+   <li class="pz">
+      <label class="radio-inline">
+         <input type="radio" id="pro-chx-commercial" name="property_type" class="pro-chx" value="3" checked [(ngModel)]="NewUser.PhysicalFitnessState">
+         <div class="clab">Normal walking</div>
+      </label>
+   </li><br/>
+   <li class="pz">
+      <label class="radio-inline">
+         <input type="radio" id="pro-chx-open" name="property_type" class="pro-chx" value="4" [(ngModel)]="NewUser.PhysicalFitnessState">
+         <div class="clab">Fast walking</div>
+      </label>
+   </li><br/>
+   <li class="pz">
+      <label class="radio-inline">
+         <input type="radio" checked="" id="pro-chx-residential" name="property_type" class="pro-chx" value="5" [(ngModel)]="NewUser.PhysicalFitnessState" >
+         <div class="clab">Slow running</div>
+      </label>
+   </li><br/>
+   <li class="pz">
+      <label class="radio-inline">
+         <input type="radio" checked="" id="pro-chx-residential" name="property_type" class="pro-chx" value="6" [(ngModel)]="NewUser.PhysicalFitnessState">
+         <div class="clab">Normal running</div>
+      </label>
+   </li><br/>
+   <li class="pz">
+      <label class="radio-inline">
+         <input type="radio" checked="" id="pro-chx-residential" name="property_type" class="pro-chx" value="7" [(ngModel)]="NewUser.PhysicalFitnessState" >
+         <div class="clab">Fast running</div>
+      </label>
+   </li><br/>
+</ul> -->
+
+
+<form #frm="ngForm"   (ngSubmit)="AddNewUser()" >
+    <div class="form-row">
+      <div class="col-md-12">
+        <div class="md-form form-group">
+            <label for="inputUserId4MD">Name</label>
+            <input class="font" matInput placeholder="enter your name" [(ngModel)]="newUser.Name" name="Name">
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <div class="md-form form-group">
+            <label for="inputArrivedTime4MD">Password</label>
+            <input type="password"class="font" matInput placeholder="Type a password" [(ngModel)]="newUser.Password" name="Password"> 
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="row">
+      <div class="col-md-12">
+        <div class="md-form form-group">
+            <label for="inputoriginCityMD">Phone</label>
+            <input class="font" matInput placeholder="enter your Phone" [(ngModel)]="newUser.Phone" name="Phone">
+        </div>
+      </div>
+  
+
+      <div class="col-md-12">
+        <div class="md-form form-group">
+            <label for="inputoriginStreet2MD">Identity</label>
+            <input pattern="[0-9]{9}" class="font" matInput placeholder="enter your identity" [(ngModel)]="newUser.Tz" name="Tz">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="form-row">
+      <div class="col-md-6">
+        <div class="md-form form-group">
+            <label for="inputoriginNumBuildMD">Mail</label>
+            <input class="font" matInput placeholder="enter your Mail" [(ngModel)]="newUser.Mail" name="Mail">
+        </div>
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-black">submit</button>
+    <label [hidden]="flag" id=hidden >The user has been successfully logged in</label><br/>
+    <label [hidden]="errorServer" id=hidden >There is a problem with the server, your details were not received in the system, please try again</label><br/>
+    
+
+</form>
+
+
+
+
+
+ 
+<!-- <button type="submit" class="btn btn-black">submit</button>
+<label [hidden]="flag" id=hidden >The user has been successfully logged in</label><br/>
+<label [hidden]="errorServer" id=hidden >There is a problem with the server, your details were not received in the system, please try again</label><br/> -->
+         <!-- </form> -->
+      </div>
+   </div>
+</div>
