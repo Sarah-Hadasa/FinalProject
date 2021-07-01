@@ -178,6 +178,9 @@ C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\obj\Debug\BLL.csproj.CoreC
 C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\obj\Debug\BLL.exe
 C:\Users\user\פרויקט\25-06-21\FinallProject\BLL\obj\Debug\BLL.pdb
+C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\BLL\bin\Debug\BLL.exe.config
+C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\BLL\bin\Debug\BLL.exe
+C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\BLL\bin\Debug\BLL.pdb
 C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\BLL\bin\Debug\COMMON.exe
 C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\BLL\bin\Debug\DAL.exe
 C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\BLL\bin\Debug\EntityFramework.dll
@@ -193,6 +196,3 @@ C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\BLL\obj\Debug\BLL.c
 C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\BLL\obj\Debug\BLL.exe
 C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\BLL\obj\Debug\BLL.pdb
-C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\BLL\bin\Debug\BLL.exe.config
-C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\BLL\bin\Debug\BLL.exe
-C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\BLL\bin\Debug\BLL.pdb

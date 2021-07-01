@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Subject } from 'rxjs';
 import { User } from 'src/app/Classes/user';
 import { UserService } from 'src/app/Services/user.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-login',
@@ -12,7 +15,7 @@ export class LoginComponent implements OnInit {
   name1: string = '';
   pass: string = '';
 
-  constructor(private service: UserService) {}
+  constructor(private service: UserService, private router: Router) {}
   ngOnInit(): void {
     // this.myUser.Mail="";
     //this.myUser.="";//add
@@ -25,17 +28,57 @@ export class LoginComponent implements OnInit {
     // }
     // this.service.addUser().subscribe();
   }
-  submit1() {
-    //  debugger;
-
+  checkUser() {
     this.service
-      .addUser()
-      .subscribe((data) => (sessionStorage['IDUser'] = data));
-  }
-  login(){
+      .getByPassword(this.user.Name, this.user.Password)
+      .subscribe((data) => {
+        if (data == null) {
+          Swal.fire('', 'המשתמש לא קיים במערכת', 'error');
 
-    this.service
-    .GetUsersByUserNameAndPassword(this.user.Password, this.user.Name)
-    .subscribe((data) => (sessionStorage['IDUser'] = data.Id));
+          //this.router.navigate(['addUser'])
+        } else {
+          Swal.fire('', 'הכניסה בוצעה בהצלחה', 'success');
+          sessionStorage['Name'] = data['Name'];
+          sessionStorage['Password'] = data['Password'];
+          this.service.loginUser.next();
+          this.router.navigate(['home']);
+        }
+      });
+    //this.service.addUser().subscribe();
   }
+  //isExist(){
+  // this.service.getByPassword(this.user.Password, this.user.Mail).subscribe(x=>{
+  // if(x==true)
+  // Swal.fire('',"משתמש קיים")
+  //else
+  // Swal.fire('',"הירשם")
+  // })
+  //}
+  NewUser() {
+    this.service
+      .getByPassword(this.user.Password, this.user.Mail)
+      .subscribe((data) => {
+        if (data == null) this.router.navigate(['addUser']);
+        else {
+          Swal.fire('', 'המשתמש לא קיים במערכת', 'error');
+        }
+      });
+  }
+  //   // this.myUser.Mail="";
+  //   //this.myUser.="";//add
+  //   debugger;
+  //   this.service.getallusers().subscribe();
+  //   // sessionStorage["Hidden"]="false";
+  //   // if(sessionStorage["Hidden"]==="false")
+  //   // {
+  //   //   (document.getElementById("map") as HTMLElement).style.visibility="hidden";
+  //   // }
+  //   // this.service.addUser().subscribe();
+  // }
+  // submit1()
+  // {
+  //   debugger;
+
+  //   //this.service.addUser().subscribe(data=> sessionStorage["IDUser"]=data);
+  // }
 }

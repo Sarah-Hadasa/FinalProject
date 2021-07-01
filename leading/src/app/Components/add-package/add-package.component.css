@@ -1,0 +1,8 @@
+select,
+input {
+    border-color: #5a5853;
+    direction: rtl;
+    text-align: right;
+    height: 33px;
+    line-height: 18px;
+}

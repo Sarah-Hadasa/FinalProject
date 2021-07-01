@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+  
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,7 +23,7 @@ namespace DAL
         {
             using (ProjectDasiSariEntities1 entity = new ProjectDasiSariEntities1())
             {
-                
+
                 return Mapper.ConvertListDalUserToUser(entity.Users.ToList());
 
             }
@@ -66,28 +68,25 @@ namespace DAL
         //        return null;
         //    }
         //}
-        
-        public static COMMON.UsersC GetUserByPassword(string password, int id)
+
+        public static COMMON.UsersC GetUserByPassword(string name, string password)
         {
             using (ProjectDasiSariEntities1 entity = new ProjectDasiSariEntities1())
             {
-                Users u = entity.Users.First(da => da.Password == password&& da.Id==id );
+                /*Users u = entity.Users.First(da => da.Password == password&& da.Id==id );
                 if( u!=null)
                     return Mapper.ConvertDalUserToUser(u);
+                return null;*/
+                foreach (var item in entity.Users.ToList())
+                {
+                    if (item.Mail == name && item.Password == password)
+                        return Mapper.ConvertDalUserToUser(item);
+                }
                 return null;
             }
         }
-        public static COMMON.UsersC GetUsersByUserNameAndPassword(string password, string username)
-        {
-            using (ProjectDasiSariEntities1 entity = new ProjectDasiSariEntities1())
-            {
-                Users u = entity.Users.First(da => da.Password == password && da.Name == username);
-                if (u != null)
-                    return Mapper.ConvertDalUserToUser(u);
-                return null;
-            }
-        }
-        
+
+
 
 
         public static void UpdateUser(COMMON.UsersC user)
@@ -98,24 +97,24 @@ namespace DAL
                 Users u = entity.Users.First(da => da.Id == user.Id);
                 u = Mapper.ConvertComUserToUser(user);
                 entity.SaveChanges();
-                    
+
             }
         }
         public static void DeleteUser(int id)
-          {
-             using (ProjectDasiSariEntities1 entity = new ProjectDasiSariEntities1())
-             {
+        {
+            using (ProjectDasiSariEntities1 entity = new ProjectDasiSariEntities1())
+            {
                 foreach (var item in entity.Users.ToList())
                 {
-                    if(item.Id==id)
+                    if (item.Id == id)
                     {
-                      entity.Users.Remove(item);
-                      entity.SaveChanges();
-                    }                                         
+                        entity.Users.Remove(item);
+                        entity.SaveChanges();
+                    }
                 }
-                
-            
-             }
-          }
+
+
+            }
+        }
     }
 }

@@ -2,6 +2,7 @@ import { dashCaseToCamelCase } from '@angular/compiler/src/util';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { DataDriveResults } from 'src/app/Classes/data-drive-results';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-track',
@@ -118,7 +119,7 @@ end:string=""
           directionsRenderer.setDirections(result);
           this.showSteps(result, markerArray, stepDisplay, map);
         } else {
-          window.alert("Directions request failed due to " + status);
+          Swal.fire('',"Directions request failed due to " + status,'error');
         }
       }
     );

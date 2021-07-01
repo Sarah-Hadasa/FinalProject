@@ -10,6 +10,7 @@ import { element } from 'protractor';
 import { DataDriveResults } from 'src/app/Classes/data-drive-results'
 import { DataTrack } from 'src/app/Classes/data-track';
 import { ActivatedRoute, NavigationExtras, Router } from '@angular/router';
+import Swal from 'sweetalert2';
 let map: google.maps.Map;
 @Component({
   selector: 'app-add-package',
@@ -52,6 +53,25 @@ export class AddPackageComponent implements OnInit {
     // this.package.DestinationNumBuild = "7"
     // this.package.UserId = sessionStorage["IDUser"];
     debugger
+    //this.service.addUser().subscribe(data=> sessionStorage["IDUser"]=data);
+    // ngOnInit(): void {
+  //   // this.myUser.Mail="";
+  //   //this.myUser.="";//add
+  //   debugger;
+  //   this.service.getallusers().subscribe();
+  //   // sessionStorage["Hidden"]="false";
+  //   // if(sessionStorage["Hidden"]==="false")
+  //   // {
+  //   //   (document.getElementById("map") as HTMLElement).style.visibility="hidden";
+  //   // }
+  //   // this.service.addUser().subscribe();
+  // }
+  // submit1()
+  // {
+  //   debugger;
+  
+  //   //this.service.addUser().subscribe(data=> sessionStorage["IDUser"]=data);
+  // }
     this.package.UserId = 2;
     this.PackageService.addPackage(this.package).subscribe(data=>{debugger; this.package.Id=Number(data);}); 
     this.loadata();
@@ -169,7 +189,7 @@ loadata()
       },
       (response, status) => {
         if (status !== "OK") {
-          alert("Error was: " + status);
+          Swal.fire('',"Error: " + status,'error');
         } else {
           const originList = response.originAddresses;
           const destinationList = response.destinationAddresses;
@@ -196,7 +216,7 @@ loadata()
                   })
                 );
               } else {
-                // alert("Geocode was not successful due to: " + status);
+                // Swal.fire('',"Geocode was not successful due to: " + status);
               }
             };
           };

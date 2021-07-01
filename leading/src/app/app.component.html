@@ -1,15 +1,16 @@
 <ol class="breadcrumb-sub">
 
 
-    <li class="header-li"><a routerLink="/home" routerLinkActive="active">ראשי</a></li>
-    <li class="header-li"><a routerLink="/login" routerLinkActive="active">התחבר</a></li>
-    <li class="header-li"><a routerLink="/addDrive" routerLinkActive="active">הוסף נסיעה</a></li>
-    <li class="header-li"><a routerLink="/addPackage" routerLinkActive="active">הוסף חבילה</a></li>
-    <li class="header-li"><a routerLink="/showDrives" routerLinkActive="active">הצג נהגים</a></li>
-    <li class="header-li"><a routerLink="/showPackages" routerLinkActive="active">הצג חבילות</a></li>
-    <li class="header-li"><a routerLink="/road_map" routerLinkActive="active">מפה</a></li>
+    <li class="header-li"><a routerLink="/home" routerLinkActive="active">בית</a></li>
+    <li class="header-li"><a routerLink="/login" *ngIf="noUser" routerLinkActive="active">התחבר</a></li>
+    <li class="header-li"><a routerLink="/addUser" *ngIf="noUser" routerLinkActive="active">הרשם</a></li>
+    <li class="header-li"><a routerLink="/addDrive" *ngIf="!noUser" routerLinkActive="active">הוסף נסיעה</a></li>
+    <li class="header-li"><a routerLink="/addPackage" *ngIf="!noUser" routerLinkActive="active">הוסף חבילה</a></li>
+    <li class="header-li"><a routerLink="/showDrives" *ngIf="!noUser" routerLinkActive="active">הצג נסיעות</a></li>
+    <li class="header-li"><a routerLink="/showPackages" *ngIf="!noUser" routerLinkActive="active">הצג חבילות</a></li>
+    <li class="header-li"><a routerLink="/road_map" *ngIf="!noUser" routerLinkActive="active">מפה</a></li>
 
-    <li class="header-li"><a routerLink="/track" routerLinkActive="active">מסלול</a></li>
+    <li class="header-li"><a routerLink="/track" *ngIf="!noUser" routerLinkActive="active">מסלול</a></li>
 
 </ol>
 

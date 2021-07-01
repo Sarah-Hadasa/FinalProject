@@ -6,6 +6,7 @@ import { Drive } from 'src/app/Classes/drive';
 import { Package } from 'src/app/Classes/package';
 import { DriveService } from 'src/app/Services/drive.service';
 import { PackageService } from 'src/app/Services/package.service';
+import Swal from 'sweetalert2';
 let map: google.maps.Map;
 
 
@@ -40,7 +41,7 @@ export class RoadMapComponent implements OnInit {
       this.driveServ.getIdDrive(this.package.Id).subscribe(data => {
         debugger; this.drivePackage = data as DataDriveResults[]; debugger;
         if (data==null)
-        alert("dont have drive");
+        Swal.fire('',"לא נמצא נסיעה",'error');
         // this.PackageService.getAIdPackages(this.id).subscribe
         // (  data=>{;debugger;this.package=data as Package; }); 
 
@@ -86,7 +87,7 @@ export class RoadMapComponent implements OnInit {
       debugger; this.drive = data; debugger; this.drive.PackageId=null;debugger;
       this.driveServ.updateDrive(this.drive).subscribe();
       this.drivePackage[0]=new DataDriveResults()    
-      alert("dont have drive");
+      Swal.fire('',"לא נמצא נסיעה",'error');
     });
     
     // this.driveServ.updateDrive(this.drive).subscribe();
@@ -139,7 +140,7 @@ export class RoadMapComponent implements OnInit {
       },
       (response, status) => {
         if (status !== "OK") {
-          alert("Error was: " + status);
+          Swal.fire('',"Error : " + status,'error');
         } else {
           const originList = response.originAddresses;
           const destinationList = response.destinationAddresses;
@@ -164,7 +165,7 @@ export class RoadMapComponent implements OnInit {
                   })
                 );
               } else {
-                alert("Geocode was not successful due to: " + status);
+                Swal.fire('',"Geocode was not successful due to: " + status,'error');
               }
             };
           };

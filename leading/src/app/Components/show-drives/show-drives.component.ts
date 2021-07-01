@@ -152,7 +152,7 @@ export class ShowDrivesComponent implements OnInit {
   //     },
   //     (response, status) => {
   //       if (status !== "OK") {
-  //         alert("Error was: " + status);
+  //         Swal.fire('',"Error was: " + status);
   //       } else {
   //         const originList = response.originAddresses;
   //         const destinationList = response.destinationAddresses;
@@ -177,7 +177,7 @@ export class ShowDrivesComponent implements OnInit {
   //                 })
   //               );
   //             } else {
-  //               alert("Geocode was not successful due to: " + status);
+  //               Swal.fire('',"Geocode was not successful due to: " + status);
   //             }
   //           };
   //         };

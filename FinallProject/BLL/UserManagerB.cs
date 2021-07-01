@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+  
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-  public  class UserManagerB
+    public class UserManagerB
     {
         public static void addUser(COMMON.UsersC user)
         {
@@ -22,7 +24,7 @@ namespace BLL
         {
             return DAL.UserManager.GetUserById(id);
         }
-       
+
 
         //=========================================
         //public static COMMON.UsersC getUsersIdPackage(int[] id)
@@ -44,17 +46,11 @@ namespace BLL
         //    return lu1;
         //}
 
-        public static COMMON.UsersC getUserByPassword(string password, int id)
+        public static COMMON.UsersC getUserByPassword(string name, string password)
         {
-            return DAL.UserManager.GetUserByPassword(password, id);
-        }
-        public static COMMON.UsersC GetUsersByUserNameAndPassword(string password, string username)
-        {
-            return DAL.UserManager.GetUsersByUserNameAndPassword(password, username);
+            return DAL.UserManager.GetUserByPassword(name, password);
         }
 
-
-        
         public static void updateUser(COMMON.UsersC user)
         {
             DAL.UserManager.UpdateUser(user);

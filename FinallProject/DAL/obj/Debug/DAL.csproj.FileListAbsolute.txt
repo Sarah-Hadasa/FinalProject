@@ -178,6 +178,9 @@ C:\Users\user\פרויקט\25-06-21\FinallProject\DAL\obj\Debug\DAL.csproj.CoreC
 C:\Users\user\פרויקט\25-06-21\FinallProject\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\user\פרויקט\25-06-21\FinallProject\DAL\obj\Debug\DAL.exe
 C:\Users\user\פרויקט\25-06-21\FinallProject\DAL\obj\Debug\DAL.pdb
+C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\DAL\bin\Debug\DAL.exe.config
+C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\DAL\bin\Debug\DAL.exe
+C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\DAL\bin\Debug\DAL.pdb
 C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\DAL\bin\Debug\COMMON.exe
 C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\DAL\bin\Debug\EntityFramework.dll
 C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\DAL\bin\Debug\EntityFramework.SqlServer.dll
@@ -193,6 +196,3 @@ C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\DAL\obj\Debug\DAL.c
 C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\DAL\obj\Debug\DAL.exe
 C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\DAL\obj\Debug\DAL.pdb
-C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\DAL\bin\Debug\DAL.exe.config
-C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\DAL\bin\Debug\DAL.exe
-C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\DAL\bin\Debug\DAL.pdb

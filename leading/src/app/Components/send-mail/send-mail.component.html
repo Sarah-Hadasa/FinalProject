@@ -1,0 +1,7 @@
+<form class="form-wrapper" (ngSubmit)="sendEmail()">
+    <h1>שליחת מייל</h1>
+    <br>
+    <label>to:</label><input name="to" type="text" [(ngModel)]="msg.reciever" /><br>
+    <label>subject:</label><input name="sub" type="text" [(ngModel)]="msg.subject" /><br>
+    <input type="submit" value="send-email" />
+</form>

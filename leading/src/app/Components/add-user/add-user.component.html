@@ -1,0 +1,34 @@
+<form class="form-wrapper" #frm="ngForm" style="padding: 20px 50px;" (ngSubmit)="AddNewUser()">
+    <h1>הרשמה</h1>
+
+    <div class="md-form form-group">
+        <label for="inputoriginCityMD">שם</label>
+        <input class="form-control" style="direction: rtl;text-align: right;" matInput [(ngModel)]="newUser.Name" name="Name">
+    </div>
+    <div class="md-form form-group">
+        <label for="inputArrivedTime4MD">סיסמא</label>
+        <input type="password" class="form-control" matInput [(ngModel)]="newUser.Password" name="Password">
+    </div>
+    <div class="md-form form-group">
+        <label for="inputoriginCityMD">פלאפון</label>
+        <input class="form-control" matInput [(ngModel)]="newUser.Phone" name="Phone">
+    </div>
+    <div class="md-form form-group">
+        <label for="inputoriginStreet2MD">ת.ז</label>
+        <input pattern="[0-9]{9}" class="form-control" matInput [(ngModel)]="newUser.Tz" name="Tz">
+    </div>
+
+    <div class="md-form form-group">
+        <label for="inputoriginNumBuildMD">מייל</label>
+        <input class="form-control" matInput [(ngModel)]="newUser.Mail" name="Mail">
+    </div>
+    <br>
+    <div class="footer-wrapper">
+
+        <button type="submit" class="btn-nocolor">שמור</button>
+    </div>
+    <!-- <label [hidden]="flag" id=hidden>The user has been successfully logged in</label><br/>
+    <label [hidden]="errorServer" id=hidden>There is a problem with the server, your details were not received in the system, please try again</label><br/> -->
+
+
+</form>

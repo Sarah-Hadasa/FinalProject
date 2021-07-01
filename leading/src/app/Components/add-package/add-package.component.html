@@ -70,7 +70,7 @@
         <div class="col-md-4">
             <div class="md-form form-group">
                 <label for="inputDate4MD">תאריך</label>
-                <input mdbInput type="datetime" class="form-control" id="inputDate4MD" name="Datee" [(ngModel)]="package.Date" />
+                <input mdbInput type="date" class="form-control" id="inputDate4MD" name="Datee" [(ngModel)]="package.Date" />
             </div>
         </div>
     </div>
@@ -102,9 +102,31 @@
     </div>
 
 
+    <div class="row">
+        <div class="col-md-4"></div>
 
 
-    <br />
+
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputRemarks">הערה</label>
+                <textarea rows="2" mdbInput type="text" class="form-control" id="inputRemarks" name="DestenitationCityy" [(ngModel)]="package.Remarks"></textarea>
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="selectP">גודל סוג חבילה להובלה</label>
+                <select class="form-select" id="selectP" aria-label="Default select example">
+    
+            <option value="1" selected>1-גודל קטן כגון שקית</option>
+            <option value="2">2-בינוני</option>
+            <option value="3">3-גדול</option>
+          </select> </div>
+
+        </div>
+    </div>
+
     <br />
 
     <div class="footer-wrapper">
