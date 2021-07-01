@@ -187,11 +187,11 @@ export class RoadMapComponent implements OnInit {
               );
               outputDiv.innerHTML +=
                 originList[i] +
-                " to " +
+                " ל " +
                 destinationList[j] +
                 ": " +
                 results[j].distance.text +
-                " in " +
+                " ב " +
                 results[j].duration.text +
                 "<br>";
             }
