@@ -14,6 +14,7 @@ using BLL;
 
 namespace WEB_API.Controllers
 {
+    [RoutePrefix("api/users")]
     public class UsersController : ApiController
     {
         private ProjectDasiSariEntities1 db = new ProjectDasiSariEntities1();
@@ -59,7 +60,14 @@ namespace WEB_API.Controllers
             else
                 return UserManagerB.getUserByPassword(password, id);
         }
-
+        [ResponseType(typeof(COMMON.UsersC))]
+        [HttpGet]
+        [Route("GetUsersByUserNameAndPassword/{password}/{username}")]
+        public COMMON.UsersC GetUsersByUserNameAndPassword(string password, string username)
+        {
+           return UserManagerB.GetUsersByUserNameAndPassword(password, username);
+         
+        }
         // PUT: api/Users/5
         [ResponseType(typeof(void))]
         [HttpPut]

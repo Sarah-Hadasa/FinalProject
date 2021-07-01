@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, NavigationExtras, Router } from '@angular/router';
-import { } from 'googlemaps';
+import {} from 'googlemaps';
 import { DataDriveResults } from 'src/app/Classes/data-drive-results';
 import { DataTrack } from 'src/app/Classes/data-track';
 import { Drive } from 'src/app/Classes/drive';
@@ -13,96 +13,95 @@ let map: google.maps.Map;
 @Component({
   selector: 'app-show-drives',
   templateUrl: './show-drives.component.html',
-  styleUrls: ['./show-drives.component.css']
+  styleUrls: ['./show-drives.component.css'],
 })
 export class ShowDrivesComponent implements OnInit {
-
   // resultsOrigionSort: DataTrack[] = [];//========
 
   //resultsDesttionSort: DataTrack[] = [];//=========
-  driveChoose:Drive=new Drive();
-  package:Package=new Package()
-  drive: DataDriveResults = new DataDriveResults()
+  driveChoose: Drive = new Drive();
+  package: Package = new Package();
+  drive: DataDriveResults = new DataDriveResults();
   //resultsalldrives=[];
   Package: any[] = [];
   travel: Travel = new Travel();
-  itemSelect: DataDriveResults = new DataDriveResults()
-  constructor(public active: ActivatedRoute,private packageService:PackageService, private TravelService: TravelService, private driveServe: DriveService, private route: Router) {
-
-  }
+  itemSelect: DataDriveResults = new DataDriveResults();
+  constructor(
+    public active: ActivatedRoute,
+    private packageService: PackageService,
+    private TravelService: TravelService,
+    private driveServe: DriveService,
+    private route: Router
+  ) {}
 
   ngOnInit(): void {
-
-    this.active.params.subscribe(data => {
+    this.active.params.subscribe((data) => {
       const myArray = this.active.snapshot.queryParamMap.get('myArray');
       debugger;
-      if (myArray != null) { this.Package = JSON.parse(myArray); }
-
-      debugger
+      if (myArray != null) {
+        this.Package = JSON.parse(myArray);
+      }
+    
     });
-
 
     // this.initMap();
   }
   showAllTrack() {
-    this.driveServe.getalldrive().subscribe(data => {
-      debugger
-       ;this.Package = data;})
-       
+    this.driveServe.getalldrive().subscribe((data) => {
+      debugger;
+      this.Package = data;
+    });
   }
 
   onSelect(item: DataDriveResults) {
-    debugger
-    this.travel.Id = 2
-    this.travel.DriveId = item.IdDrive
+    debugger;
+    this.travel.Id = 2;
+    this.travel.DriveId = item.IdDrive;
     // this.travel.PackageId=item. IdPackage
-    this.travel.PackageId = 26
-    this.travel.Date = new Date()
+    this.travel.PackageId = 26;
+    this.travel.Date = new Date();
     this.TravelService.addTravel(this.travel).subscribe();
 
-    this.drive = item
+    this.drive = item;
   }
   showTrack() {
-    debugger
+    debugger;
     const queryParams: any = {};
     queryParams.myArray = JSON.stringify(this.drive);
     const navigationExtras: NavigationExtras = {
-      queryParams
+      queryParams,
     };
     this.route.navigate(['track'], navigationExtras);
-  };
+  }
 
-
-  saveDrive()
-  {
-    debugger
-    this.driveChoose.DriveId=this.drive.IdDrive;
-  this.driveChoose.UserId =this.drive.Iduser;
-  this.driveChoose.PackageId =this.drive.IdPackage
-  this.driveChoose.OriginCity =this.drive.OriginCity
-  this.driveChoose.OriginStreet =this.drive.OriginStreet
-  this.driveChoose.OriginNumBuild =this.drive.OriginNumBuild
-  // this.driveChoose.OriginArea =this.drive.
-  this.driveChoose.DestinationCity =this.drive.DestinationCity
-  this.driveChoose.DestinationStreet =this.drive.DestinationStreet
-  this.driveChoose.DestinationNumBuild =this.drive.DestinationNumBuild
-  // this.driveChoose.DestinationArea =this.drive.
-  this.driveChoose.Date =this.drive.Date
-  this.driveChoose.ExitTime =this.drive.ExitTime
-  this.driveChoose.ArrivedTime =this.drive.ArrivedTime
-  this.driveChoose.PackageType =this.drive.PackageType
-  this.driveChoose.Remarks=this.drive.Remarks
-  debugger
-     this.driveServe.updateDrive(this.driveChoose).subscribe();
+  saveDrive() {
+    debugger;
+    this.driveChoose.DriveId = this.drive.IdDrive;
+    this.driveChoose.UserId = this.drive.Iduser;
+    this.driveChoose.PackageId = this.drive.IdPackage;
+    this.driveChoose.OriginCity = this.drive.OriginCity;
+    this.driveChoose.OriginStreet = this.drive.OriginStreet;
+    this.driveChoose.OriginNumBuild = this.drive.OriginNumBuild;
+    // this.driveChoose.OriginArea =this.drive.
+    this.driveChoose.DestinationCity = this.drive.DestinationCity;
+    this.driveChoose.DestinationStreet = this.drive.DestinationStreet;
+    this.driveChoose.DestinationNumBuild = this.drive.DestinationNumBuild;
+    // this.driveChoose.DestinationArea =this.drive.
+    this.driveChoose.Date = this.drive.Date;
+    this.driveChoose.ExitTime = this.drive.ExitTime;
+    this.driveChoose.ArrivedTime = this.drive.ArrivedTime;
+    this.driveChoose.PackageType = this.drive.PackageType;
+    this.driveChoose.Remarks = this.drive.Remarks;
+    debugger;
+    this.driveServe.updateDrive(this.driveChoose).subscribe();
     // this.savePackage();
-
   }
   // savePackage()
   // {
-  //   this.packageService.getAIdPackages(this.drive.IdPackage).subscribe(data=>{debugger; this.package=data as Package;}); 
+  //   this.packageService.getAIdPackages(this.drive.IdPackage).subscribe(data=>{debugger; this.package=data as Package;});
   //   this.package.
   // }
-  
+
   // save()
   // {
   //   this.travel.Id=2
@@ -113,14 +112,7 @@ export class ShowDrivesComponent implements OnInit {
   //     this.TravelService.addTravel(this.travel).subscribe();
   // }
 
-
-
-
-
   //  initMap(): void {
-
-
-
 
   //    debugger;
   //   const bounds = new google.maps.LatLngBounds();
@@ -218,22 +210,18 @@ export class ShowDrivesComponent implements OnInit {
   //   );
   // }
 
-
-
-
-
-
-
   //מיין לפי נקודת יעד
   DestinationOrder() {
-    this.Package.sort((a, b) => (a.DestinationDuration > b.DestinationDuration) ? 1 : -1)
-    debugger
+    this.Package.sort((a, b) =>
+      a.DestinationDuration > b.DestinationDuration ? 1 : -1
+    );
+    debugger;
   }
 
   //מיין לפי נקודת מוצא
   OriginOrder() {
-    debugger
-    this.Package.sort((a, b) => (a.OriginDuration > b.OriginDuration) ? 1 : -1)
+    debugger;
+    this.Package.sort((a, b) => (a.OriginDuration > b.OriginDuration ? 1 : -1));
   }
   deleteMarkers(markersArray: google.maps.Marker[]) {
     for (let i = 0; i < markersArray.length; i++) {
@@ -241,5 +229,4 @@ export class ShowDrivesComponent implements OnInit {
     }
     markersArray = [];
   }
-
 }

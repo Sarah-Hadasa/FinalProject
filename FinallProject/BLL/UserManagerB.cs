@@ -48,7 +48,13 @@ namespace BLL
         {
             return DAL.UserManager.GetUserByPassword(password, id);
         }
+        public static COMMON.UsersC GetUsersByUserNameAndPassword(string password, string username)
+        {
+            return DAL.UserManager.GetUsersByUserNameAndPassword(password, username);
+        }
 
+
+        
         public static void updateUser(COMMON.UsersC user)
         {
             DAL.UserManager.UpdateUser(user);

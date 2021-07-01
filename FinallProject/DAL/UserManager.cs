@@ -77,8 +77,17 @@ namespace DAL
                 return null;
             }
         }
-
-
+        public static COMMON.UsersC GetUsersByUserNameAndPassword(string password, string username)
+        {
+            using (ProjectDasiSariEntities1 entity = new ProjectDasiSariEntities1())
+            {
+                Users u = entity.Users.First(da => da.Password == password && da.Name == username);
+                if (u != null)
+                    return Mapper.ConvertDalUserToUser(u);
+                return null;
+            }
+        }
+        
 
 
         public static void UpdateUser(COMMON.UsersC user)

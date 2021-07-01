@@ -1,179 +1,117 @@
-<p>add-drive works!</p>
-<!-- Extended material form grid -->
-<div>
+<form class="form-wrapper-large">
+    <h1>הוספת נסיעה</h1>
 
-<div style="float:left">
-<form>
-    <!-- Grid row -->
-    <div class="form-row">
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputUserId4MD">UserId</label>
-          <input mdbInput type="number" class="form-control" id="inputUserId4MD" placeholder="UserId" name="userid" [(ngModel)]="drive.UserId"  >
-        
-        </div>
-      </div>
-      <!-- Grid column -->
-  
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputArrivedTime4MD">ArrivedTime</label>
-          <input mdbInput type="time" class="form-control" id="inputArrivedTime4MD" placeholder="ArrivedTime" name="ArrivedTimee" [(ngModel)]="drive.ArrivedTime">
-          
-        </div>
-      </div>
-      <!-- Grid column -->
-    </div>
-    <!-- Grid row -->
-  
-    <!-- Grid row -->
+    <h3>מקור</h3>
     <div class="row">
-      <!-- Grid column -->
-      <div class="col-md-12">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputoriginCityMD">City</label>
-          <input mdbInput type="text" class="form-control" id="inputoriginCityMD" placeholder="City" name="origincit" [(ngModel)]="drive.OriginCity">
-         
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputoriginCityMD">עיר</label>
+                <input mdbInput type="text" class="form-control" id="inputoriginCityMD" name="origincit" [(ngModel)]="drive.OriginCity" />
+            </div>
         </div>
-      </div>
-      <!-- Grid column -->
-  
-      <!-- Grid column -->
-      <div class="col-md-12">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputoriginStreet2MD">Street</label>
-          <input mdbInput type="text" class="form-control" id="inputoriginStreet2MD" placeholder="Street" name="originStreett" [(ngModel)]="drive.OriginStreet">
-          
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputArrivedTime4MD">זמן הגעה</label>
+                <input mdbInput type="time" class="form-control" id="inputArrivedTime4MD" name="ArrivedTimee" [(ngModel)]="drive.ArrivedTime" />
+            </div>
         </div>
-      </div>
-      <!-- Grid column -->
-    </div>
-    <!-- Grid row -->
-  
-    <!-- Grid row -->
-    <div class="form-row">
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputoriginNumBuildMD">NumBuild</label>
-          <input mdbInput type="number" class="form-control" id="inputoriginNumBuildMD" placeholder="NumBuild" name="originNumBuildd" [(ngModel)]="drive.OriginNumBuild">
 
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputUserId4MD">שם משתמש</label>
+                <input mdbInput type="number" class="form-control" id="inputUserId4MD" name="userid" [(ngModel)]="drive.UserId" />
+            </div>
         </div>
-      </div>
-      <!-- Grid column -->
-  
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputoriginAreaMD">Area</label>
-          <input mdbInput type="text" class="form-control" id="inputoriginAreaMD" placeholder="Area" name="originAreaa" [(ngModel)]="drive.OriginArea">
-          
-        </div>
-      </div>
-      <!-- Grid column -->
     </div>
 
-    <!-- Grid row -->
-    
-  </form>
-  <!-- Extended material form grid -->
-</div>
-
-
-
-<div style="float:right">
-  <form>
-    <!-- Grid row -->
-    <div class="form-row">
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputDate4MD">Date</label>
-          <input mdbInput type="datetime" class="form-control" id="inputDate4MD" placeholder="Date" name="Datee" [(ngModel)]="drive.Date">
-        
-        </div>
-      </div>
-      <!-- Grid column -->
-  
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputExitTime4MD">ExitTime</label>
-          <input mdbInput type="time" class="form-control" id="inputExitTime4MD" placeholder="ExitTime" name="ExitTimee" [(ngModel)]="drive.ExitTime">
-          
-        </div>
-      </div>
-      <!-- Grid column -->
-    </div>
-    <!-- Grid row -->
-  
-    <!-- Grid row -->
     <div class="row">
-      <!-- Grid column -->
-      <div class="col-md-12">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputDestenitationCityMD">City</label>
-          <input mdbInput type="text" class="form-control" id="inputDestenitationCityMD" placeholder="City" name="DestenitationCityy" [(ngModel)]="drive.DestinationCity">
-         
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputoriginAreaMD">אזור</label>
+                <input mdbInput type="text" class="form-control" id="inputoriginAreaMD" name="originAreaa" [(ngModel)]="drive.OriginArea" />
+            </div>
         </div>
-      </div>
-      <!-- Grid column -->
-  
-      <!-- Grid column -->
-      <div class="col-md-12">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputDestenitationStreet2MD">Street</label>
-          <input mdbInput type="text" class="form-control" id="inputDestenitationStreet2MD" placeholder="Street" name="DestenitationCityy" [(ngModel)]="drive.DestinationStreet">
-          
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputoriginNumBuildMD">מספר בית</label>
+                <input mdbInput type="number" class="form-control" id="inputoriginNumBuildMD" name="originNumBuildd" [(ngModel)]="drive.OriginNumBuild" />
+            </div>
         </div>
-      </div>
-      <!-- Grid column -->
-    </div>
-    <!-- Grid row -->
-  
-    <!-- Grid row -->
-    <div class="form-row">
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputDestenitationNumBuildMD">Build</label>
-          <input mdbInput type="text" class="form-control" id="inputDestenitationNumBuildMD" placeholder="Build" name="DestenitationNumBuildd" [(ngModel)]="drive.DestinationNumBuild">
-         
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputoriginStreet2MD">רחוב</label>
+                <input mdbInput type="text" class="form-control" id="inputoriginStreet2MD" name="originStreett" [(ngModel)]="drive.OriginStreet" />
+            </div>
         </div>
-      </div>
-      <!-- Grid column -->
-  
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputDestinationAreaMD">Area</label>
-          <input mdbInput type="text" class="form-control" id="inputDestinationAreaMD" placeholder="Area"  name="DestinationAreaa" [(ngModel)]="drive.DestinationArea">
-          
-        </div>
-      </div>
-      <!-- Grid column -->
     </div>
 
-    <!-- Grid row -->
-    
-    <button type="submit" (click)="submit2()" mdbBtn color="primary">Save</button>
-    <button type="submit" mdbBtn color="primary">Update</button>
-  </form>
-</div>
+    <hr />
 
-</div>
-  <!-- Extended material form grid -->
+    <h3>יעד</h3>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputDestenitationCityMD">עיר</label>
+                <input mdbInput type="text" class="form-control" id="inputDestenitationCityMD" name="DestenitationCityy" [(ngModel)]="drive.DestinationCity" />
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputExitTime4MD">זמן</label>
+                <input mdbInput type="time" class="form-control" id="inputExitTime4MD" name="ExitTimee" [(ngModel)]="drive.ExitTime" />
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputDate4MD">תאריך</label>
+                <input mdbInput type="datetime" class="form-control" id="inputDate4MD" name="Datee" [(ngModel)]="drive.Date" />
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputDestinationAreaMD">אזור</label>
+                <input mdbInput type="text" class="form-control" id="inputDestinationAreaMD" name="DestinationAreaa" [(ngModel)]="drive.DestinationArea" />
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputDestenitationNumBuildMD">בניין</label>
+                <input mdbInput type="text" class="form-control" id="inputDestenitationNumBuildMD" name="DestenitationNumBuildd" [(ngModel)]="drive.DestinationNumBuild" />
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputDestenitationStreet2MD">רחוב</label>
+                <input mdbInput type="text" class="form-control" id="inputDestenitationStreet2MD" name="DestenitationCityy" [(ngModel)]="drive.DestinationStreet" />
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <select class="form-select" aria-label="Default select example">
+        <option selected>גודל סוג חבילה להובלה</option>
+        <option value="1">1-גודל קטן כגון שקית</option>
+        <option value="2">2-בינוני</option>
+        <option value="3">3-גדול</option>
+      </select>
+        </div>
+    </div>
+
+    <br />
+
+    <div class="footer-wrapper">
+        <button type="submit" mdbBtn class="btn-nocolor">עדכן</button> &nbsp;
+
+        <button type="submit" (click)="submit2()" mdbBtn class="btn-color">
+      שמור
+    </button>
+    </div>
+    <br />
+</form>

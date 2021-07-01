@@ -1,229 +1,117 @@
-<h2>add-package works!</h2>
-<!-- Extended material form grid -->
-<div>
-  <h4>origin</h4>
-<div style="float:left">
-<form>
-    <!-- Grid row -->
-    <div class="form-row">
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <!-- Material input -->
-        <!-- <div class="md-form form-group">
-            <label for="inputUserId4MD">UserId</label>
-          <input mdbInput type="number" class="form-control" id="inputUserId4MD" placeholder="UserId" name="userid" [(ngModel)]="package.UserId"  >
-        
-        </div> -->
-      </div>
-      <!-- Grid column -->
-  
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputArrivedTime4MD">ArrivedTime</label>
-          <input mdbInput type="time" class="form-control" id="inputArrivedTime4MD" placeholder="ArrivedTime" name="ArrivedTimee" [(ngModel)]="package.ArrivedTime">
-          
-        </div>
-      </div>
-      <!-- Grid column -->
-    </div>
-    <!-- Grid row -->
-  
-    <!-- Grid row -->
+<form class="form-wrapper-large">
+    <h1 style="width: 200px;">הוספת חבילה</h1>
+
+    <h3>מקור</h3>
     <div class="row">
-      <!-- Grid column -->
-      <div class="col-md-12">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputoriginCityMD">City</label>
-          <input mdbInput type="text" class="form-control" id="inputoriginCityMD" placeholder="City" name="origincit" [(ngModel)]="package.OriginCity">
-         
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputoriginCityMD">עיר</label>
+                <input mdbInput type="text" class="form-control" id="inputoriginCityMD" name="origincit" [(ngModel)]="package.OriginCity" />
+            </div>
         </div>
-      </div>
-      <!-- Grid column -->
-  
-      <!-- Grid column -->
-      <div class="col-md-12">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputoriginStreet2MD">Street</label>
-          <input mdbInput type="text" class="form-control" id="inputoriginStreet2MD" placeholder="Street" name="originStreett" [(ngModel)]="package.OriginStreet">
-          
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputArrivedTime4MD">זמן הגעה</label>
+                <input mdbInput type="time" class="form-control" id="inputArrivedTime4MD" name="ArrivedTimee" [(ngModel)]="package.ArrivedTime" />
+            </div>
         </div>
-      </div>
-      <!-- Grid column -->
-    </div>
-    <!-- Grid row -->
-  
-    <!-- Grid row -->
-    <div class="form-row">
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputoriginNumBuildMD">NumBuild</label>
-          <input mdbInput type="number" class="form-control" id="inputoriginNumBuildMD" placeholder="NumBuild" name="originNumBuildd" [(ngModel)]="package.OriginNumBuild">
 
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputUserId4MD">שם משתמש</label>
+                <input mdbInput type="number" class="form-control" id="inputUserId4MD" name="userid" [(ngModel)]="package.UserId" />
+            </div>
         </div>
-      </div>
-      <!-- Grid column -->
-  
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputoriginAreaMD">Area</label>
-          <input mdbInput type="text" class="form-control" id="inputoriginAreaMD" placeholder="Area" name="originAreaa" [(ngModel)]="package.OriginArea">
-          
-        </div>
-      </div>
-      <!-- Grid column -->
     </div>
 
-    <!-- Grid row -->
-    <!-- <button type="submit" (click)="submit()" mdbBtn color="primary">Save</button>
-    <button type="submit" mdbBtn color="primary">Update</button> -->
-  </form>
-  <!-- Extended material form grid -->
-</div>
 
 
-
-
-<div style="float:left">
-  <h4>destination</h4>
-  <form>
-    <!-- Grid row -->
-    <div class="form-row">
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputDate4MD">Date</label>
-          <input mdbInput type="datetime" class="form-control" id="inputDate4MD" placeholder="Date" name="Datee" [(ngModel)]="package.Date">
-        
-        </div>
-      </div>
-      <!-- Grid column -->
-  
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputExitTime4MD">ExitTime</label>
-          <input mdbInput type="time" class="form-control" id="inputExitTime4MD" placeholder="ExitTime" name="ExitTimee" [(ngModel)]="package.ExitTime">
-          
-        </div>
-      </div>
-      <!-- Grid column -->
-    </div>
-    <!-- Grid row -->
-  
-    <!-- Grid row -->
     <div class="row">
-      <!-- Grid column -->
-      <div class="col-md-12">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputDestenitationCityMD">City</label>
-          <input mdbInput type="text" class="form-control" id="inputDestenitationCityMD" placeholder="City" name="DestenitationCityy" [(ngModel)]="package.DestinationCity">
-         
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputoriginAreaMD">אזור</label>
+                <input mdbInput type="text" class="form-control" id="inputoriginAreaMD" name="originAreaa" [(ngModel)]="package.OriginArea" />
+            </div>
         </div>
-      </div>
-      <!-- Grid column -->
-  
-      <!-- Grid column -->
-      <div class="col-md-12">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputDestenitationStreet2MD">Street</label>
-          <input mdbInput type="text" class="form-control" id="inputDestenitationStreet2MD" placeholder="Street" name="DestenitationCityy" [(ngModel)]="package.DestinationStreet">
-          
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputoriginNumBuildMD">מספר בית</label>
+                <input mdbInput type="number" class="form-control" id="inputoriginNumBuildMD" name="originNumBuildd" [(ngModel)]="package.OriginNumBuild" />
+            </div>
         </div>
-      </div>
-      <!-- Grid column -->
-    </div>
-    <!-- Grid row -->
-  
-    <!-- Grid row -->
-    <div class="form-row">
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputDestenitationNumBuildMD">NumBuild</label>
-          <input mdbInput type="number" class="form-control" id="inputDestenitationNumBuildMD" placeholder="Build" name="DestenitationNumBuildd" [(ngModel)]="package.DestinationNumBuild">
-         
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputoriginStreet2MD">רחוב</label>
+                <input mdbInput type="text" class="form-control" id="inputoriginStreet2MD" name="originStreett" [(ngModel)]="package.OriginStreet" />
+            </div>
         </div>
-      </div>
-      <!-- Grid column -->
-  
-      <!-- Grid column -->
-      <div class="col-md-6">
-        <!-- Material input -->
-        <div class="md-form form-group">
-            <label for="inputDestinationAreaMD">Area</label>
-          <input mdbInput type="text" class="form-control" id="inputDestinationAreaMD" placeholder="Area"  name="DestinationAreaa" [(ngModel)]="package.DestinationArea">
-          
+
+
+    </div>
+
+    <hr />
+    <h3>יעד</h3>
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputDestenitationCityMD">עיר</label>
+                <input mdbInput type="text" class="form-control" id="inputDestenitationCityMD" name="DestenitationCityy" [(ngModel)]="package.DestinationCity" />
+            </div>
         </div>
-      </div>
-      <!-- Grid column -->
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputExitTime4MD">זמן</label>
+                <input mdbInput type="time" class="form-control" id="inputExitTime4MD" name="ExitTimee" [(ngModel)]="package.ExitTime" />
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputDate4MD">תאריך</label>
+                <input mdbInput type="datetime" class="form-control" id="inputDate4MD" name="Datee" [(ngModel)]="package.Date" />
+            </div>
+        </div>
     </div>
 
-    <!-- Grid row -->
-
-    <button type="submit" (click)="submit()" mdbBtn color="primary">Save</button>
-    <button type="submit" (click)="updatePackages()" mdbBtn color="primary">Update</button>
-
-    <!-- <button type="submit" mdbBtn color="primary">Save</button>
-    <button type="submit" mdbBtn color="primary">Update</button> -->
-  </form>
-</div>
 
 
+    <div class="row">
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputDestinationAreaMD">אזור</label>
+                <input mdbInput type="text" class="form-control" id="inputDestinationAreaMD" name="DestinationAreaa" [(ngModel)]="package.DestinationArea" />
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputDestenitationNumBuildMD">בניין</label>
+                <input mdbInput type="text" class="form-control" id="inputDestenitationNumBuildMD" name="DestenitationNumBuildd" [(ngModel)]="package.DestinationNumBuild" />
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputDestenitationStreet2MD">רחוב</label>
+                <input mdbInput type="text" class="form-control" id="inputDestenitationStreet2MD" name="DestenitationCityy" [(ngModel)]="package.DestinationStreet" />
+            </div>
+        </div>
 
 
-
-
-<!-- <p>show-drives works!</p> -->
-<!-- <h3>My Google Maps Demo</h3> -->
-
-    <div id="right-panel">
-      <div id="inputs">
-        
-      </div>
-      <div>
-        <strong>Results</strong>
-      </div>
-      <div id="output"></div>
-    </div>
-    <div id="map"></div>
-    <div>
-      <h4>Distance from Origion</h4>
-      <ul>
-        <li *ngFor="let item of resultsOrigion">
-          {{item.duration}} 
-        </li>
-       <!-- <li>{{item.origin}} </li> 
-<li>  { {item.destination}}    </li>
-<li>  { {item.distance}}    </li>
-<li>  { {item.duration}}    </li> -->
-
-    </ul>
-    </div>
-    <div>
-      <h4>Distance from destination</h4>
-      <ul>
-        <li *ngFor="let item of resultsDesttion">
-    {{item.duration}}
-    </li> 
-    </ul>
-    </div>
     </div>
 
 
 
 
+    <br />
+    <br />
 
-  <!-- Extended material form grid -->
+    <div class="footer-wrapper">
+        <button type="submit" mdbBtn (click)="updatePackages()" class="btn-nocolor">עדכן</button> &nbsp;
+
+        <button type="submit" (click)="submit()" mdbBtn class="btn-color">
+      שמור
+    </button>
+    </div>
+</form>

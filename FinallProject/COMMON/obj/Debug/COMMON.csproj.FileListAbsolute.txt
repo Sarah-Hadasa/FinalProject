@@ -61,3 +61,12 @@ C:\Users\user\פרויקט\25-06-21\FinallProject\COMMON\obj\Debug\COMMON.csproj
 C:\Users\user\פרויקט\25-06-21\FinallProject\COMMON\obj\Debug\COMMON.csproj.CoreCompileInputs.cache
 C:\Users\user\פרויקט\25-06-21\FinallProject\COMMON\obj\Debug\COMMON.exe
 C:\Users\user\פרויקט\25-06-21\FinallProject\COMMON\obj\Debug\COMMON.pdb
+C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\COMMON\bin\Debug\COMMON.exe.config
+C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\COMMON\bin\Debug\COMMON.exe
+C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\COMMON\bin\Debug\COMMON.pdb
+C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\COMMON\obj\Debug\COMMON.csprojAssemblyReference.cache
+C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\COMMON\obj\Debug\COMMON.Properties.Resources.resources
+C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\COMMON\obj\Debug\COMMON.csproj.GenerateResource.cache
+C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\COMMON\obj\Debug\COMMON.csproj.CoreCompileInputs.cache
+C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\COMMON\obj\Debug\COMMON.exe
+C:\Users\AyalaYankelevitz\Desktop\FinalProject\FinallProject\COMMON\obj\Debug\COMMON.pdb
