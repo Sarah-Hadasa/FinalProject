@@ -30,6 +30,22 @@ export class RoadMapComponent implements OnInit {
 
   }
 
+  // ngOnInit(): void {
+  //   this.active.params.subscribe(data => {
+  //     const myArray1 = this.active.snapshot.queryParamMap.get('myArray1');
+  //     debugger;
+  //     if (myArray1 != null) {
+  //       this.package = JSON.parse(myArray1);
+
+  //     }
+  //     this.driveServ.getIdDrive(this.package.Id).subscribe(data => {
+  //       debugger; this.drivePackage = data as DataDriveResults[]; debugger; 
+  //       if (this.drivePackage.length==0)
+  //       Swal.fire('',"לא נמצא נסיעה",'error');
+  //       else
+  //       this.initMap();
+  //     });
+  //   });
   ngOnInit(): void {
     this.active.params.subscribe(data => {
       const myArray1 = this.active.snapshot.queryParamMap.get('myArray1');
@@ -38,18 +54,20 @@ export class RoadMapComponent implements OnInit {
         this.package = JSON.parse(myArray1);
 
       }
-      this.driveServ.getIdDrive(this.package.Id).subscribe(data => {
-        debugger; this.drivePackage = data as DataDriveResults[]; debugger;
-        if (data==null)
-        Swal.fire('',"לא נמצא נסיעה",'error');
-        // this.PackageService.getAIdPackages(this.id).subscribe
-        // (  data=>{;debugger;this.package=data as Package; }); 
-
-        // debugger
-
-      });
+      this.findDrive()
+      
     });
-   
+  }
+    findDrive(){
+      this.driveServ.getIdDrive(this.package.Id).subscribe(data => {
+      debugger; this.drivePackage = data as DataDriveResults[]; debugger; 
+      if (this.drivePackage.length==0)
+      Swal.fire('',"לא נמצא נסיעה",'error');
+      else
+      this.initMap();
+    });
+    
+    
 
     // this.active.params.subscribe(data=>{
     //       const myArray1 = this.active.snapshot.queryParamMap.get('myArray1');
@@ -72,7 +90,7 @@ export class RoadMapComponent implements OnInit {
    }
 
   show() {
-    this.initMap()
+    //  this.initMap()
   }
   //  initMap(): void {
   //   map = new google.maps.Map(document.getElementById("map") as HTMLElement, {
@@ -83,11 +101,13 @@ export class RoadMapComponent implements OnInit {
   // } 
   cancelDrive()
   {
+    debugger
     this.driveServ.getIdDriveById(this.drivePackage[0].IdDrive).subscribe(data => {
       debugger; this.drive = data; debugger; this.drive.PackageId=null;debugger;
       this.driveServ.updateDrive(this.drive).subscribe();
-      this.drivePackage[0]=new DataDriveResults()    
-      Swal.fire('',"לא נמצא נסיעה",'error');
+      this.ngOnInit();
+     // this.drivePackage[0]=new DataDriveResults()    
+    // Swal.fire('',"לא נמצא נסיעה",'error');
     });
     
     // this.driveServ.updateDrive(this.drive).subscribe();

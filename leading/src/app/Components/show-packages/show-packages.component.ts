@@ -69,7 +69,7 @@ export class ShowPackagesComponent implements OnInit {
   showDrive()
   {
     debugger;
-    this.package.Id=153;
+    //this.package.Id=153;
     const queryParams: any = {};
       queryParams.myArray1 = JSON.stringify(this.package);
       const navigationExtras: NavigationExtras = {

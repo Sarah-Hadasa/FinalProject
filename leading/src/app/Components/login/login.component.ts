@@ -29,6 +29,7 @@ export class LoginComponent implements OnInit {
     // this.service.addUser().subscribe();
   }
   checkUser() {
+    debugger
     this.service
       .getByPassword(this.user.Name, this.user.Password)
       .subscribe((data) => {

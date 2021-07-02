@@ -1,4 +1,4 @@
-<div class="form-wrapper-large">
+<!-- <div class="form-wrapper-large">
     <h1>מפה</h1>
     <div id="right-panel">
 
@@ -70,4 +70,67 @@ let destinationB
             </tbody>
         </table>
     </div>
+</div> -->
+<div class="form-wrapper-large" style="direction:rtl;text-align:center;">
+    <h1>מפה</h1>
+
+    <div class="col-lg-12">
+        <table class="table table-responsive">
+            <thead>
+                <th scope="col">שם</th>
+                <th scope="col">טלפון</th>
+                <th scope="col">מייל</th>
+                <th scope="col">כתובת מקור</th>
+                <th scope="col">מרחק למקור</th>
+                <th scope="col">זמן למקור</th>
+                <th scope="col">כתובת יעד</th>
+                <th scope="col">מרחק ליעד</th>
+                <th scope="col">זמן ליעד</th>
+                <th scope="col">תאריך</th>
+                <th scope="col"> יציאה </th>
+                <th scope="col"> הגעה </th>
+                <th scope="col">סוג </th>
+                <th scope="col">הערות</th>
+                <!--              
+                <th scope="col">
+                    <button type="button" class="btn btn-primary">send mail</button>
+                </th> -->
+            </thead>
+            <tbody>
+                <tr *ngFor='let item of drivePackage'>
+
+                    <td>{{ item.Name }}</td>
+                    <!-- <td>{{ item.Tz }}</td> -->
+                    <td>{{ item.Phone }}</td>
+                    <td>{{ item.Mail }}</td>
+                    <td>{{ item.OriginStreet }} &nbsp;{{ item.OriginNumBuild }} &nbsp;{{ item.OriginCity }}</td>
+                    <td>{{ item.OriginDistance }}</td>
+                    <td>{{ item.OriginDuration }}</td>
+                    <td>{{ item.DestinationStreet }}&nbsp;{{ item.DestinationNumBuild }}&nbsp;{{ item.DestinationCity }}</td>
+                    <td>{{ item.DestinationDistance }}</td>
+                    <td>{{ item.DestinationDuration }}</td>
+                    <td>{{ item.Date }}</td>
+                    <td>{{ item.ExitTime }}</td>
+                    <td>{{ item.ArrivedTime }}</td>
+
+                    <td>{{ item.PackageType }}</td>
+                    <td>{{ item.Remarks }}</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div style="direction:rtl;text-align:center;">
+        <div id="map"></div>
+        <div>
+            <strong>תוצאות</strong>
+        </div>
+        <div id="output">
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <button type="submit" (click)="show()" mdbBtn class="btn-color">הצג</button>
+        <button type="submit" (click)="cancelDrive()" mdbBtn class="btn-nocolor">בטל נסיעה</button>
+    </div>
+
 </div>

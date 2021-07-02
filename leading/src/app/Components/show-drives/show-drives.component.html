@@ -117,7 +117,7 @@ let destinationB
             </thead>
             <tbody>
                 <tr *ngFor="let item of Package">
-                    <td> <input type="checkbox" tabindex="0" class="hidden" (change)="onSelect(item)" /></td>
+                    <td> <input type="radio" name="selectD" tabindex="0" [value]="item.Id" class="hidden" (change)="onSelect(item)" /></td>
 
                     <td>{{ item.Name }}</td>
                     <!-- <td>{{ item.Tz }}</td> -->
