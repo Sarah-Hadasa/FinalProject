@@ -25,6 +25,7 @@ export class ShowDrivesComponent implements OnInit {
   //resultsalldrives=[];
   Package: any[] = [];
   travel: Travel = new Travel();
+  packageIdSEarch:number=0;
   itemSelect: DataDriveResults = new DataDriveResults();
   constructor(
     public active: ActivatedRoute,
@@ -40,6 +41,7 @@ export class ShowDrivesComponent implements OnInit {
       debugger;
       if (myArray != null) {
         this.Package = JSON.parse(myArray);
+        this.packageIdSEarch= this.Package[0].IdPackage
       }
     
     });
@@ -61,7 +63,7 @@ export class ShowDrivesComponent implements OnInit {
     // this.travel.PackageId = 26;
     // this.travel.Date = new Date();
     // this.TravelService.addTravel(this.travel).subscribe();
-
+    // this.drive.IdPackage=
     this.drive = item;
   }
   showTrack() {
@@ -78,7 +80,8 @@ export class ShowDrivesComponent implements OnInit {
     debugger;
     this.driveChoose.DriveId = this.drive.IdDrive;
     this.driveChoose.UserId = this.drive.Iduser;
-    this.driveChoose.PackageId = this.drive.IdPackage;
+    // this.driveChoose.PackageId = this.drive.IdPackage;
+    this.driveChoose.PackageId = this.packageIdSEarch; 
     this.driveChoose.OriginCity = this.drive.OriginCity;
     this.driveChoose.OriginStreet = this.drive.OriginStreet;
     this.driveChoose.OriginNumBuild = this.drive.OriginNumBuild;

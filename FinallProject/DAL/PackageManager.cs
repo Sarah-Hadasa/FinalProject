@@ -53,6 +53,8 @@ namespace DAL
                 return null;
             }
         }
+        
+        
         //public static List<COMMON.PackagesC> GetAllPackageById(int id)
         //{
         //    using (ProjectDasiSariEntities1 entity = new ProjectDasiSariEntities1())
@@ -65,7 +67,7 @@ namespace DAL
         //        return null;
         //    }
         //}
-        
+
         public static void UpdatePackage(COMMON.PackagesC package)
         {
             using (ProjectDasiSariEntities1 entity = new ProjectDasiSariEntities1())

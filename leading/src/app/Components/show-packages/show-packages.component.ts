@@ -19,6 +19,7 @@ export class ShowPackagesComponent implements OnInit {
   PackageDataDrive:DataDriveResults[] = [];
   // PackageDataDrive:any[]=[];
   package:Package=new Package()
+  drive:any
   constructor(private route: Router, private packages:PackageService,private travelService:TravelService,private driveS:DriveService ) { }
 
   ngOnInit(): void {
@@ -44,6 +45,11 @@ export class ShowPackagesComponent implements OnInit {
   {
     debugger
     this.packages.deletePackages(this.package.Id).subscribe();
+    this.driveS.getIdDriveByIdP(this.package.Id).subscribe(data=>{
+      this.drive=data;this.drive.PackageId=null;
+      this.driveS.updateDrive(this.drive).subscribe();
+    });
+   
   }
   searchPackages()
   {

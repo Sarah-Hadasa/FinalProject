@@ -64,6 +64,18 @@ namespace WEB_API.Controllers
             else
                 return DriveMangerB.getDriveById(id);
         }
+
+        [ResponseType(typeof(COMMON.DriveC))]
+        [HttpGet]
+        [Route("api/GetDrivesByIdP")]
+        public COMMON.DriveC GetDriveP(int id)
+        {
+            if (DriveMangerB.getDriveByIdP(id) == null)
+                return null;
+            else
+                return DriveMangerB.getDriveByIdP(id);
+        }
+
         // GET: api/Drives/5
         //[ResponseType(typeof(COMMON.dataDriveResultC))]
         [HttpGet]

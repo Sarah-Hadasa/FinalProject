@@ -55,6 +55,10 @@ export class DriveService {
   {
     return this.http.get(this.url + "GetDrivesById?id="+id);
   }
+  getIdDriveByIdP(id:number)
+  {
+    return this.http.get(this.url + "GetDrivesByIdP?id="+id);
+  }
   
   // getFindDrive():Observable<any>
   // {

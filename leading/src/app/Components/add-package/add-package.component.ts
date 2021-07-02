@@ -272,7 +272,7 @@ loadata()
           let countPlace = this.alldrives.length;
           for (var i = 0; i < countPlace; i++) {
             this.resultsOrigion.push(this.results1[i]);
-            debugger;
+            //debugger;
           }
 
           for (var i = this.results1.length - countPlace; i < this.results1.length; i++) {
@@ -317,7 +317,7 @@ loadata()
         }
       });
       this.resultsDesttion.forEach(element2 => {
-        debugger;
+       // debugger;
         let d = element['DestinationStreet'] + " " + element['DestinationNumBuild'] + ", " + element['DestinationCity'] + "," + " ישראל";
         if (element2.destination == d) {
           element.DestinationDuration = element2.durationminutes;

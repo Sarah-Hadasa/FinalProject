@@ -163,6 +163,12 @@ namespace BLL
 
             //return lc1 as List<COMMON.DriveC>;
         }
+        
+        public static COMMON.DriveC getDriveByIdP(int id)
+        {
+            return DAL.DriveManager.GetDrivesByIdP(id);
+        }
+
         public static COMMON.DriveC getDriveById(int id)
         {
             return DAL.DriveManager.GetDrivesById(id);
