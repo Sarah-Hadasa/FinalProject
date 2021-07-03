@@ -16,6 +16,7 @@ import { TrackComponent } from './Components/track/track.component';
 import { AddUserComponent } from './Components/add-user/add-user.component';
 import { UpdateUserComponent } from './Components/update-user/update-user.component';
 import { SendMailComponent } from './Components/send-mail/send-mail.component';
+import { ShowMyDriveComponent } from './Components/show-my-drive/show-my-drive.component';
 
 // import { SearchTrackComponent } from './Components/search-track/search-track.component';
 
@@ -32,7 +33,8 @@ import { SendMailComponent } from './Components/send-mail/send-mail.component';
     TrackComponent,
     AddUserComponent,
     SendMailComponent,
-    UpdateUserComponent
+    UpdateUserComponent,
+    ShowMyDriveComponent
     // SearchTrackComponent
   ],
   imports: [

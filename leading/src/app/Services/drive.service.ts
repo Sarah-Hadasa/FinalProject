@@ -57,12 +57,20 @@ export class DriveService {
   }
   getIdDriveByIdP(id:number)
   {
+    debugger
     return this.http.get(this.url + "GetDrivesByIdP?id="+id);
   }
-  
+  GetDrivesByIdUser(id:number)
+  {
+    return this.http.get(this.url + "GetDrivesByIdUser?id="+id);
+  }
   // getFindDrive():Observable<any>
   // {
   //   return this.http.get(this.url+"getFindDrive?time=bbb&city=בני ברק");
   // }
+  DeleteDrives(id:number): Observable<any>
+  {
+    return this.http.delete(this.url + "DeleteDrives?id="+id);
+  }
   
 }

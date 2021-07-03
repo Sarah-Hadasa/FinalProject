@@ -36,10 +36,15 @@ export class PackageService {
 
   getAIdPackages(id:number)
   {
-   
+    
     return this.http.get(this.url + "GetPackagesById?id="+id);
   }
-
+  GetPackagesByIdDrive(id:number)
+  {
+    
+    return this.http.get(this.url + "GetPackagesByIdDrive?id="+id);
+  }
+  
   deletePackages(id:number): Observable<any>
   {
     return this.http.delete(this.url + "DeletePackages?id="+id);

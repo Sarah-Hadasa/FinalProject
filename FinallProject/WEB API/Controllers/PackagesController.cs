@@ -38,6 +38,16 @@ namespace WEB_API.Controllers
             else
                return PackageManagerB.getPackageById(id);
         }
+        [ResponseType(typeof(COMMON.PackagesC))]
+        [HttpGet]
+        [Route("api/GetPackagesByIdDrive")]
+        public List<COMMON.dataDriveResultC> GetPackagesDrive(int id)
+        {
+            if (PackageManagerB.getPackageByIdDrive(id) == null)
+                return null;
+            else
+                return PackageManagerB.getPackageByIdDrive(id);
+        }
 
         //GET: api/Packages/5
         [ResponseType(typeof(COMMON.PackagesC))]

@@ -18,7 +18,8 @@ export class ShowPackagesComponent implements OnInit {
   PackageCheck:any[]=[];
   PackageDataDrive:DataDriveResults[] = [];
   // PackageDataDrive:any[]=[];
-  package:Package=new Package()
+  //package:Package=new Package()
+  package:any
   drive:any
   constructor(private route: Router, private packages:PackageService,private travelService:TravelService,private driveS:DriveService ) { }
 
@@ -33,6 +34,13 @@ export class ShowPackagesComponent implements OnInit {
 // this.package.UserId = sessionStorage["IDUser"];
     this.packages.getAllIdPackages(userId).subscribe(data=>{this.allPackages=data;}); 
   }
+  // showMyDrives()
+  // {
+  //   debugger;
+  //   let userId=6
+  //   this.driveS.GetDrivesByIdUser(userId).subscribe(data=>{this.allPackages=data as any;debugger;}); 
+  // }
+  
   onSelect(item:Package)
   {
     //this.travelService.getIdTravel(id).subscribe();
@@ -44,10 +52,15 @@ export class ShowPackagesComponent implements OnInit {
   deletePackages()
   {
     debugger
-    this.packages.deletePackages(this.package.Id).subscribe();
+  
+   // this.packages.deletePackages(this.package.Id).subscribe();
     this.driveS.getIdDriveByIdP(this.package.Id).subscribe(data=>{
-      this.drive=data;this.drive.PackageId=null;
+      this.drive=data;debugger
+      if(data!=null)
+      {
+        ;this.drive.PackageId=0;
       this.driveS.updateDrive(this.drive).subscribe();
+      } 
     });
    
   }
@@ -60,6 +73,7 @@ export class ShowPackagesComponent implements OnInit {
        queryParams
      };
      this.route.navigate(['addPackage'], navigationExtras);
+
   }
   updatePackages()
   {

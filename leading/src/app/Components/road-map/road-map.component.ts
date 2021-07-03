@@ -52,9 +52,30 @@ export class RoadMapComponent implements OnInit {
       debugger;
       if (myArray1 != null) {
         this.package = JSON.parse(myArray1);
-
+        this.findDrive()
       }
-      this.findDrive()
+     
+      
+    });
+
+    this.active.params.subscribe(data => {
+      const myArray2 = this.active.snapshot.queryParamMap.get('myArray2');
+      debugger;
+      if (myArray2 != null) {
+        this.drive = JSON.parse(myArray2);
+   this.PackageService.GetPackagesByIdDrive(this.drive.PackageId).subscribe(data=>{this.drivePackage = data as DataDriveResults[];debugger;
+ const origin1o = this.drivePackage[0].OriginStreet + " " + this.drivePackage[0].OriginNumBuild + ", " + this.drivePackage[0].OriginCity
+ debugger
+ const   destinationAd= this.drive.OriginStreet + " " + this.drive.OriginNumBuild + ", " + this.drive.OriginCity;
+ debugger
+ const origin2o = this.drivePackage[0].DestinationStreet + " " + this.drivePackage[0].DestinationNumBuild + ", " + this.drivePackage[0].DestinationCity
+ debugger
+ const destinationBd = this.drive.DestinationStreet + " " + this.drive.DestinationNumBuild + ", " + this.drive.DestinationCity;
+ debugger
+        this.initMap(origin1o,destinationAd ,origin2o ,destinationBd)
+      });
+      }
+      
       
     });
   }
@@ -64,7 +85,17 @@ export class RoadMapComponent implements OnInit {
       if (this.drivePackage.length==0)
       Swal.fire('',"לא נמצא נסיעה",'error');
       else
-      this.initMap();
+      {
+        const origin11 = this.drivePackage[0].OriginStreet + " " + this.drivePackage[0].OriginNumBuild + ", " + this.drivePackage[0].OriginCity
+ 
+ const   destinationAA= this.package.OriginStreet + " " + this.package.OriginNumBuild + ", " + this.package.OriginCity;
+ 
+ const origin22 = this.drivePackage[0].DestinationStreet + " " + this.drivePackage[0].DestinationNumBuild + ", " + this.drivePackage[0].DestinationCity
+ 
+ const destinationBB = this.package.DestinationStreet + " " + this.package.DestinationNumBuild + ", " + this.package.DestinationCity;
+ this.initMap(origin11,destinationAA ,origin22 ,destinationBB);
+      }
+      
     });
     
     
@@ -113,7 +144,7 @@ export class RoadMapComponent implements OnInit {
     // this.driveServ.updateDrive(this.drive).subscribe();
     debugger
   }
-  initMap(): void {
+  initMap(origin11:any,destinationAA:any ,origin22:any ,destinationBB:any): void {
 
 
 
@@ -123,13 +154,17 @@ export class RoadMapComponent implements OnInit {
     const markersArray: google.maps.Marker[] = [];
 
     //const origin1 = { lat: 55.93, lng: -3.118 };
-    const origin1 = this.drivePackage[0].OriginStreet + " " + this.drivePackage[0].OriginNumBuild + ", " + this.drivePackage[0].OriginCity
-    // const origin2 = "Greenwich, England";
-    const   destinationA= this.package.OriginStreet + " " + this.package.OriginNumBuild + ", " + this.package.OriginCity;
+   // const origin1 = this.drivePackage[0].OriginStreet + " " + this.drivePackage[0].OriginNumBuild + ", " + this.drivePackage[0].OriginCity
+   const origin1= origin11;
+   const destinationA= destinationAA;
+   // const origin2 = "Greenwich, England";
+   const origin2= origin22;
+   const destinationB=destinationBB;
+    //const   destinationA= this.package.OriginStreet + " " + this.package.OriginNumBuild + ", " + this.package.OriginCity;
     //const destinationA = "Stockholm, Sweden";
-    const origin2 = this.drivePackage[0].DestinationStreet + " " + this.drivePackage[0].DestinationNumBuild + ", " + this.drivePackage[0].DestinationCity
+    //const origin2 = this.drivePackage[0].DestinationStreet + " " + this.drivePackage[0].DestinationNumBuild + ", " + this.drivePackage[0].DestinationCity
     // const destinationB = { lat: 50.087, lng: 14.421 };
-    const destinationB = this.package.DestinationStreet + " " + this.package.DestinationNumBuild + ", " + this.package.DestinationCity;
+    //const destinationB = this.package.DestinationStreet + " " + this.package.DestinationNumBuild + ", " + this.package.DestinationCity;
 
     const destinationIcon =
       "https://chart.googleapis.com/chart?" +

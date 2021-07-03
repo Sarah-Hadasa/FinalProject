@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Drive } from 'src/app/Classes/drive';
 import { DriveService } from 'src/app/Services/drive.service';
 
@@ -12,12 +13,22 @@ import { DriveService } from 'src/app/Services/drive.service';
 export class AddDriveComponent implements OnInit {
   drive:Drive=new Drive();
   
-  constructor(private service:DriveService) { 
+  constructor(private service:DriveService,public active:ActivatedRoute) { 
      
 
   }
 
   ngOnInit(): void {
+    this.active.params.subscribe(data=>{
+      const myArray = this.active.snapshot.queryParamMap.get('myArray');
+      debugger;
+      if(myArray!=null)
+      {this.drive = JSON.parse(myArray);
+       
+       //this.loadata();
+      }
+    
+    });
   }
 
   submit2()
@@ -34,6 +45,12 @@ export class AddDriveComponent implements OnInit {
     debugger;
     this.service.addDrive(this.drive).subscribe();
   }
-  
+  submitupdate()
+  {
+    this.service.updateDrive(this.drive).subscribe();
+  }
 
+
+
+  
 }

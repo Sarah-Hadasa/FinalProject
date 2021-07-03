@@ -7,6 +7,7 @@ import { HomeComponent } from './Components/home/home.component';
 import { LoginComponent } from './Components/login/login.component';
 import { RoadMapComponent } from './Components/road-map/road-map.component';
 import { ShowDrivesComponent } from './Components/show-drives/show-drives.component';
+import { ShowMyDriveComponent } from './Components/show-my-drive/show-my-drive.component';
 import { ShowPackagesComponent } from './Components/show-packages/show-packages.component';
 import { TrackComponent } from './Components/track/track.component';
 import { UpdateUserComponent } from './Components/update-user/update-user.component';
@@ -21,6 +22,8 @@ const routes: Routes = [
 {path:"road_map",component:RoadMapComponent},
 {path:"login",component:LoginComponent},
 {path:"track", component:TrackComponent},
+{path:"ShowMyDriveComponent", component:ShowMyDriveComponent},
+
 // {path:"showDrives/:resultsOrigion/:resultsDesttion/:resultsalldrive", component: ShowDrivesComponent}
 // {path:"showDrives/:resultsalldrive", component: ShowDrivesComponent}
 {path:"showDrives/:package1", component: ShowDrivesComponent},
