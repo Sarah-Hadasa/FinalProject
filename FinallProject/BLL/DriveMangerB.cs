@@ -168,7 +168,16 @@ namespace BLL
         {
             return DAL.DriveManager.GetDrivesByIdP(id);
         }
-
+        public static List<COMMON.DriveC> getDriveByIdU(int id)
+        {
+            List<COMMON.DriveC> lc = DAL.DriveManager.GetDrives();
+            var matchDrive = lc.AsEnumerable().Where(data =>
+               data.UserId == id
+           ).ToList();
+            return matchDrive as List<COMMON.DriveC>;
+            // return DAL.DriveManager.GetDrivesByIdU(id);
+        }
+        
         public static COMMON.DriveC getDriveById(int id)
         {
             return DAL.DriveManager.GetDrivesById(id);
