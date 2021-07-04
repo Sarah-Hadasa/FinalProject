@@ -6,6 +6,7 @@ import { Package } from 'src/app/Classes/package';
 import { DriveService } from 'src/app/Services/drive.service';
 import { PackageService } from 'src/app/Services/package.service';
 import { TravelService } from 'src/app/Services/travel.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-show-packages',
@@ -53,9 +54,10 @@ export class ShowPackagesComponent implements OnInit {
   {
     debugger
   
-   // this.packages.deletePackages(this.package.Id).subscribe();
+    this.packages.deletePackages(this.package.Id).subscribe();
     this.driveS.getIdDriveByIdP(this.package.Id).subscribe(data=>{
       this.drive=data;debugger
+      Swal.fire('', 'נסיעה הוסרה  ', 'success');
       if(data!=null)
       {
         ;this.drive.PackageId=0;

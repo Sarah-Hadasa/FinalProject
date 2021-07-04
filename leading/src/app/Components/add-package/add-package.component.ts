@@ -42,7 +42,10 @@ export class AddPackageComponent implements OnInit {
 
 
   constructor(public active:ActivatedRoute, private route: Router, private PackageService: PackageService, private DriveService: DriveService) { }
-
+  searchDrive()
+  {
+    this.loadata();
+  }
 
   submit() {
     // this.package.OriginCity = "בני ברק"
@@ -73,8 +76,11 @@ export class AddPackageComponent implements OnInit {
   //   //this.service.addUser().subscribe(data=> sessionStorage["IDUser"]=data);
   // }
     this.package.UserId = 2;
-    this.PackageService.addPackage(this.package).subscribe(data=>{debugger; this.package.Id=Number(data);}); 
-    this.loadata();
+    this.PackageService.addPackage(this.package).subscribe(data=>{debugger; this.package.Id=Number(data);
+    Swal.fire('', 'שמירה בוצעה בהצלחה ', 'success');
+    }); 
+    //this.loadata();
+    
     //this.DriveService.getalldrive().subscribe(data=>{this.alldrives=data ;this.name =this.alldrives[0]["UserId"]  } );
     //  this.DriveService.getFindDrive().subscribe(data=>{this.alldrives=data ; this.alldrives.push(this.package);this.name =this.alldrives[0]["UserId"] ;
     //  this.DriveService.getFindDrive(this.package).subscribe(data=>{ ; this.alldrives=data ; this.alldrives.push(this.package) ;////======= 
@@ -99,8 +105,11 @@ export class AddPackageComponent implements OnInit {
   }
   updatePackages()
   {
-    debugger
+    debugger;
     this.PackageService.updatePackage(this.package).subscribe();
+    Swal.fire('', 'עדכון בוצע בהצלחה ', 'success');
+    debugger
+    
   }
 loadata()
 {
@@ -310,7 +319,9 @@ loadata()
     this.alldrives.forEach(element => {
       element.IdPackage=this.package.Id
       this.resultsOrigion.forEach(element1 => {
+        debugger;
         let o = element['OriginStreet'] + " " + element['OriginNumBuild'] + ", " + element['OriginCity'] + "," + " ישראל";
+       
         if (element1.destination == o) {
           element.OriginDuration = element1.durationminutes;
           element.OriginDistance = element1.distance;

@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { url } from 'inspector';
 import { HttpClient } from '@angular/common/http';
-import { Message } from '@angular/compiler/src/i18n/i18n_ast';
+import { Message } from '../Classes/message';
+
 
 @Injectable({
   providedIn: 'root'

@@ -4,6 +4,7 @@ import { Drive } from 'src/app/Classes/drive';
 import { Package } from 'src/app/Classes/package';
 import { DriveService } from 'src/app/Services/drive.service';
 import { PackageService } from 'src/app/Services/package.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-show-my-drive',
@@ -31,6 +32,7 @@ export class ShowMyDriveComponent implements OnInit {
   {
     debugger
     this.driveS.DeleteDrives(this.drive.DriveId).subscribe();
+    Swal.fire('', 'נסיעה הוסרה', 'success');
     //לשלוח מייל לחבילה ששקשר עמו
     // this.drive.PackageId=null;
     // this.driveS.updateDrive(this.drive).subscribe();
@@ -78,7 +80,6 @@ export class ShowMyDriveComponent implements OnInit {
       this.route.navigate(['road_map'], navigationExtras);
     
     // }); 
-  
    }
 
 }

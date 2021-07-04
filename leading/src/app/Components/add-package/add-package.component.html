@@ -35,7 +35,7 @@
         </div>
         <div class="col-md-4">
             <div class="md-form form-group">
-                <label for="inputoriginNumBuildMD">מספר בית</label>
+                <label for="inputoriginNumBuildMD">מספר בניין</label>
                 <input mdbInput type="number" class="form-control" id="inputoriginNumBuildMD" name="originNumBuildd" [(ngModel)]="package.OriginNumBuild" />
             </div>
         </div>
@@ -94,7 +94,7 @@
         <div class="col-md-4">
             <div class="md-form form-group">
                 <label for="inputDestenitationStreet2MD">רחוב</label>
-                <input mdbInput type="text" class="form-control" id="inputDestenitationStreet2MD" name="DestenitationCityy" [(ngModel)]="package.DestinationStreet" />
+                <input mdbInput type="text" class="form-control" id="inputDestenitationStreet2MD" name="DestenitationStreett" [(ngModel)]="package.DestinationStreet" />
             </div>
         </div>
 
@@ -110,7 +110,7 @@
         <div class="col-md-4">
             <div class="md-form form-group">
                 <label for="inputRemarks">הערה</label>
-                <textarea rows="2" mdbInput type="text" class="form-control" id="inputRemarks" name="DestenitationCityy" [(ngModel)]="package.Remarks"></textarea>
+                <textarea rows="2" mdbInput type="text" class="form-control" id="inputRemarks" name="packagesRemarks" [(ngModel)]="package.Remarks"></textarea>
             </div>
 
         </div>
@@ -130,10 +130,14 @@
     <br />
 
     <div class="footer-wrapper">
+        <button type="submit" (click)="searchDrive()" mdbBtn class="btn-color">
+        חפש נסיעה 
+          </button>
         <button type="submit" mdbBtn (click)="updatePackages()" class="btn-nocolor">עדכן</button> &nbsp;
 
         <button type="submit" (click)="submit()" mdbBtn class="btn-color">
       שמור
     </button>
+    
     </div>
 </form>

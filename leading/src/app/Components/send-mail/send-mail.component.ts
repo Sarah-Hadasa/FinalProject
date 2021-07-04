@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Message } from 'src/app/Classes/message';
 import { SendEmailService } from 'src/app/Services/send-email.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-send-mail',
@@ -20,9 +21,9 @@ export class SendMailComponent implements OnInit {
     this.msg.subject ="";
   }
    sendEmail(){
-  //   this.ser.send(this.msg).subscribe(x=>{
-  //     Swal.fire('',"sendEmail");
-  //   })
+    this.ser.send(this.msg).subscribe(x=>{
+      Swal.fire('',"sendEmail");
+    })
    }
 
 }

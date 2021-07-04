@@ -9,6 +9,7 @@ import { Travel } from 'src/app/Classes/travel';
 import { DriveService } from 'src/app/Services/drive.service';
 import { PackageService } from 'src/app/Services/package.service';
 import { TravelService } from 'src/app/Services/travel.service';
+import Swal from 'sweetalert2';
 let map: google.maps.Map;
 @Component({
   selector: 'app-show-drives',
@@ -42,6 +43,7 @@ export class ShowDrivesComponent implements OnInit {
       if (myArray != null) {
         this.Package = JSON.parse(myArray);
         this.packageIdSEarch= this.Package[0].IdPackage
+        this.Package.sort((a, b) => (a.OriginDuration > b.OriginDuration ? 1 : -1));
       }
     
     });
@@ -97,6 +99,7 @@ export class ShowDrivesComponent implements OnInit {
     this.driveChoose.Remarks = this.drive.Remarks;
     debugger;
     this.driveServe.updateDrive(this.driveChoose).subscribe();
+    Swal.fire('', 'נסיעה נבחרה', 'success');
     // this.savePackage();
   }
   // savePackage()

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Drive } from 'src/app/Classes/drive';
 import { DriveService } from 'src/app/Services/drive.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-add-drive',
@@ -44,10 +45,12 @@ export class AddDriveComponent implements OnInit {
     // this.drive.DestinationNumBuild="6"
     debugger;
     this.service.addDrive(this.drive).subscribe();
+    Swal.fire('', 'שמירה בוצעה בהצלחה ', 'success');
   }
   submitupdate()
   {
     this.service.updateDrive(this.drive).subscribe();
+    Swal.fire('', 'עדכון בוצע בהצלחה ', 'success');
   }
 
 
