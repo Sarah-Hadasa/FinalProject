@@ -10,6 +10,7 @@ import { ShowDrivesComponent } from './Components/show-drives/show-drives.compon
 import { ShowPackagesComponent } from './Components/show-packages/show-packages.component';
 import { TrackComponent } from './Components/track/track.component';
 import { UpdateUserComponent } from './Components/update-user/update-user.component';
+import { SendMailComponent } from './Components/send-mail/send-mail.component';
 
 
 const routes: Routes = [
@@ -27,7 +28,8 @@ const routes: Routes = [
 {path:"track/:drive", component:TrackComponent},
 {path:"road_map/:drive", component:RoadMapComponent},
 {path:"addUser",component:AddUserComponent},
-{path:"updateUser",component:UpdateUserComponent}
+{path:"updateUser",component:UpdateUserComponent},
+{path:"sendMail",component:SendMailComponent}
 
 
 ];

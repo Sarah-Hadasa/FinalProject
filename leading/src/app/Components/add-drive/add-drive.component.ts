@@ -22,15 +22,15 @@ export class AddDriveComponent implements OnInit {
 
   submit2()
   {
-    this.drive.OriginCity;  
-    this.drive.UserId=6;
+    //this.drive.OriginCity;  
+    //this.drive.UserId=6;
     // this.drive.DriveId=6;
-    this.drive.OriginCity="בני ברק"
-    this.drive.OriginStreet="נחמיה"
-    this.drive.OriginNumBuild="6"
-    this.drive.DestinationCity="ירושלים"
-    this.drive.DestinationStreet="פרי חדש"
-    this.drive.DestinationNumBuild="6"
+    // this.drive.OriginCity="בני ברק"
+    // this.drive.OriginStreet="נחמיה"
+    // this.drive.OriginNumBuild="6"
+    // this.drive.DestinationCity="ירושלים"
+    // this.drive.DestinationStreet="פרי חדש"
+    // this.drive.DestinationNumBuild="6"
     debugger;
     this.service.addDrive(this.drive).subscribe();
   }

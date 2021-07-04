@@ -7,7 +7,8 @@ import { UserService } from './Services/user.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
-  noUser = true;
+ // noUser = true;
+  noUser = false;
   title = 'leading';
   constructor(private service: UserService) {
     this.service.loginUser.subscribe((x) => {

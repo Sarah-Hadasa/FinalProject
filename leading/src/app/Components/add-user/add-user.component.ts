@@ -36,7 +36,7 @@ export class AddUserComponent implements OnInit {
         this.flag = true;
         Swal.fire('',"ההוספה נכשלה",'error');
         this.errorServer = false;
-        this.router.navigate(['register']);
+        //this.router.navigate(['register']);
       }
 
     });

@@ -55,12 +55,12 @@ export class ShowDrivesComponent implements OnInit {
 
   onSelect(item: DataDriveResults) {
     debugger;
-    this.travel.Id = 2;
-    this.travel.DriveId = item.IdDrive;
+    // this.travel.Id = 2;
+    // this.travel.DriveId = item.IdDrive;
     // this.travel.PackageId=item. IdPackage
-    this.travel.PackageId = 26;
-    this.travel.Date = new Date();
-    this.TravelService.addTravel(this.travel).subscribe();
+    // this.travel.PackageId = 26;
+    // this.travel.Date = new Date();
+    // this.TravelService.addTravel(this.travel).subscribe();
 
     this.drive = item;
   }
@@ -228,5 +228,19 @@ export class ShowDrivesComponent implements OnInit {
       markersArray[i].setMap(null);
     }
     markersArray = [];
+  }
+  sendMail(){
+    debugger
+    // this.route.navigate(['sendMail', this.itemSelect.Mail]);
+
+
+
+    // Create our query parameters object
+    const queryParams: any = {};
+    queryParams.myArray = JSON.stringify(this.drive);
+    const navigationExtras: NavigationExtras = {
+      queryParams
+    };
+    this.route.navigate(['sendMail'], navigationExtras)
   }
 }
