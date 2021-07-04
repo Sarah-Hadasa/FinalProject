@@ -33,6 +33,7 @@ export class ShowMyDriveComponent implements OnInit {
     debugger
     this.driveS.DeleteDrives(this.drive.DriveId).subscribe();
     Swal.fire('', 'נסיעה הוסרה', 'success');
+    this.showMyDrive()
     //לשלוח מייל לחבילה ששקשר עמו
     // this.drive.PackageId=null;
     // this.driveS.updateDrive(this.drive).subscribe();
