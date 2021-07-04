@@ -85,12 +85,12 @@
                 <input mdbInput type="text" class="form-control" id="inputDestenitationNumBuildMD" name="DestenitationNumBuildd" [(ngModel)]="drive.DestinationNumBuild" />
             </div>
         </div>
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
             <div class="md-form form-group">
                 <label for="inputDestenitationStreet2MD">רחוב</label>
                 <input mdbInput type="text" class="form-control" id="inputDestenitationStreet2MD" name="DestenitationStreett" [(ngModel)]="drive.DestinationStreet" />
             </div>
-        </div>
+        </div> -->
     </div>
 
     <div class="row">
@@ -108,15 +108,34 @@
         <div class="col-md-4">
             <div class="md-form form-group">
                 <label for="selectP">גודל סוג חבילה להובלה</label>
-                <select class="form-select" id="selectP" aria-label="Default select example">
-      
+                <select class="form-select" id="selectP" aria-label="Default select example">    
               <option value="1" selected>1-גודל קטן כגון שקית</option>
               <option value="2">2-בינוני</option>
               <option value="3">3-גדול</option>
             </select> </div>
-
         </div>
     </div>
+    <!-- <mat-google-maps-autocomplete placeholderText=""
+    addressLabelText="כתובת" country="il"
+    (onAutocompleteSelected)="onAutocompleteSelected($event)"
+    (onLocationSelected)="onLocationSelected($event)"
+    [(ngModel)]="drive.DestinationStreet"
+    ngDefaultControl>
+    </mat-google-maps-autocomplete> -->
+
+     
+<div class="map-container">
+    <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+      <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+    </agm-map>
+  </div>
+  
+  <div id="pac-container">
+    <input #search id="pac-input" style="font-weight: bold; width: 300px; padding-right: 35px;" matInput name="userAddress" formControlName="userAddress" placeholder="כתובת" [(ngModel)]="user.userAddress" type="text" required>
+  </div>
+
+
+
 
     <br/>
 

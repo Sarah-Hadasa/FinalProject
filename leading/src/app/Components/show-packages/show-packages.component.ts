@@ -22,11 +22,13 @@ export class ShowPackagesComponent implements OnInit {
   //package:Package=new Package()
   package:any
   drive:any
+  
   constructor(private route: Router, private packages:PackageService,private travelService:TravelService,private driveS:DriveService ) { }
 
   ngOnInit(): void {
     // this.packages.getAllPackages().subscribe(data=>{this.allPackages=data;});
     debugger;
+    // <reference types="@types/googlemaps" />
   }
   showMyPackage()
   {
@@ -63,6 +65,8 @@ export class ShowPackagesComponent implements OnInit {
         ;this.drive.PackageId=0;
       this.driveS.updateDrive(this.drive).subscribe();
       } 
+      //window.location.reload();
+      this.showMyPackage()
     });
    
   }
