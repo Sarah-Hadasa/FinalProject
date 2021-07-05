@@ -7,7 +7,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="md-form form-group">
-                <label for="to">שלח ל:</label>
+                <label for="to">שלח ל</label>
                 <input mdbInput type="text" class="form-control" id="to" name="to" [(ngModel)]="msg.reciever" />
             </div>
         </div>
@@ -19,7 +19,7 @@
         <div class="col-md-12">
             <div class="md-form form-group">
                 <label for="subject"> 
-                    נושא:</label>
+                    נושא</label>
                 <input mdbInput type="text" class="form-control" id="subject" name="subject" style="direction: rtl;" [(ngModel)]="msg.subject" />
             </div>
         </div>
@@ -29,6 +29,7 @@
     </div>
     <br>
     <div class="footer-wrapper">
-        <input type="submit" value="שלח מייל" class="btn-nocolor" />
-    </div>
+        <button type="submit" class="btn-nocolor"> 
+          <i class="fa fa-envelope fa-icon-view "></i>  שלח מייל 
+        </button> </div>
 </form>
