@@ -55,8 +55,8 @@ export class UserService {
   getByPassword(name:string, password: string): Observable<any> {
     return this.http.get(this.url + "GetUsersByPassword?name=" + name + "&password=" + password);
   }
-  GetUsersByUserNameAndPassword(password: string, username: string): Observable<User> {
-    return this.http.get<User>(this.url + "GetUsersByPassword?password=" + password + "&username=" + username);
+  GetUsersByUserNameAndPassword(password: string, mail: string): Observable<User> {
+    return this.http.get<User>(this.url + "GetUsersByPassword?password=" + password + "&username=" + mail);
   }
   // getById(userIdpackage:any):Observable<any>//========
   // {

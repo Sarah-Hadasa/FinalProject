@@ -1,13 +1,19 @@
 import { Time } from "@angular/common";
 
 export class DataDriveResults {
-  IdDrive:number=0;
+  DriveId:number=0;
+  
+
+  
+  UserId:number=0;
+
+ //IdDrive:number=0;
  IdPackage:number=0;
- Iduser:number=0;
-    Name:string="";
-    Tz:string=""; 
-    Phone:string="";
-    Mail:string="";
+//  Iduser:number=0;
+ Name:string="";
+ Tz:string=""; 
+ Phone:string="";
+ Mail:string="";
    
  
   OriginCity:string="";
@@ -50,7 +56,7 @@ public DataDriveResults()
 //     //this.OriginArea = drive.OriginArea;
 //     this.DestinationCity = drive.DestinationCity;
 //     this.DestinationStreet = drive.DestinationStreet;
-//     this.DestinationNumBuild = DestinationNumBuild;
+//     this.DestinationNumBuild =drive.DestinationNumBuild;
 //     //this.DestinationArea = drive.DestinationArea;
 //     this.Date = drive.Date;
 //     //this.ExitTime = drive.ExitTime;
@@ -58,5 +64,5 @@ public DataDriveResults()
 //     this.PackageType = drive.PackageType;
 //     this.Remarks = drive.Remarks;
 // }
-// }
 }
+// }

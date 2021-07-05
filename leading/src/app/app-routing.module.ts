@@ -11,6 +11,7 @@ import { ShowPackagesComponent } from './Components/show-packages/show-packages.
 import { TrackComponent } from './Components/track/track.component';
 import { UpdateUserComponent } from './Components/update-user/update-user.component';
 import { SendMailComponent } from './Components/send-mail/send-mail.component';
+import { ShowMyDriveComponent } from './Components/show-my-drive/show-my-drive.component';
 
 
 const routes: Routes = [
@@ -29,7 +30,8 @@ const routes: Routes = [
 {path:"road_map/:drive", component:RoadMapComponent},
 {path:"addUser",component:AddUserComponent},
 {path:"updateUser",component:UpdateUserComponent},
-{path:"sendMail",component:SendMailComponent}
+{path:"sendMail/:mail/:userName",component:SendMailComponent},
+{path:"ShowMyDriveComponent", component:ShowMyDriveComponent}
 
 
 ];

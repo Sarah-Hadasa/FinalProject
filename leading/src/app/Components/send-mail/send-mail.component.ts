@@ -27,19 +27,30 @@ export class SendMailComponent implements OnInit {
    }
 
   ngOnInit(): void {
-    this.router.params.subscribe(data=>{
-      const myArray = this.router.snapshot.queryParamMap.get('myArray');
-      debugger;
-      if(myArray!=null)
-      {this.drive = JSON.parse(myArray);
-        this.msg.from ="leading.service.messages@gmail.com";
-    this.msg.reciever ="leading.service.messages@gmail.com";
-    this.msg.mes ="";
-    this.msg.subject ="";
-        debugger;
-      }
-    });
+    // this.router.params.subscribe(data=>{
+    //   const myArray = this.router.snapshot.queryParamMap.get('myArray');
+    //   debugger;
+    //   if(myArray!=null)
+    //   {this.drive = JSON.parse(myArray);
+    //     this.msg.from ="leading.service.messages@gmail.com";
+    // this.msg.reciever ="s053382649@gmail.com";
+    // this.msg.recieverName ="";
+    // this.msg.subject ="";
+    //     debugger;
+    //   }
+    // });
 
+    debugger;
+    this.msg.reciever=this.router.snapshot.params['mail']
+    this.msg.recieverName=this.router.snapshot.params['userName']
+    
+//   this.active.params.subscribe(data=>{
+//   const myArray = this.active.snapshot.queryParamMap.get('myArray');
+//   debugger;
+//   if(myArray!=null)
+//   {this.driveAddress = JSON.parse(myArray);‏
+// }
+// });
     
   }
    sendEmail(){

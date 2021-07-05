@@ -76,8 +76,8 @@ export class ShowDrivesComponent implements OnInit {
 
   saveDrive() {
     debugger;
-    this.driveChoose.DriveId = this.drive.IdDrive;
-    this.driveChoose.UserId = this.drive.Iduser;
+    this.driveChoose.DriveId = this.drive.DriveId;
+    this.driveChoose.UserId = this.drive.UserId;
     this.driveChoose.PackageId = this.drive.IdPackage;
     this.driveChoose.OriginCity = this.drive.OriginCity;
     this.driveChoose.OriginStreet = this.drive.OriginStreet;
@@ -236,11 +236,12 @@ export class ShowDrivesComponent implements OnInit {
 
 
     // Create our query parameters object
-    const queryParams: any = {};
-    queryParams.myArray = JSON.stringify(this.drive);
-    const navigationExtras: NavigationExtras = {
-      queryParams
-    };
-    this.route.navigate(['sendMail'], navigationExtras)
+    // const queryParams: any = {};
+    // queryParams.myArray = JSON.stringify(this.drive);
+    // const navigationExtras: NavigationExtras = {
+    //   queryParams
+    // };
+    this.route.navigate(['sendMail/'+this.drive.Mail+'/'+this.drive.Name])
+
   }
 }

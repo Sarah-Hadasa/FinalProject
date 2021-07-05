@@ -19,7 +19,7 @@ namespace WEB_API.Controllers
             {
                 var senderEmail = new MailAddress("leading.service.messages@gmail.com");
                 var recieverEmail = new MailAddress(m.reciever);
-                var password = "";
+                var password = "sarah.hadasa";
                 var sub = "hkjk";
                 var body = "lkl";
                 var smtp = new SmtpClient
@@ -36,7 +36,9 @@ namespace WEB_API.Controllers
                 {
                     IsBodyHtml = true,
                     Subject = sub,
-                    Body = "<div style = 'font-family:font-family:Segoe UI Light, Helvetica, sans-serif'> Dear   : " + "משרשרת שם כל שהוא " + "  To View your request click <br /><a href='localhost:4200'>here</a>  <br /><br /><br />Thank you <br />F28 IS Team </div>"
+                    Body = "<div style = 'font-family:font-family:Segoe UI Light, Helvetica, sans-serif'>" +
+                   "שלום   : " + m.reciever + " משתמש   :" + m.recieverName + "  שלח לך הודעה  " + "  לצפיה לחץ <br /><a href= \"" + "http://localhost:4200/showPackages" + "\" > כאן</a> " +
+                   " <br /><br /><br />תודה רבה <br />BusinessWay צוות </div>"
                 })
                 {
                     smtp.Send(mess);

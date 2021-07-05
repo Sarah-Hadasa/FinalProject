@@ -1,0 +1,57 @@
+
+<div class="form-wrapper-large">
+    <h1>הצג חבילות</h1>
+    <br>
+    <button type="submit" (click)="showMyDrive()" mdbBtn class="btn-color-2">הצג פרטי נסיעה  </button>
+    <button type="submit" (click)="deleteDrive()" mdbBtn class="btn-color-2">מחק</button>
+  <button type="submit" (click)="updateDrive()" mdbBtn class="btn-color-2">עדכון פרטי נסיעה </button>
+    <!-- <button type="submit" (click)="showDrive()" mdbBtn class="btn-color-2">הצג פרטי נסיעה </button> -->
+    <button type="submit" (click)="showPackage()" mdbBtn class="btn-color-2">הצג פרטי נסיעה של בעל החבילה </button>
+    <!-- <li *ngFor="let item of allPackages ">
+  {{item.UserId}}
+</li> -->
+    <div class="col-lg-12">
+        <table class="table table-responsive">
+            <thead>
+                <th>בחר</th>
+                <!-- <th scope="col">מזהה</th> -->
+                <!-- <th scope="col">מספר נסיעה</th> -->
+
+                <th scope="col">כתובת מקור</th>
+
+                <th scope="col">כתובת יעד</th>
+
+                <th scope="col">תאריך</th>
+                <th scope="col"> יציאה </th>
+                <th scope="col"> הגעה </th>
+                <th scope="col">סוג </th>
+                <th scope="col">הערות</th>
+
+
+
+                <!-- <th scope="col">
+                    <button type="button" class="btn btn-primary">send mail</button>
+                </th> -->
+            </thead>
+            <tbody>
+                <tr *ngFor='let item of alldrive'>
+                    <!-- <td> <input type="checkbox" tabindex="0" class="hidden" (change)="onSelect(item)"></td> -->
+                    <td> <input type="radio" name="selectD" tabindex="0" [value]="item.Id" class="hidden" (change)="onSelect(item)" /></td>
+                    <!-- <td>{{item.Id}}</td> -->
+                    <!-- <td>{{item.UserId}}</td> -->
+                    <td>{{ item.OriginStreet }} &nbsp;{{ item.OriginNumBuild }} &nbsp;{{ item.OriginCity }}</td>
+
+                    <td>{{ item.DestinationStreet }}&nbsp;{{ item.DestinationNumBuild }}&nbsp;{{ item.DestinationCity }}</td>
+
+                    <td>{{item.Date}}</td>
+                    <td>{{item.ExitTime}}</td>
+                    <td>{{item.ArrivedTime}}</td>
+                    <td>{{item.PackageType}}</td>
+                    <td>{{item.Remarks}}</td>
+
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>

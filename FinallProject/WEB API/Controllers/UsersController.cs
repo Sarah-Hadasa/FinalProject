@@ -62,6 +62,20 @@ namespace WEB_API.Controllers
                 return UserManagerB.getUserByPassword(name, password);
         }
 
+
+        [HttpGet]
+        [Route("api/GetDrivesByIdUser")]
+        public List<COMMON.DriveC> GetDriveU(int id)
+        {
+            if (DriveMangerB.getDriveByIdU(id) == null)
+                return null;
+            else
+                return DriveMangerB.getDriveByIdU(id);
+        }
+
+
+
+
         // PUT: api/Users/5
         [ResponseType(typeof(void))]
         [HttpPut]
