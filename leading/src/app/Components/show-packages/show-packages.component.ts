@@ -52,6 +52,8 @@ export class ShowPackagesComponent implements OnInit {
    debugger
    this.package=item;
   }
+
+
   deletePackages()
   {
     debugger
@@ -73,12 +75,21 @@ export class ShowPackagesComponent implements OnInit {
   searchPackages()
   {
      // Create our query parameters object
+    //  const queryParams: any = {};
+    //  queryParams.myArray = JSON.stringify(this.package);
+    //  const navigationExtras: NavigationExtras = {
+    //    queryParams
+    //  };
+    //  this.route.navigate(['addPackage'], navigationExtras);
+
+
+    // Create our query parameters object
      const queryParams: any = {};
-     queryParams.myArray = JSON.stringify(this.package);
+     queryParams.myArray1 = JSON.stringify(this.package);
      const navigationExtras: NavigationExtras = {
        queryParams
      };
-     this.route.navigate(['addPackage'], navigationExtras);
+     this.route.navigate(['showDrives'], navigationExtras);
 
   }
   updatePackages()

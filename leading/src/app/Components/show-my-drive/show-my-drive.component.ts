@@ -16,6 +16,8 @@ export class ShowMyDriveComponent implements OnInit {
   // drive:Drive=new Drive()
   drive:any
   package:Package=new Package()
+  drivePackage:any
+  to:string=""
   constructor(private driveS:DriveService,private packages:PackageService, private route: Router) { }
 
   ngOnInit(): void {
@@ -24,16 +26,30 @@ export class ShowMyDriveComponent implements OnInit {
   {
   
     debugger;
-    let userId=6
+    let userId = sessionStorage["Id"];
+    // let userId=2
     this.driveS.GetDrivesByIdUser(userId).subscribe(data=>{this.alldrive=data as any;debugger;}); 
   
   }
   deleteDrive()
   {
     debugger
-    this.driveS.DeleteDrives(this.drive.DriveId).subscribe();
+    this.packages.GetPackagesByIdDrive(this.drive.PackageId).subscribe(data=>{this.drivePackage = data;debugger;
+      if (data!=null)
+      {
+        debugger;
+        this.to=this.drivePackage[0].Mail;
+        //לשלוח מייל לחבילה ששקשר עמו
+      }
+      // לבדיקה כדי שלא ימחק לי 
+     // this.driveS.DeleteDrives(this.drive.DriveId).subscribe();
     Swal.fire('', 'נסיעה הוסרה', 'success');
     this.showMyDrive()
+    
+    
+    });
+
+    
     //לשלוח מייל לחבילה ששקשר עמו
     // this.drive.PackageId=null;
     // this.driveS.updateDrive(this.drive).subscribe();
@@ -56,31 +72,31 @@ export class ShowMyDriveComponent implements OnInit {
 //      this.route.navigate(['addPackage'], navigationExtras);
      
 //   }
-  updateDrive()
-  {
-   const queryParams: any = {};
-     queryParams.myArray = JSON.stringify(this.drive);
-   const navigationExtras: NavigationExtras = {
-      queryParams
-    };
-    this.route.navigate(['addDrive'], navigationExtras);
+updateDrive()
+{
+ const queryParams: any = {};
+   queryParams.myArray = JSON.stringify(this.drive);
+ const navigationExtras: NavigationExtras = {
+    queryParams
+  };
+  this.route.navigate(['addDrive'], navigationExtras);
 
-  
-   
-  }
-  showPackage()
-   {
-     debugger;
-    // this.packages.getAIdPackages(this.drive.PackageId).subscribe(data=>{this.package=data as Package;debugger;
-    
-    const queryParams: any = {};
-      queryParams.myArray2 = JSON.stringify(this.drive);
-      const navigationExtras: NavigationExtras = {
-        queryParams
-      };
-      this.route.navigate(['road_map'], navigationExtras);
-    
-    // }); 
-   }
+
+ 
+}
+showPackage()
+{
+  debugger;
+ // this.packages.getAIdPackages(this.drive.PackageId).subscribe(data=>{this.package=data as Package;debugger;
+ 
+ const queryParams: any = {};
+   queryParams.myArray2 = JSON.stringify(this.drive);
+   const navigationExtras: NavigationExtras = {
+     queryParams
+   };
+   this.route.navigate(['road_map'], navigationExtras);
+ 
+ // }); 
+}
 
 }

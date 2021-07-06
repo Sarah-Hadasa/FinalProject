@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Drive } from 'src/app/Classes/drive';
 import { DriveService } from 'src/app/Services/drive.service';
@@ -12,8 +12,17 @@ import Swal from 'sweetalert2';
 
 
 export class AddDriveComponent implements OnInit {
+  
   drive:Drive=new Drive();
   
+  typepackage:string[]=["1","2","3"];
+  autocomplete: any;
+
+
+
+ 
+
+
   constructor(private service:DriveService,public active:ActivatedRoute) { 
      
 
@@ -32,11 +41,38 @@ export class AddDriveComponent implements OnInit {
     });
   }
 
+  ngAfterViewInit() {
+    var address1Field = document.querySelector("#ship-address") as HTMLInputElement;
+    this.autocomplete = new google.maps.places.Autocomplete(address1Field, {
+      componentRestrictions: { country: ["ISR"] },
+      fields: ["address_components", "geometry"],
+      types: ["address"],
+    });
+    address1Field.focus();
+    this.autocomplete.addListener("place_changed", () => {
+      const place =  this.autocomplete.getPlace();
+      if (!place.geometry || !place.geometry.location) {
+
+        // User entered the name of a Place that was not suggested and
+        // pressed the Enter key, or the Place Details request failed.
+        window.alert("No details available for input: '" + place.name + "'");
+        return;
+      }
+    });
+  }
+
+
+
+
+
+
+
+
   submit2()
   {
     this.drive.OriginCity;  
-    this.drive.UserId=6;
-    // this.drive.DriveId=6;
+    // this.drive.UserId=sessionStorage["Id"];
+    this.drive.DriveId=6;
     // this.drive.OriginCity="בני ברק"
     // this.drive.OriginStreet="נחמיה"
     // this.drive.OriginNumBuild="6"

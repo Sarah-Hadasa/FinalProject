@@ -6,43 +6,61 @@
         <div class="col-md-4">
             <div class="md-form form-group">
                 <label for="inputoriginCityMD">עיר</label>
-                <input mdbInput type="text" class="form-control" id="inputoriginCityMD" name="origincit" [(ngModel)]="drive.OriginCity" />
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="md-form form-group">
-                <label for="inputArrivedTime4MD">זמן הגעה</label>
-                <input mdbInput type="time" class="form-control" id="inputArrivedTime4MD" name="ArrivedTimee" [(ngModel)]="drive.ArrivedTime" />
+                <input mdbInput type="text" class="form-control" id="inputoriginCityMD" name="origincit"
+                    [(ngModel)]="drive.OriginCity" />
             </div>
         </div>
 
         <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputoriginNumBuildMD">מספר בניין</label>
+                <input mdbInput type="number" class="form-control" id="inputoriginNumBuildMD" name="originNumBuildd"
+                    [(ngModel)]="drive.OriginNumBuild" />
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputoriginStreet2MD">רחוב</label>
+                <input mdbInput type="text" class="form-control" id="inputoriginStreet2MD" name="originStreett"
+                    [(ngModel)]="drive.OriginStreet" />
+            </div>
+
+        </div>
+
+
+
+        <!-- <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputoriginNumBuildMD">מספר בית</label>
+                <input mdbInput type="number" class="form-control" id="inputoriginNumBuildMD" name="originNumBuildd"
+                    [(ngModel)]="drive.OriginNumBuild" />
+            </div>
+        </div> -->
+        <!-- <div class="col-md-4">
             <div class="md-form form-group">
                 <label for="inputUserId4MD">שם משתמש</label>
                 <input mdbInput type="number" class="form-control" id="inputUserId4MD" name="userid" [(ngModel)]="drive.UserId" />
             </div>
-        </div>
+        </div> -->
     </div>
 
     <div class="row">
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputExitTime4MD">זמן</label>
+                <input mdbInput type="time" class="form-control" id="inputExitTime4MD" name="ExitTimee"
+                    [(ngModel)]="drive.ExitTime" />
+            </div>
+        </div> -->
+
+
+        <!-- <div class="col-md-4">
             <div class="md-form form-group">
                 <label for="inputoriginAreaMD">אזור</label>
                 <input mdbInput type="text" class="form-control" id="inputoriginAreaMD" name="originAreaa" [(ngModel)]="drive.OriginArea" />
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="md-form form-group">
-                <label for="inputoriginNumBuildMD">מספר בית</label>
-                <input mdbInput type="number" class="form-control" id="inputoriginNumBuildMD" name="originNumBuildd" [(ngModel)]="drive.OriginNumBuild" />
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="md-form form-group">
-                <label for="inputoriginStreet2MD">רחוב</label>
-                <input mdbInput type="text" class="form-control" id="inputoriginStreet2MD" name="originStreett" [(ngModel)]="drive.OriginStreet" />
-            </div>
-        </div>
+        </div> -->
     </div>
 
     <hr />
@@ -53,67 +71,138 @@
         <div class="col-md-4">
             <div class="md-form form-group">
                 <label for="inputDestenitationCityMD">עיר</label>
-                <input mdbInput type="text" class="form-control" id="inputDestenitationCityMD" name="DestenitationCityy" [(ngModel)]="drive.DestinationCity" />
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="md-form form-group">
-                <label for="inputExitTime4MD">זמן</label>
-                <input mdbInput type="time" class="form-control" id="inputExitTime4MD" name="ExitTimee" [(ngModel)]="drive.ExitTime" />
+                <input mdbInput type="text" class="form-control" id="inputDestenitationCityMD" name="DestenitationCityy"
+                    [(ngModel)]="drive.DestinationCity" />
             </div>
         </div>
 
         <div class="col-md-4">
             <div class="md-form form-group">
+                <label for="inputDestenitationNumBuildMD">מספר ביניין</label>
+                <input mdbInput type="text" required class="form-control" id="inputDestenitationNumBuildMD"
+                    name="DestenitationNumBuildd" [(ngModel)]="drive.DestinationNumBuild" />
+            </div>
+
+            <!-- <div class="md-form form-group">
+                <label for="inputArrivedTime4MD">זמן הגעה</label>
+                <input mdbInput type="time" class="form-control" id="inputArrivedTime4MD" name="ArrivedTimee" [(ngModel)]="drive.ArrivedTime" />
+            </div> -->
+        </div>
+
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputDestenitationStreet2MD">רחוב</label>
+                <input id="ship-address" class="form-control" name="ship-address" required autocomplete="off" />
+
+                <!-- <input mdbInput type="text" class="form-control" id="inputDestenitationStreet2MD" name="DestenitationStreett" [(ngModel)]="drive.DestinationStreet" /> -->
+            </div>
+
+
+            <!-- <div class="md-form form-group">
                 <label for="inputDate4MD">תאריך</label>
                 <input mdbInput type="date" class="form-control" id="inputDate4MD" name="Datee" [(ngModel)]="drive.Date" />
-            </div>
+            </div> -->
         </div>
     </div>
-
+    <h3>פרטים שונים</h3>
     <div class="row">
         <div class="col-md-4">
             <div class="md-form form-group">
-                <label for="inputDestinationAreaMD">אזור</label>
-                <input mdbInput type="text" class="form-control" id="inputDestinationAreaMD" name="DestinationAreaa" [(ngModel)]="drive.DestinationArea" />
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="md-form form-group">
-                <label for="inputDestenitationNumBuildMD">בניין</label>
-                <input mdbInput type="text" class="form-control" id="inputDestenitationNumBuildMD" name="DestenitationNumBuildd" [(ngModel)]="drive.DestinationNumBuild" />
+                <label for="inputDate4MD"> תאריך נסיעה</label>
+                <input mdbInput type="date" class="form-control" id="inputDate4MD" name="Datee"
+                    [(ngModel)]="drive.Date" />
             </div>
         </div>
         <!-- <div class="col-md-4">
             <div class="md-form form-group">
-                <label for="inputDestenitationStreet2MD">רחוב</label>
-                <input mdbInput type="text" class="form-control" id="inputDestenitationStreet2MD" name="DestenitationStreett" [(ngModel)]="drive.DestinationStreet" />
+                <label for="inputDestinationAreaMD">אזור</label>
+                <input mdbInput type="text" class="form-control" id="inputDestinationAreaMD" name="DestinationAreaa" [(ngModel)]="drive.DestinationArea" />
             </div>
         </div> -->
+
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputArrivedTime4MD">זמן הגעה</label>
+                <input mdbInput type="time" class="form-control" id="inputArrivedTime4MD" name="ArrivedTimee"
+                    [(ngModel)]="drive.ArrivedTime" />
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputExitTime4MD">זמן יציאה</label>
+                <input mdbInput type="time" class="form-control" id="inputExitTime4MD" name="ExitTimee"
+                    [(ngModel)]="drive.ExitTime" />
+            </div>
+        </div>
+
+
+        <!-- <div class="md-form form-group">
+                <label for="inputDestenitationNumBuildMD">בניין</label>
+                <input mdbInput type="text" class="form-control" id="inputDestenitationNumBuildMD" name="DestenitationNumBuildd" [(ngModel)]="drive.DestinationNumBuild" />
+            </div> -->
+
+
+
+
+        <!-- <div class="md-form form-group">
+                <label for="inputDestenitationStreet2MD">רחוב</label>
+                <input mdbInput type="text" class="form-control" id="inputDestenitationStreet2MD" name="DestenitationStreett" [(ngModel)]="drive.DestinationStreet" />
+            </div> -->
+
     </div>
 
     <div class="row">
-        <div class="col-md-4"></div>
-
-
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="selectP">גודל סוג חבילה להובלה</label>
+                <select class="form-select" id="selectP" type="select" aria-label="Default select example"
+                    name="selectDrivePackageType" [(ngModel)]="drive.PackageType">
+                    <option value="1">1-גודל קטן כגון שקית</option>
+                    <option value="2">2-בינוני</option>
+                    <option value="3">3-גדול</option>
+                </select>
+            </div>
+        </div>
 
         <div class="col-md-4">
             <div class="md-form form-group">
                 <label for="inputRemarks">הערה</label>
-                <textarea rows="2" mdbInput type="text" class="form-control" id="inputRemarks" name="DriveRemarks" [(ngModel)]="drive.Remarks"></textarea>
+                <textarea rows="2" mdbInput type="text" class="form-control" id="inputRemarks" name="DriveRemarks"
+                    [(ngModel)]="drive.Remarks"></textarea>
             </div>
 
         </div>
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
             <div class="md-form form-group">
                 <label for="selectP">גודל סוג חבילה להובלה</label>
-                <select class="form-select" id="selectP" aria-label="Default select example">    
-              <option value="1" selected>1-גודל קטן כגון שקית</option>
-              <option value="2">2-בינוני</option>
-              <option value="3">3-גדול</option>
-            </select> </div>
-        </div>
+                <select class="form-select" id="selectP" type="select" aria-label="Default select example"
+                    name="selectDrivePackageType" [(ngModel)]="drive.PackageType">
+                    <option value="1">1-גודל קטן כגון שקית</option>
+                    <option value="2">2-בינוני</option>
+                    <option value="3">3-גדול</option>
+                </select>
+            </div>
+        </div> -->
+
+        <!-- <div class="map-container">
+            <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+              <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+            </agm-map>
+          </div>
+          
+          <div id="pac-container">
+            <input #search id="pac-input" style="font-weight: bold; width: 300px; padding-right: 35px;" matInput name="userAddress" formControlName="userAddress" placeholder="כתובת" [(ngModel)]="drive.DestinationStreet" type="text" required>
+          </div> -->
+
+
+
+        <!-- <mat-google-maps-autocomplete placeholderText=""
+                                addressLabelText="כתובת" country="il"
+                                (onAutocompleteSelected)="onAutocompleteSelected($event)"
+                                (onLocationSelected)="onLocationSelected($event)"
+                                ngDefaultControl>
+           </mat-google-maps-autocomplete> -->
+
     </div>
     <!-- <mat-google-maps-autocomplete placeholderText=""
     addressLabelText="כתובת" country="il"
@@ -123,28 +212,28 @@
     ngDefaultControl>
     </mat-google-maps-autocomplete> -->
 
-     
-<div class="map-container">
+
+    <!-- <div class="map-container">
     <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
       <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
     </agm-map>
   </div>
   
   <div id="pac-container">
-    <input #search id="pac-input" style="font-weight: bold; width: 300px; padding-right: 35px;" matInput name="userAddress" formControlName="userAddress" placeholder="כתובת" [(ngModel)]="user.userAddress" type="text" required>
-  </div>
+    <input #search id="pac-input" style="font-weight: bold; width: 300px; padding-right: 35px;" matInput name="userAddress" formControlName="userAddress" placeholder="כתובת" [(ngModel)]="drive.DestinationStreet" type="text" required>
+  </div> -->
 
 
 
 
-    <br/>
+    <br />
 
     <div class="footer-wrapper">
         <button type="submit" (click)="submitupdate()" mdbBtn class="btn-nocolor">עדכן</button> &nbsp;
 
         <button type="submit" (click)="submit2()" mdbBtn class="btn-color">
-      שמור
-    </button>
+            שמור
+        </button>
     </div>
     <br />
 </form>

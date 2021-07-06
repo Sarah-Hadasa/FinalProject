@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AddDriveComponent } from './Components/add-drive/add-drive.component';
 import { AddPackageComponent } from './Components/add-package/add-package.component';
 import { AddUserComponent } from './Components/add-user/add-user.component';
+import { AlldrivesComponent } from './Components/alldrives/alldrives.component';
 import { HomeComponent } from './Components/home/home.component';
 import { LoginComponent } from './Components/login/login.component';
 import { RoadMapComponent } from './Components/road-map/road-map.component';
@@ -30,8 +31,8 @@ const routes: Routes = [
 {path:"track/:drive", component:TrackComponent},
 {path:"road_map/:drive", component:RoadMapComponent},
 {path:"addUser",component:AddUserComponent},
-{path:"updateUser",component:UpdateUserComponent}
-
+{path:"updateUser",component:UpdateUserComponent},
+{path:"alldrives",component:AlldrivesComponent}
 
 ];
 

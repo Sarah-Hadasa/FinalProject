@@ -16,9 +16,9 @@ let map: google.maps.Map;
   styleUrls: ['./road-map.component.css']
 })
 export class RoadMapComponent implements OnInit {
-  // deleteMarkers: any;
+   // deleteMarkers: any;
   //drivePackage: DataDriveResults = new DataDriveResults()
-   drivePackage:DataDriveResults[] = [];
+  drivePackage:DataDriveResults[] = [];
   package: Package = new Package();
   origin: string = ""
   id: number = 0;
@@ -79,46 +79,46 @@ export class RoadMapComponent implements OnInit {
       
     });
   }
-    findDrive(){
-      this.driveServ.getIdDrive(this.package.Id).subscribe(data => {
-      debugger; this.drivePackage = data as DataDriveResults[]; debugger; 
-      if (this.drivePackage.length==0)
-      Swal.fire('',"לא נמצא נסיעה",'error');
-      else
-      {
-        const origin11 = this.drivePackage[0].OriginStreet + " " + this.drivePackage[0].OriginNumBuild + ", " + this.drivePackage[0].OriginCity
- 
- const   destinationAA= this.package.OriginStreet + " " + this.package.OriginNumBuild + ", " + this.package.OriginCity;
- 
- const origin22 = this.drivePackage[0].DestinationStreet + " " + this.drivePackage[0].DestinationNumBuild + ", " + this.drivePackage[0].DestinationCity
- 
- const destinationBB = this.package.DestinationStreet + " " + this.package.DestinationNumBuild + ", " + this.package.DestinationCity;
- this.initMap(origin11,destinationAA ,origin22 ,destinationBB);
-      }
-      
-    });
+  findDrive(){
+    this.driveServ.getIdDrive(this.package.Id).subscribe(data => {
+    debugger; this.drivePackage = data as DataDriveResults[]; debugger; 
+    if (this.drivePackage.length==0)
+    Swal.fire('',"לא נמצא נסיעה",'error');
+    else
+    {
+      const origin11 = this.drivePackage[0].OriginStreet + " " + this.drivePackage[0].OriginNumBuild + ", " + this.drivePackage[0].OriginCity
+
+const   destinationAA= this.package.OriginStreet + " " + this.package.OriginNumBuild + ", " + this.package.OriginCity;
+
+const origin22 = this.drivePackage[0].DestinationStreet + " " + this.drivePackage[0].DestinationNumBuild + ", " + this.drivePackage[0].DestinationCity
+
+const destinationBB = this.package.DestinationStreet + " " + this.package.DestinationNumBuild + ", " + this.package.DestinationCity;
+this.initMap(origin11,destinationAA ,origin22 ,destinationBB);
+    }
     
-    
+  });
+  
+  
 
-    // this.active.params.subscribe(data=>{
-    //       const myArray1 = this.active.snapshot.queryParamMap.get('myArray1');
-    //       debugger;
-    //       if(myArray1!=null)
-    //       {this.drivePackage = JSON.parse(myArray1);
-    //        //this.loadata();
-    //        //this.origin.push(this.package.OriginStreet + " " +this.package.OriginNumBuild + ", " +this.package.OriginCity);
-    //        //this.origin.push(this.package.DestinationStreet + " " + this.package.DestinationNumBuild + ", " + this.package.DestinationCity);
+  // this.active.params.subscribe(data=>{
+  //       const myArray1 = this.active.snapshot.queryParamMap.get('myArray1');
+  //       debugger;
+  //       if(myArray1!=null)
+  //       {this.drivePackage = JSON.parse(myArray1);
+  //        //this.loadata();
+  //        //this.origin.push(this.package.OriginStreet + " " +this.package.OriginNumBuild + ", " +this.package.OriginCity);
+  //        //this.origin.push(this.package.DestinationStreet + " " + this.package.DestinationNumBuild + ", " + this.package.DestinationCity);
 
-    //       // this.PackageService.getAIdPackages(this.package.Id).subscribe
-    //       }
-    //       this.PackageService.getAIdPackages(this.drivePackage[0].IdPackage).subscribe
-    //       (  data=>{;debugger;this.package=data as Package; }); 
+  //       // this.PackageService.getAIdPackages(this.package.Id).subscribe
+  //       }
+  //       this.PackageService.getAIdPackages(this.drivePackage[0].IdPackage).subscribe
+  //       (  data=>{;debugger;this.package=data as Package; }); 
 
-    //       debugger
-    //       // this.initMap()     
-    //     });
-   //;
-   }
+  //       debugger
+  //       // this.initMap()     
+  //     });
+ //;
+ }
 
   show() {
     //  this.initMap()
@@ -133,7 +133,7 @@ export class RoadMapComponent implements OnInit {
   cancelDrive()
   {
     debugger
-    this.driveServ.getIdDriveById(this.drivePackage[0].IdDrive).subscribe(data => {
+    this.driveServ.getIdDriveById(this.drivePackage[0].DriveId).subscribe(data => {
       debugger; this.drive = data; debugger; this.drive.PackageId=null;debugger;
       this.driveServ.updateDrive(this.drive).subscribe();
       this.ngOnInit();

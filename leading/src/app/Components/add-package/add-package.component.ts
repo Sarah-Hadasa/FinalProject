@@ -39,15 +39,28 @@ export class AddPackageComponent implements OnInit {
   // dataresult1:DataTrack[]=[];
   //  dataresult:DataTrack =new DataTrack();
   // dataresult:DataTrack | undefined ;
+typepackage:string[]=["1","2","3"];
 
-
-  constructor(public active:ActivatedRoute, private route: Router, private PackageService: PackageService, private DriveService: DriveService) { }
+  constructor(public active:ActivatedRoute,
+     private route: Router,
+      private PackageService: PackageService,
+       private DriveService: DriveService) { }
   searchDrive()
   {
-    this.loadata();
+    debugger;
+    const queryParams: any = {};
+     queryParams.myArray1 = JSON.stringify(this.package);
+     const navigationExtras: NavigationExtras = {
+       queryParams
+     };
+     this.route.navigate(['showDrives'], navigationExtras);
+
+     
+    // this.loadata();
+
   }
 
-  submit() {
+  savePackage() {
     // this.package.OriginCity = "בני ברק"
     // this.package.OriginStreet = "גיבורי ישראל"
     // this.package.OriginNumBuild = "6"
@@ -111,28 +124,28 @@ export class AddPackageComponent implements OnInit {
     debugger
     
   }
-loadata()
-{
-  this.DriveService.getFindDrive(this.package).subscribe(data => {
-    debugger;
-    ; this.alldrives = data;////====
-    this.Originaddress = this.package.OriginStreet + " " + this.package.OriginNumBuild + ", " + this.package.OriginCity;
+// loadata()
+// {
+//   this.DriveService.getFindDrive(this.package).subscribe(data => {
+//     debugger;
+//     ; this.alldrives = data;////====
+//     this.Originaddress = this.package.OriginStreet + " " + this.package.OriginNumBuild + ", " + this.package.OriginCity;
 
-    this.destentionaddress = this.package.DestinationStreet + " " + this.package.DestinationNumBuild + ", " + this.package.DestinationCity ///=======
-    // debugger;
-    this.alldrives.forEach(element => {        
-      this.origin.push(element['OriginStreet'] + " " + element['OriginNumBuild'] + ", " + element['OriginCity'])
+//     this.destentionaddress = this.package.DestinationStreet + " " + this.package.DestinationNumBuild + ", " + this.package.DestinationCity ///=======
+//     // debugger;
+//     this.alldrives.forEach(element => {        
+//       this.origin.push(element['OriginStreet'] + " " + element['OriginNumBuild'] + ", " + element['OriginCity'])
       
-    });
-    this.alldrives.forEach(element => {
-      this.origin.push(element['DestinationStreet'] + " " + element['DestinationNumBuild'] + ", " + element['DestinationCity']);
+//     });
+//     this.alldrives.forEach(element => {
+//       this.origin.push(element['DestinationStreet'] + " " + element['DestinationNumBuild'] + ", " + element['DestinationCity']);
    
-    });
-    this.initMap();
-  });
+//     });
+//     this.initMap();
+//   });
 
 
-}
+// }
 
 
 
@@ -149,28 +162,6 @@ loadata()
     
     });
 
-    let lat:number;
-    let lng:number;
-  
-    const center = { lat: 50.064192, lng: -130.605469 };
-  // Create a bounding box with sides ~10km away from the center point
-  const defaultBounds = {
-    north: center.lat + 0.1,
-    south: center.lat - 0.1,
-    east: center.lng + 0.1,
-    west: center.lng - 0.1,
-  };
-  const input = document.getElementById("pac-input") as HTMLInputElement;
-  const options = {
-    bounds: defaultBounds,
-    componentRestrictions: { country: "us" },
-    fields: ["address_components", "geometry", "icon", "name"],
-    origin: center,
-    strictBounds: false,
-    types: ["establishment"],
-  };
-  
-  const autocomplete = new google.maps.places.Autocomplete(input, options);
   //   this.active.params.subscribe(data=>{
   //     const myArray1 = this.active.snapshot.queryParamMap.get('myArray1');
   //     debugger;
@@ -323,12 +314,12 @@ loadata()
           this.resultData();
           debugger;
           // Create our query parameters object
-          const queryParams: any = {};
-          queryParams.myArray = JSON.stringify(this.alldrives);
-          const navigationExtras: NavigationExtras = {
-            queryParams
-          };
-          this.route.navigate(['showDrives'], navigationExtras);
+          // const queryParams: any = {};
+          // queryParams.myArray = JSON.stringify(this.alldrives);
+          // const navigationExtras: NavigationExtras = {
+          //   queryParams
+          // };
+          // this.route.navigate(['showDrives'], navigationExtras);
         }
 
       }

@@ -12,7 +12,6 @@ export class DriveService {
   url:string="http://localhost:60320/api/";
 
   constructor(private http:HttpClient) {}
-  
   getalldrive():Observable<any>
   {
   return this.http.get(this.url+"GetDrives");

@@ -39,9 +39,11 @@ namespace BLL
                              { // result selector 
                                //city = d.DestinationCity,
                                //Id = u.Id   
-                                 IdDrive = d.DriveId,
+                               DriveId= d.DriveId,
+                                 //IdDrive = d.DriveId,
                                  IdPackage=p.Id, 
-                                 Iduser=d.UserId,
+                                 //Iduser=d.UserId,
+                                 UserId = d.UserId,
                                  Name = u.Name,
                                  Phone = u.Phone,
                                  Mail = u.Mail,
@@ -60,13 +62,14 @@ namespace BLL
                                  Remarks = d.Remarks
                              };
             matchDrive = matchDrive.AsEnumerable().Where(data =>
-                data.DestinationCity.ToString() == p.DestinationCity.ToString()
-             && data.OriginCity.ToString() == p.OriginCity.ToString()
-             //&&Convert.ToDateTime(data.Date) <= Convert.ToDateTime(p.Date) &&
-             //data.ExitTime>=p.ExitTime&&
+            data.DestinationCity.ToString() == p.DestinationCity.ToString()
+            // && data.OriginCity.ToString() == p.OriginCity.ToString()
+            //&&Convert.ToDateTime(data.Date) >= Convert.ToDateTime(p.Date) &&
+            //data.ExitTime>=p.ExitTime&&
             //Convert.ToInt32(data.PackageType) >= Convert.ToInt32(p.PackageType)
-            ).ToList();//שעה//
+             ).ToList();//שעה//
 
+            
             return matchDrive as List<COMMON.dataDriveResultC>;
 
             //var matchDrive = from d in lc // outer sequence
@@ -116,9 +119,11 @@ namespace BLL
                              { // result selector 
                                //city = d.DestinationCity,
                                //Id = u.Id   
-                                 IdDrive = d.DriveId,
+                                 DriveId = d.DriveId,
+                                 //IdDrive = d.DriveId,
                                  IdPackage = id,
-                                 Iduser = d.UserId,
+                                // Iduser = d.UserId,
+                                 UserId = d.UserId,
                                  Name = u.Name,
                                  Phone = u.Phone,
                                  Mail = u.Mail,
