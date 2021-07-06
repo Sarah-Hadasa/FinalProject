@@ -79,32 +79,6 @@ export class ShowMyDriveComponent implements OnInit {
   //      this.route.navigate(['addPackage'], navigationExtras);
 
   //   }
-<<<<<<< HEAD
-  updateDrive() {
-    const queryParams: any = {};
-    queryParams.myArray = JSON.stringify(this.drive);
-    const navigationExtras: NavigationExtras = {
-      queryParams
-    };
-    this.route.navigate(['addDrive'], navigationExtras);
-
-
-
-  }
-  showPackage() {
-    debugger;
-    // this.packages.getAIdPackages(this.drive.PackageId).subscribe(data=>{this.package=data as Package;debugger;
-
-    const queryParams: any = {};
-    queryParams.myArray2 = JSON.stringify(this.drive);
-    const navigationExtras: NavigationExtras = {
-      queryParams
-    };
-    this.route.navigate(['road_map'], navigationExtras);
-
-    // }); 
-  }
-=======
 updateDrive()
 {
  const queryParams: any = {};
@@ -131,6 +105,5 @@ showPackage()
 
  // });
 }
->>>>>>> origin
 
 }

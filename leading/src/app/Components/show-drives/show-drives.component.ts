@@ -111,14 +111,6 @@ debugger;
 
   initMap(): void {
     debugger;
-<<<<<<< HEAD
-    // this.travel.Id = 2;
-    // this.travel.DriveId = item.IdDrive;
-    // this.travel.PackageId=item. IdPackage
-    // this.travel.PackageId = 26;
-    // this.travel.Date = new Date();
-    // this.TravelService.addTravel(this.travel).subscribe();
-=======
     const bounds = new google.maps.LatLngBounds();
     const markersArray: google.maps.Marker[] = [];
     const origin2 = this.Originaddress;
@@ -293,7 +285,6 @@ debugger;
   }
 
 
->>>>>>> origin
 
   showAllTrack() {
     // this.driveServe.getalldrive().subscribe((data) => {
@@ -349,31 +340,12 @@ debugger;
     if (data!=null)
   {
     debugger;
-<<<<<<< HEAD
-    this.driveChoose.DriveId = this.drive.DriveId;
-    this.driveChoose.UserId = this.drive.UserId;
-    this.driveChoose.PackageId = this.drive.IdPackage;
-    this.driveChoose.OriginCity = this.drive.OriginCity;
-    this.driveChoose.OriginStreet = this.drive.OriginStreet;
-    this.driveChoose.OriginNumBuild = this.drive.OriginNumBuild;
-    // this.driveChoose.OriginArea =this.drive.
-    this.driveChoose.DestinationCity = this.drive.DestinationCity;
-    this.driveChoose.DestinationStreet = this.drive.DestinationStreet;
-    this.driveChoose.DestinationNumBuild = this.drive.DestinationNumBuild;
-    // this.driveChoose.DestinationArea =this.drive.
-    this.driveChoose.Date = this.drive.Date;
-    this.driveChoose.ExitTime = this.drive.ExitTime;
-    this.driveChoose.ArrivedTime = this.drive.ArrivedTime;
-    this.driveChoose.PackageType = this.drive.PackageType;
-    this.driveChoose.Remarks = this.drive.Remarks;
-    debugger;
-    this.driveServe.updateDrive(this.driveChoose).subscribe();
+    
+   
     // this.savePackage();
-=======
     this.drivefoundpackage.PackageId=null;
     this.driveServe.updateDrive(this.drivefoundpackage).subscribe();
     Swal.fire('', 'נסיעה הנוכחית נבחרה ושמירת הנסיעה  הקודמת הוסרה ', 'success');
->>>>>>> origin
   }
   else
 {
