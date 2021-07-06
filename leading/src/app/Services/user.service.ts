@@ -31,6 +31,7 @@ export class UserService {
   // // }
   url: string = "http://localhost:60320/api/";
   u: any;
+
   constructor(private http: HttpClient) { }
 
   getallusers(): Observable<any> {
