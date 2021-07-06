@@ -242,11 +242,11 @@ this.initMap(origin11,destinationAA ,origin22 ,destinationBB);
               );
               outputDiv.innerHTML +=
                 originList[i] +
-                " to " +
+                " ל " +
                 destinationList[j] +
                 ": " +
                 results[j].distance.text +
-                " in " +
+                " ב " +
                 results[j].duration.text +
                 "<br>";
             }
