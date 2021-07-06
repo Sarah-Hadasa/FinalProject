@@ -16,15 +16,17 @@ export class UpdateUserComponent implements OnInit {
   constructor(private serviceUser:UserService, private router:Router) { }
 
   ngOnInit(): void {
-    this.serviceUser.getByPassword(sessionStorage["Name"],sessionStorage["Password"]).subscribe(data => {
+    this.serviceUser.getByPassword(sessionStorage["Mail"],sessionStorage["Password"]).subscribe(data => {
       if (data != null)
       {
+        debugger;
         this.putUser=data as User;
       }
     });
   }
   UpdateUser()
   {
+    debugger;
     this.serviceUser.PutUser(this.putUser).subscribe(data => {
       debugger;
       if (data == true)// succssed to update

@@ -43,6 +43,7 @@ export class SendMailComponent implements OnInit {
     debugger;
     this.msg.reciever=this.router.snapshot.params['mail']
     this.msg.recieverName=this.router.snapshot.params['userName']
+    this.msg.subject=this.router.snapshot.params['subject']
     
 //   this.active.params.subscribe(data=>{
 //   const myArray = this.active.snapshot.queryParamMap.get('myArray');

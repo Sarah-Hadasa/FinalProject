@@ -241,7 +241,8 @@ export class ShowDrivesComponent implements OnInit {
     // const navigationExtras: NavigationExtras = {
     //   queryParams
     // };
-    this.route.navigate(['sendMail/'+this.drive.Mail+'/'+this.drive.Name])
+    let subject="Join to dirve"
+    this.route.navigate(['sendMail/'+this.drive.Mail+'/'+this.drive.Name+'/'+subject])
 
   }
 }

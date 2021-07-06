@@ -15,6 +15,16 @@ namespace BLL
           DAL.DriveManager.AddDrive(drive);
         }
 
+        public static List<COMMON.DriveC> getDriveByIdU(int id)
+        {
+            List<COMMON.DriveC> lc = DAL.DriveManager.GetDrives();
+            var matchDrive = lc.AsEnumerable().Where(data =>
+               data.UserId == id
+           ).ToList();
+            return matchDrive as List<COMMON.DriveC>;
+            // return DAL.DriveManager.GetDrivesByIdU(id);
+        }
+
         public static List<COMMON.DriveC> getDrive()
         {
             return DAL.DriveManager.GetDrives();
@@ -39,9 +49,11 @@ namespace BLL
                              { // result selector 
                                //city = d.DestinationCity,
                                //Id = u.Id   
-                                 IdDrive = d.DriveId,
+                               DriveId = d.DriveId,
+                                 //IdDrive = d.DriveId,
                                  IdPackage=p.Id, 
-                                 Iduser=d.UserId,
+                                 UserId = d.UserId,
+                                 //Iduser =d.UserId,
                                  Name = u.Name,
                                  Phone = u.Phone,
                                  Mail = u.Mail,
@@ -116,9 +128,9 @@ namespace BLL
                              { // result selector 
                                //city = d.DestinationCity,
                                //Id = u.Id   
-                                 IdDrive = d.DriveId,
+                                 DriveId = d.DriveId,
                                  IdPackage = id,
-                                 Iduser = d.UserId,
+                                 UserId = d.UserId,
                                  Name = u.Name,
                                  Phone = u.Phone,
                                  Mail = u.Mail,

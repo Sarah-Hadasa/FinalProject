@@ -69,7 +69,7 @@ namespace DAL
         //    }
         //}
 
-        public static COMMON.UsersC GetUserByPassword(string name, string password)
+        public static COMMON.UsersC GetUserByPassword(string mail, string password)
         {
             using (ProjectDasiSariEntities1 entity = new ProjectDasiSariEntities1())
             {
@@ -79,7 +79,7 @@ namespace DAL
                 return null;*/
                 foreach (var item in entity.Users.ToList())
                 {
-                    if (item.Mail == name && item.Password == password)
+                    if (item.Mail == mail && item.Password == password)
                         return Mapper.ConvertDalUserToUser(item);
                 }
                 return null;
@@ -91,13 +91,25 @@ namespace DAL
 
         public static void UpdateUser(COMMON.UsersC user)
         {
+            //using (ProjectDasiSariEntities1 entity = new ProjectDasiSariEntities1())
+            //{
+
+            //    Users u = entity.Users.First(da => da.Id == user.Id);
+            //    u = Mapper.ConvertComUserToUser(user);
+            //    entity.SaveChanges();
+
+            //}
             using (ProjectDasiSariEntities1 entity = new ProjectDasiSariEntities1())
             {
+                var original = entity.Users.Find(user.Id);
+                if (original != null)
+                {
 
-                Users u = entity.Users.First(da => da.Id == user.Id);
-                u = Mapper.ConvertComUserToUser(user);
-                entity.SaveChanges();
+                    entity.Entry(original).CurrentValues.SetValues(user);
+                    entity.SaveChanges();
+                    original = entity.Users.Find(user.Id);
 
+                }
             }
         }
         public static void DeleteUser(int id)

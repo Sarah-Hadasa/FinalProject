@@ -54,12 +54,12 @@ namespace WEB_API.Controllers
         [ResponseType(typeof(COMMON.UsersC))]
         [HttpGet]
         [Route("api/GetUsersByPassword")]
-        public COMMON.UsersC GetUsersByPassword(string name, string password)
+        public COMMON.UsersC GetUsersByPassword(string mail, string password)
         {
-            if (UserManagerB.getUserByPassword(name, password) == null)
+            if (UserManagerB.getUserByPassword(mail, password) == null)
                 return null;
             else
-                return UserManagerB.getUserByPassword(name, password);
+                return UserManagerB.getUserByPassword(mail, password);
         }
 
 

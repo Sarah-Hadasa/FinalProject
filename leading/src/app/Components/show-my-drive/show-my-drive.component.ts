@@ -36,7 +36,8 @@ export class ShowMyDriveComponent implements OnInit {
     //this.showMyDrive()
     let mail="s0533182649@gmail.com"
     let name="Sarah Foox"
-    this.route.navigate(['sendMail/'+mail+'/'+name])
+    let subject="Delete drive"
+    this.route.navigate(['sendMail/'+mail+'/'+name+'/'+subject])
     //this.route.navigate(['sendMail/'+this.drive.Mail+'/'+this.drive.Name])
 
     //לשלוח מייל לחבילה ששקשר עמו

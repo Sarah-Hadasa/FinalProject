@@ -30,7 +30,7 @@ const routes: Routes = [
 {path:"road_map/:drive", component:RoadMapComponent},
 {path:"addUser",component:AddUserComponent},
 {path:"updateUser",component:UpdateUserComponent},
-{path:"sendMail/:mail/:userName",component:SendMailComponent},
+{path:"sendMail/:mail/:userName/:subject",component:SendMailComponent},
 {path:"ShowMyDriveComponent", component:ShowMyDriveComponent}
 
 

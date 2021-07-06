@@ -46,9 +46,9 @@ namespace BLL
         //    return lu1;
         //}
 
-        public static COMMON.UsersC getUserByPassword(string name, string password)
+        public static COMMON.UsersC getUserByPassword(string mail, string password)
         {
-            return DAL.UserManager.GetUserByPassword(name, password);
+            return DAL.UserManager.GetUserByPassword(mail, password);
         }
 
         public static void updateUser(COMMON.UsersC user)

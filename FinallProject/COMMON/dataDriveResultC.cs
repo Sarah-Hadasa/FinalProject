@@ -22,9 +22,13 @@ namespace COMMON
 
         //    }
         //}
-        public int IdDrive { get; set; }
+        //public int IdDrive { get; set; }
+        public int DriveId { get; set; }
+  
+ 
+        public int UserId { get; set; }
         public int IdPackage { get; set; }
-        public int Iduser { get; set; }
+        //public int Iduser { get; set; }
         public string Name { get; set; }
         //public string Tz { get; set; }
         public string Phone { get; set; }

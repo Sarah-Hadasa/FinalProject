@@ -20,8 +20,8 @@ namespace WEB_API.Controllers
                 var senderEmail = new MailAddress("leading.service.messages@gmail.com");
                 var recieverEmail = new MailAddress(m.reciever);
                 var password = "sarah.hadasa";
-                var sub = "hkjk";
-                var body = "lkl";
+                var sub = m.subject;
+                var body = "";
                 var smtp = new SmtpClient
                 {
                     Host = "smtp.gmail.com",
@@ -37,8 +37,8 @@ namespace WEB_API.Controllers
                     IsBodyHtml = true,
                     Subject = sub,
                     Body = "<div style = 'font-family:font-family:Segoe UI Light, Helvetica, sans-serif'>" +
-                   "שלום   : " + m.reciever + " משתמש   :" + m.recieverName + "  שלח לך הודעה  " + "  לצפיה לחץ <br /><a href= \"" + "http://localhost:4200/showPackages" + "\" > כאן</a> " +
-                   " <br /><br /><br />תודה רבה <br />BusinessWay צוות </div>"
+                   "שלום   : " + m.reciever + "<br /> משתמש   :" + m.recieverName + "  שלח לך הודעה  " + "  לצפיה לחץ <br /><a href= \"" + "http://localhost:4200/showPackages" + "\" > כאן</a> " +
+                   " <br /><br /><br />תודה רבה <br />ByTheWay צוות </div>"
                 })
                 {
                     smtp.Send(mess);

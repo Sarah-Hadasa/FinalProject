@@ -31,7 +31,7 @@ export class LoginComponent implements OnInit {
   checkUser() {
     debugger
     this.service
-      .getByPassword(this.user.Name, this.user.Password)
+      .getByPassword(this.user.Mail, this.user.Password)
       .subscribe((data) => {
         if (data == null) {
           Swal.fire('', 'המשתמש לא קיים במערכת', 'error');
@@ -39,8 +39,13 @@ export class LoginComponent implements OnInit {
           //this.router.navigate(['addUser'])
         } else {
           Swal.fire('', 'הכניסה בוצעה בהצלחה', 'success');
+          debugger;
           sessionStorage['Name'] = data['Name'];
+          sessionStorage['Mail'] = data['Mail'];
           sessionStorage['Password'] = data['Password'];
+          sessionStorage['Id'] = data['Id'];
+          sessionStorage['Tz'] = data['Tz'];
+          sessionStorage['Phone'] = data['Phone'];
           this.service.loginUser.next();
           this.router.navigate(['home']);
         }

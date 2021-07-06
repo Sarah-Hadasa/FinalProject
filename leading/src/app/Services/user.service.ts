@@ -52,29 +52,33 @@ export class UserService {
     u.Id=13
     return this.http.post(this.url + "PostUsers", u);
   }
-  getByPassword(name:string, password: string): Observable<any> {
-    return this.http.get(this.url + "GetUsersByPassword?name=" + name + "&password=" + password);
+  getByPassword(mail:string, password: string): Observable<any> {
+    return this.http.get(this.url + "GetUsersByPassword?mail=" + mail + "&password=" + password);
   }
-  GetUsersByUserNameAndPassword(password: string, mail: string): Observable<User> {
-    return this.http.get<User>(this.url + "GetUsersByPassword?password=" + password + "&username=" + mail);
-  }
+  // GetUsersByUserNameAndPassword(password: string, mail: string): Observable<User> {
+  //   return this.http.get<User>(this.url + "GetUsersByPassword?password=" + password + "&username=" + mail);
+  // }
   // getById(userIdpackage:any):Observable<any>//========
   // {
   //   return this.http.get(this.url+"GetUsersPackageById",userIdpackage)
   // }
 
-  PutUser(UpdateUser:User)
+  // PutUser(UpdateUser:User)
+  // {
+  //   const httpOptions : Object = {
+  //       headers: new HttpHeaders({
+  //         'Accept': 'text/html',
+  //         'Content-Type': 'text/plain; charset=utf-8'
+  //       }),
+  //       responseType: 'text'
+  //     };
+  //     return this.http.put(this.url+"PutUsers",UpdateUser);
+  // }
+  PutUser(UpdateUser:User): Observable<any>
   {
-    const httpOptions : Object = {
-        headers: new HttpHeaders({
-          'Accept': 'text/html',
-          'Content-Type': 'text/plain; charset=utf-8'
-        }),
-        responseType: 'text'
-      };
-      return this.http.put(this.url+"PutUsers",UpdateUser);
+    debugger;
+    return this.http.put(this.url + "PutUsers", UpdateUser);
   }
-
 
 
 }
