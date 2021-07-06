@@ -54,7 +54,7 @@ public DataDriveResults()
 //     //this.OriginArea = drive.OriginArea;
 //     this.DestinationCity = drive.DestinationCity;
 //     this.DestinationStreet = drive.DestinationStreet;
-//     this.DestinationNumBuild = DestinationNumBuild;
+//     this.DestinationNumBuild =drive.DestinationNumBuild;
 //     //this.DestinationArea = drive.DestinationArea;
 //     this.Date = drive.Date;
 //     //this.ExitTime = drive.ExitTime;
@@ -62,5 +62,5 @@ public DataDriveResults()
 //     this.PackageType = drive.PackageType;
 //     this.Remarks = drive.Remarks;
 // }
-// }
 }
+// }

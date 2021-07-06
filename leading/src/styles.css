@@ -1,454 +1,475 @@
-/* You can add global styles to this file, and also import other style files */
-
-html,
-body {
-    height: 100%;
-    overflow: hidden;
-}
-
-body {
-    margin: 0;
-    font-family: ass, Roboto, "Helvetica Neue", sans-serif;
-    text-align: right;
-    direction: rtl;
-    overflow-x: hidden;
-}
-
-@font-face {
-    font-family: ass;
-    src: url(assets/font/Assistant-Regular.ttf) format("opentype");
-}
-
-section::-webkit-scrollbar {
-    width: 0.5em;
-}
-
-section::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-section::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
-    outline: none;
-    border-radius: 10px;
-}
-
-body .mat-body,
-body .mat-body-1,
-body .mat-typography,
-body .mat-table,
-body .mat-list-item,
-body .mat-h1,
-body .mat-headline,
-body .mat-typography h1,
-body .mat-toolbar,
-body .mat-toolbar h1,
-body .mat-toolbar h2,
-body .mat-toolbar h3,
-body .mat-toolbar h4,
-body .mat-toolbar h5,
-body .mat-toolbar h6,
-body span,
-body strong,
-body .mat-input-element {
-    font-family: ass, Roboto, "Helvetica Neue", sans-serif;
-    direction: rtl;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: ass, Roboto, "Helvetica Neue", sans-serif!important;
-    direction: rtl;
-}
-
-body {
-    margin: 0;
-    font-family: ass, Roboto, "Helvetica Neue", sans-serif;
-}
-
-span:focus,
-div:focus {
-    outline: none!important;
-}
-
-.btn-color,
-.mat-raised-button.btn-color,
-.mat-button.btn-color {
-    min-width: 100px;
-    padding: 3px 20px;
-    font-size: 16px;
-    line-height: 28px;
-    margin: auto;
-    border: none;
-    cursor: pointer;
-    background: #ffb100;
-    border-radius: 50px;
-    color: #fff;
-    font-weight: 500;
-    height: auto;
-    box-shadow: none;
-    transition: 2s linear all;
-}
-
-.btn-color-2,
-.mat-raised-button.btn-color-2,
-.mat-button.btn-color-2 {
-    min-width: 100px;
-    padding: 3px 20px;
-    font-size: 14px;
-    line-height: 28px;
-    margin: auto;
-    cursor: pointer;
-    background: white;
-    border-radius: 50px;
-    color: #ffb100;
-    font-weight: 500;
-    height: auto;
-    box-shadow: none;
-    transition: 0.2s linear all;
-    border: 1px solid;
-}
-
-.btn-color-2:hover {
-    color: #fff;
-    background: #ffb100;
-}
-
-.btn-nocolor,
-.mat-raised-button.btn-nocolor,
-.mat-button.btn-nocolor {
-    min-width: 100px;
-    padding: 3px 20px;
-    font-size: 16px;
-    line-height: 28px;
-    margin: auto;
-    border: none;
-    cursor: pointer;
-    background: #5a5853;
-    border-radius: 50px;
-    color: #fff;
-    font-weight: 500;
-    height: auto;
-    box-shadow: none;
-    transition: 2s linear all;
-}
-
-.btn-color.btn-smaller,
-.mat-raised-button.btn-color.btn-smaller,
-.mat-button.btn-color.btn-smaller,
-.btn-gold.btn-smaller,
-.mat-raised-button.btn-gold.btn-smaller,
-.mat-button.btn-gold.btn-smaller {
-    padding: 4px 14px;
-    font-size: 14px;
-    line-height: 20px;
-    border: none;
-}
-
-.btn-color:hover,
-.btn-gold:hover {
-    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
-}
-
-.btn-gold:disabled {
-    background-color: #ccc;
-    color: white;
-}
-
-.bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-image: url('assets/images/bg.jpg');
-    opacity: 0.4;
-    z-index: -1;
-}
-
-.breadcrumb-sub {
-    direction: rtl;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: .75rem 1rem;
-    list-style: none;
-    background-color: #5a5853;
-    border-radius: .25rem;
-    position: relative;
-    margin-top: 0;
-    margin-bottom: 1.3rem;
-    color: white;
-    border-bottom: 1px solid;
-}
-
-.breadcrumb-sub .header-li a {
-    letter-spacing: 0.6px;
-    line-height: 48px;
-    font-weight: 100;
-    font-size: 16px;
-    color: white;
-    outline: none;
-    text-decoration: none;
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-.breadcrumb-sub .header-li:not(:first-child) a::before {
-    content: '|';
-    margin-left: 10px;
-    color: white;
-}
-
-.breadcrumb-sub .header-li:hover a {
-    font-weight: bold!important;
-}
-
-.breadcrumb-sub .header-li a.active {
-    font-weight: bold;
-    color: #ffb100;
-}
-
-.breadcrumb-sub .header-li:focus {
-    outline: none;
-}
-
-.breadcrumb .logo {
-    background: url('assets/images/bg.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: -30px;
-    margin-top: -4px;
-    float: right;
-    position: absolute;
-    right: 30px;
-    top: 0;
-    z-index: 1;
-    width: 79px;
-    height: 79px;
-}
-
-.breadcrumb-sub .header-li a.active_link2 {
-    font-weight: 500!important;
-    border-bottom: 2px solid;
-}
-
-.form-wrapper,
-.form-wrapper-large {
-    direction: rtl;
-    text-align: right;
-    margin: 0px auto;
-    background-color: #fff;
-    opacity: 0.8;
-    direction: ltr;
-    color: #5a5853!important;
-    position: relative;
-    font-size: 16px;
-    line-height: 28px;
-    margin-top: -20px;
-    padding: 50px;
-    max-width: 500px;
-    height: calc(100% - 55px);
-}
-
-.form-wrapper-large {
-    padding: 20px !important;
-    max-width: 1000px;
-    height: calc(100% - 75px);
-}
-
-.form-wrapper .form-control,
-.form-wrapper-large .form-control {
-    border-color: #5a5853;
-}
-
-.form-wrapper-large .form-control {
-    height: calc(1.4em + .55rem + 2px);
-}
-
-button:focus,
-span:focus,
-input:focus {
-    outline: none!important;
-}
-
-.form-wrapper-large h1 {
-    text-align: center;
-    font-weight: 100;
-    letter-spacing: 1px;
-    font-size: 28px;
-    border-bottom: 1px solid;
-    margin-bottom: 20px;
-    line-height: 44px;
-    width: 150px;
-    margin: auto;
-}
-
-.form-wrapper h1 {
-    text-align: center;
-    font-weight: 100;
-    letter-spacing: 1px;
-    font-size: 32px;
-    border-bottom: 1px solid;
-    margin-bottom: 30px;
-    line-height: 50px;
-    width: 100px;
-    margin: auto;
-    margin-bottom: 30px;
-    color: #ffb100;
-}
-
-.form-wrapper label {
-    font-weight: 100;
-    font-size: medium;
-    margin-bottom: .3rem;
-}
-
-.form-wrapper-large label {
-    font-size: small;
-    margin-bottom: 0;
-    font-weight: 100;
-}
-
-.footer-wrapper,
-.header-wrapper {
-    text-align: center;
-    width: 100%
-}
-
-.error {
-    font-size: 11px;
-    color: red;
-    margin-bottom: -15px;
-    margin-top: -3px;
-    margin-left: 1px;
-}
-
-small {
-    font-size: 100%;
-}
-
-.mat-dialog-container {
-    padding: 30px 50px;
-    text-align: center;
-}
-
-.mat-dialog-container .mat-dialog-content {
-    max-height: 100%;
-    overflow-x: hidden;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-.mat-dialog-content h4 {
-    text-align: center;
-    font-weight: 100;
-    letter-spacing: 1px;
-    font-size: 18px;
-    border-bottom: 1px solid #ffb100;
-    line-height: 34px;
-    width: 150px;
-    color: #ffb100;
-    margin: auto;
-    margin-bottom: 20px;
-}
-
-.category-wrapper {
-    width: 100%;
-    text-align: left;
-    margin: 10px 0;
-}
-
-.category-item {
-    border: 1px solid;
-    border-radius: 50px;
-    width: auto;
-    color: #ffb100;
-    padding: 4px 8px;
-    font-size: 16px;
-    margin-right: 10px;
-}
-
-input[type="file"] {
-    display: none;
-}
-
-.custom-file-upload {
-    border: 1px solid;
-    display: inline-block;
-    padding: 4px 0px 0px 4px;
-    cursor: pointer;
-    line-height: 20px;
-    font-size: small;
-    width: 100px;
-}
-
-.custom-file-upload .mat-icon {
-    vertical-align: middle;
-    font-size: 18px;
-    margin-top: 4px;
-    margin-right: -5px;
-}
-
-.custom-file-upload-name {
-    font-size: 10px!important;
-    padding: 0 0 0 5px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 90px;
-    vertical-align: bottom;
-}
-
-.custom-file-upload-wrapper {
-    margin-right: 0px;
-    padding-right: 0px;
-}
-
-.custom-file-upload-name-wrapper {
-    max-width: 100px;
-    display: inline-block;
-}
-
-.table {
-    direction: rtl;
-    text-align: right;
-    max-width: 100%;
-    margin: 20px auto;
-    font-size: 12px;
-    display: table;
-    /* check so these really applies */
-}
-
-.table thead th {
-    direction: rtl;
-    text-align: center;
-    border-left: 1px solid;
-}
-
-.table .mat-icon {
-    cursor: pointer;
-}
-
-.table th {
-    text-align: center;
-    background-color: #5a5853;
-    color: white;
-    padding: 0px 6px;
-}
-
-.table td {
-    border: 1px solid #ddd;
-    line-height: 25px;
-    height: 25px;
-    padding: 0 5px;
-    margin: 0;
-    text-align: center;
-}
+    /* You can add global styles to this file, and also import other style files */
+    
+    html,
+    body {
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    body {
+        margin: 0;
+        font-family: ass, Roboto, "Helvetica Neue", sans-serif;
+        text-align: right;
+        direction: rtl;
+        overflow-x: hidden;
+    }
+    
+    @font-face {
+        font-family: ass;
+        src: url(assets/font/Assistant-Regular.ttf) format("opentype");
+    }
+    
+    section::-webkit-scrollbar {
+        width: 0.5em;
+    }
+    
+    section::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+    
+    section::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        outline: none;
+        border-radius: 10px;
+    }
+    
+    body .mat-body,
+    body .mat-body-1,
+    body .mat-typography,
+    body .mat-table,
+    body .mat-list-item,
+    body .mat-h1,
+    body .mat-headline,
+    body .mat-typography h1,
+    body .mat-toolbar,
+    body .mat-toolbar h1,
+    body .mat-toolbar h2,
+    body .mat-toolbar h3,
+    body .mat-toolbar h4,
+    body .mat-toolbar h5,
+    body .mat-toolbar h6,
+    body span,
+    body strong,
+    body .mat-input-element {
+        font-family: ass, Roboto, "Helvetica Neue", sans-serif;
+        direction: rtl;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: ass, Roboto, "Helvetica Neue", sans-serif!important;
+        direction: rtl;
+    }
+    
+    body {
+        margin: 0;
+        font-family: ass, Roboto, "Helvetica Neue", sans-serif;
+    }
+    
+    span:focus,
+    div:focus {
+        outline: none!important;
+    }
+    
+    .btn-color,
+    .mat-raised-button.btn-color,
+    .mat-button.btn-color {
+        min-width: 100px;
+        padding: 3px 20px;
+        font-size: 16px;
+        line-height: 28px;
+        margin: auto;
+        border: none;
+        cursor: pointer;
+        background: #ffb100;
+        border-radius: 50px;
+        color: #fff;
+        font-weight: 500;
+        height: auto;
+        box-shadow: none;
+        transition: 0.2s linear all;
+    }
+    
+    .btn-color-2,
+    .mat-raised-button.btn-color-2,
+    .mat-button.btn-color-2 {
+        min-width: 100px;
+        padding: 3px 20px;
+        font-size: 14px;
+        line-height: 28px;
+        margin: auto;
+        cursor: pointer;
+        background: white;
+        border-radius: 50px;
+        color: #ffb100;
+        font-weight: 500;
+        height: auto;
+        box-shadow: none;
+        transition: 0.2s linear all;
+        border: 1px solid;
+    }
+    
+    .btn-color-2 .fa-icon-view {
+        color: #ffb100;
+        transition: 0.2s linear all;
+    }
+    
+    .btn-color-2:hover {
+        color: #fff;
+        background: #ffb100;
+    }
+    
+    .btn-color-2:hover .fa-icon-view {
+        color: #fff;
+    }
+    
+    .btn-nocolor,
+    .mat-raised-button.btn-nocolor,
+    .mat-button.btn-nocolor {
+        min-width: 100px;
+        padding: 3px 20px;
+        font-size: 16px;
+        line-height: 28px;
+        margin: auto;
+        border: none;
+        cursor: pointer;
+        background: #5a5853;
+        border-radius: 50px;
+        color: #fff;
+        font-weight: 500;
+        height: auto;
+        box-shadow: none;
+        transition: 0.2s linear all;
+    }
+    
+    .btn-color.btn-smaller,
+    .mat-raised-button.btn-color.btn-smaller,
+    .mat-button.btn-color.btn-smaller,
+    .btn-gold.btn-smaller,
+    .mat-raised-button.btn-gold.btn-smaller,
+    .mat-button.btn-gold.btn-smaller {
+        padding: 4px 14px;
+        font-size: 14px;
+        line-height: 20px;
+        border: none;
+    }
+    
+    .btn-color:hover,
+    .btn-nocolor:hover {
+        box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 3px 3px 0px rgb(0 0 0 / 14%), 0px 2px 5px 0px rgb(0 0 0 / 12%)!important;
+    }
+    
+    .btn-nocolor:disabled {
+        background-color: #ccc;
+        color: white;
+    }
+    
+    .bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-image: url('assets/images/bg.jpg');
+        opacity: 0.4;
+        z-index: -1;
+    }
+    
+    .breadcrumb-sub {
+        direction: rtl;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: .75rem 1rem;
+        list-style: none;
+        background-color: #5a5853;
+        border-radius: .25rem;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 1.3rem;
+        color: white;
+        border-bottom: 1px solid;
+    }
+    
+    .breadcrumb-sub .header-li a {
+        letter-spacing: 0.6px;
+        line-height: 48px;
+        font-weight: 100;
+        font-size: 16px;
+        color: white;
+        outline: none;
+        text-decoration: none;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    
+    .breadcrumb-sub .header-li:not(:first-child) a::before {
+        content: '|';
+        margin-left: 10px;
+        color: white;
+    }
+    
+    .breadcrumb-sub .header-li:hover a {
+        font-weight: bold!important;
+    }
+    
+    .breadcrumb-sub .header-li a.active {
+        font-weight: bold;
+        color: #ffb100;
+    }
+    
+    .breadcrumb-sub .header-li:focus {
+        outline: none;
+    }
+    
+    .breadcrumb .logo {
+        background: url('assets/images/bg.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: -30px;
+        margin-top: -4px;
+        float: right;
+        position: absolute;
+        right: 30px;
+        top: 0;
+        z-index: 1;
+        width: 79px;
+        height: 79px;
+    }
+    
+    .breadcrumb-sub .header-li a.active_link2 {
+        font-weight: 500!important;
+        border-bottom: 2px solid;
+    }
+    
+    .form-wrapper,
+    .form-wrapper-large {
+        direction: rtl;
+        text-align: right;
+        margin: 0px auto;
+        background-color: #fff;
+        opacity: 0.8;
+        direction: ltr;
+        color: #5a5853!important;
+        position: relative;
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: -20px;
+        padding: 50px;
+        max-width: 500px;
+        height: calc(100% - 55px);
+    }
+    
+    .form-wrapper-large {
+        padding: 20px !important;
+        max-width: 1000px;
+        height: calc(100% - 55px);
+    }
+    
+    .form-wrapper .form-control,
+    .form-wrapper-large .form-control {
+        border-color: #5a5853;
+    }
+    
+    .form-wrapper-large .form-control {
+        height: calc(1.4em + .55rem + 2px);
+    }
+    
+    button:focus,
+    span:focus,
+    input:focus {
+        outline: none!important;
+    }
+    
+    .form-wrapper-large h1 {
+        text-align: center;
+        font-weight: 100;
+        letter-spacing: 1px;
+        font-size: 28px;
+        border-bottom: 1px solid;
+        margin-bottom: 20px;
+        line-height: 44px;
+        width: 150px;
+        margin: auto;
+    }
+    
+    .form-wrapper h1 {
+        text-align: center;
+        font-weight: 100;
+        letter-spacing: 1px;
+        font-size: 32px;
+        border-bottom: 1px solid;
+        margin-bottom: 30px;
+        line-height: 50px;
+        width: 100px;
+        margin: auto;
+        margin-bottom: 30px;
+        color: #ffb100;
+    }
+    
+    .form-wrapper label {
+        font-weight: 100;
+        font-size: medium;
+        margin-bottom: .3rem;
+    }
+    
+    .form-wrapper-large label {
+        font-size: small;
+        margin-bottom: 0;
+        font-weight: 100;
+    }
+    
+    .footer-wrapper,
+    .header-wrapper {
+        text-align: center;
+        width: 100%
+    }
+    
+    .error {
+        font-size: 11px;
+        color: red;
+        margin-bottom: -15px;
+        margin-top: -3px;
+        margin-left: 1px;
+    }
+    
+    small {
+        font-size: 100%;
+    }
+    
+    .mat-dialog-container {
+        padding: 30px 50px;
+        text-align: center;
+    }
+    
+    .mat-dialog-container .mat-dialog-content {
+        max-height: 100%;
+        overflow-x: hidden;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .mat-dialog-content h4 {
+        text-align: center;
+        font-weight: 100;
+        letter-spacing: 1px;
+        font-size: 18px;
+        border-bottom: 1px solid #ffb100;
+        line-height: 34px;
+        width: 150px;
+        color: #ffb100;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .category-wrapper {
+        width: 100%;
+        text-align: left;
+        margin: 10px 0;
+    }
+    
+    .category-item {
+        border: 1px solid;
+        border-radius: 50px;
+        width: auto;
+        color: #ffb100;
+        padding: 4px 8px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    
+    input[type="file"] {
+        display: none;
+    }
+    
+    .custom-file-upload {
+        border: 1px solid;
+        display: inline-block;
+        padding: 4px 0px 0px 4px;
+        cursor: pointer;
+        line-height: 20px;
+        font-size: small;
+        width: 100px;
+    }
+    
+    .custom-file-upload .mat-icon {
+        vertical-align: middle;
+        font-size: 18px;
+        margin-top: 4px;
+        margin-right: -5px;
+    }
+    
+    .custom-file-upload-name {
+        font-size: 10px!important;
+        padding: 0 0 0 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 90px;
+        vertical-align: bottom;
+    }
+    
+    .custom-file-upload-wrapper {
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    
+    .custom-file-upload-name-wrapper {
+        max-width: 100px;
+        display: inline-block;
+    }
+    
+    .table {
+        direction: rtl;
+        text-align: right;
+        max-width: 100%;
+        margin: 20px auto;
+        font-size: 12px;
+        display: table;
+        /* check so these really applies */
+    }
+    
+    .table thead th {
+        direction: rtl;
+        text-align: center;
+        /* border-left: 1px solid; */
+    }
+    
+    .table .mat-icon {
+        cursor: pointer;
+    }
+    
+    .table th {
+        text-align: center;
+        background-color: #5a5853;
+        color: white;
+        padding: 0px 6px;
+    }
+    
+    .table td {
+        /* // border: 1px solid #ddd; */
+        line-height: 25px;
+        height: 25px;
+        padding: 0 5px;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .table tr:hover {
+        background-color: #cfcfcf;
+    }
+    
+    .fa-icon-view {
+        display: inline-block;
+        color: white;
+        height: 20px;
+        font-size: 12px;
+        width: 20px;
+    }

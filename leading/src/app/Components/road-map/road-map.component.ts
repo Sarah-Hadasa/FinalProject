@@ -132,7 +132,6 @@ this.initMap(origin11,destinationAA ,origin22 ,destinationBB);
   // } 
   cancelDrive()
   {
-    debugger
     this.driveServ.getIdDriveById(this.drivePackage[0].DriveId).subscribe(data => {
       debugger; this.drive = data; debugger; this.drive.PackageId=null;debugger;
       this.driveServ.updateDrive(this.drive).subscribe();

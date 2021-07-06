@@ -71,5 +71,12 @@ export class DriveService {
   {
     return this.http.delete(this.url + "DeleteDrives?id="+id);
   }
+<<<<<<< HEAD
+  GetDrivesByIdUser(id:number)
+  {
+    return this.http.get(this.url + "GetDrivesByIdUser?id="+id);
+  }
+=======
   
+>>>>>>> origin
 }

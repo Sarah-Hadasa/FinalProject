@@ -340,6 +340,9 @@ debugger;
     if (data!=null)
   {
     debugger;
+    
+   
+    // this.savePackage();
     this.drivefoundpackage.PackageId=null;
     this.driveServe.updateDrive(this.drivefoundpackage).subscribe();
     Swal.fire('', 'נסיעה הנוכחית נבחרה ושמירת הנסיעה  הקודמת הוסרה ', 'success');
@@ -538,5 +541,21 @@ debugger;
       markersArray[i].setMap(null);
     }
     markersArray = [];
+  }
+  sendMail(){
+    debugger
+    // this.route.navigate(['sendMail', this.itemSelect.Mail]);
+
+
+
+    // Create our query parameters object
+    // const queryParams: any = {};
+    // queryParams.myArray = JSON.stringify(this.drive);
+    // const navigationExtras: NavigationExtras = {
+    //   queryParams
+    // };
+    let subject="Join to dirve"
+    this.route.navigate(['sendMail/'+this.drive.Mail+'/'+this.drive.Name+'/'+subject])
+
   }
 }

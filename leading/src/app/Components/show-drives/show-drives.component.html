@@ -73,10 +73,12 @@ let destinationB
   </tbody>
 </table> -->
 <div class="form-wrapper-large">
-  <h1> תוצאות נסיעות מתאימותעבור העברת החבילה</h1>
+  <h1 style="width:400px;"> תוצאות נסיעות מתאימות עבור העברת החבילה</h1>
   <br>
-  <button type="submit" mdbBtn class="btn-color-2">
-  שלח מייל
+  <button type="submit" (click)="sendMail()" mdbBtn class="btn-color-2">
+    
+    <i class="fa fa-envelope fa-icon-view "></i>  שלח מייל 
+
 </button>
   <button type="submit" (click)="DestinationOrder()" mdbBtn class="btn-color-2">
   מיין לפי יעד
