@@ -1,19 +1,17 @@
 import { Time } from "@angular/common";
 
 export class DataDriveResults {
+  // IdDrive:number=0;
   DriveId:number=0;
   
-
-  
-  UserId:number=0;
-
- //IdDrive:number=0;
  IdPackage:number=0;
+ 
+ UserId:number=0;
 //  Iduser:number=0;
- Name:string="";
- Tz:string=""; 
- Phone:string="";
- Mail:string="";
+    Name:string="";
+    Tz:string=""; 
+    Phone:string="";
+    Mail:string="";
    
  
   OriginCity:string="";

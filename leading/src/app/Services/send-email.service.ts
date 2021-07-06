@@ -2,6 +2,10 @@ import { Injectable } from '@angular/core';
 import { url } from 'inspector';
 import { HttpClient } from '@angular/common/http';
 import { Message } from '../Classes/message';
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin
 
 @Injectable({
   providedIn: 'root'

@@ -72,13 +72,14 @@ namespace BLL
                                  Remarks = d.Remarks
                              };
             matchDrive = matchDrive.AsEnumerable().Where(data =>
-                data.DestinationCity.ToString() == p.DestinationCity.ToString()
-             && data.OriginCity.ToString() == p.OriginCity.ToString()
-             //&&Convert.ToDateTime(data.Date) <= Convert.ToDateTime(p.Date) &&
-             //data.ExitTime>=p.ExitTime&&
+            data.DestinationCity.ToString() == p.DestinationCity.ToString()
+            // && data.OriginCity.ToString() == p.OriginCity.ToString()
+            //&&Convert.ToDateTime(data.Date) >= Convert.ToDateTime(p.Date) &&
+            //data.ExitTime>=p.ExitTime&&
             //Convert.ToInt32(data.PackageType) >= Convert.ToInt32(p.PackageType)
-            ).ToList();//שעה//
+             ).ToList();//שעה//
 
+            
             return matchDrive as List<COMMON.dataDriveResultC>;
 
             //var matchDrive = from d in lc // outer sequence
@@ -175,6 +176,21 @@ namespace BLL
 
             //return lc1 as List<COMMON.DriveC>;
         }
+        
+        public static COMMON.DriveC getDriveByIdP(int id)
+        {
+            return DAL.DriveManager.GetDrivesByIdP(id);
+        }
+        public static List<COMMON.DriveC> getDriveByIdU(int id)
+        {
+            List<COMMON.DriveC> lc = DAL.DriveManager.GetDrives();
+            var matchDrive = lc.AsEnumerable().Where(data =>
+               data.UserId == id
+           ).ToList();
+            return matchDrive as List<COMMON.DriveC>;
+            // return DAL.DriveManager.GetDrivesByIdU(id);
+        }
+        
         public static COMMON.DriveC getDriveById(int id)
         {
             return DAL.DriveManager.GetDrivesById(id);

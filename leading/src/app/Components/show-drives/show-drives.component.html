@@ -73,75 +73,74 @@ let destinationB
   </tbody>
 </table> -->
 <div class="form-wrapper-large">
-    <h1>הצג נסיעות</h1>
-    <br>
-    <button type="submit" (click)="sendMail()" mdbBtn class="btn-color-2">
+  <h1 style="width:400px;"> תוצאות נסיעות מתאימות עבור העברת החבילה</h1>
+  <br>
+  <button type="submit" (click)="sendMail()" mdbBtn class="btn-color-2">
     
-        <i class="fa fa-envelope fa-icon-view "></i>  שלח מייל 
-  
-    </button>
-    <button type="submit" (click)="DestinationOrder()" mdbBtn class="btn-color-2">
-    מיין לפי יעד
-  </button>
-    <button type="submit" (click)="OriginOrder()" mdbBtn class="btn-color-2">
-    מיין לפי מוצא
-  </button>
-    <button type="submit" (click)="showTrack()" mdbBtn class="btn-color-2">
-    הצג מסלול במפה
-  </button>
-    <button type="submit" (click)="showAllTrack()" mdbBtn class="btn-color-2">
-    הצג את הנסיעות הקיימים
-  </button>
-    <button type="submit" (click)="saveDrive()" mdbBtn class="btn-color-2">
-    שמור נסיעה
-  </button>
+    <i class="fa fa-envelope fa-icon-view "></i>  שלח מייל 
 
-    <div class="col-lg-12">
-        <table class="table table-responsive">
-            <thead>
-                <th>בחר</th>
-                <th scope="col">שם</th>
-                <th scope="col">טלפון</th>
-                <th scope="col">מייל</th>
-                <th scope="col">כתובת מקור</th>
-                <th scope="col">מרחק למקור</th>
-                <th scope="col">זמן למקור</th>
-                <th scope="col">כתובת יעד</th>
-                <th scope="col">מרחק ליעד</th>
-                <th scope="col">זמן ליעד</th>
-                <th scope="col">תאריך</th>
-                <th scope="col"> יציאה </th>
-                <th scope="col"> הגעה </th>
-                <th scope="col">סוג </th>
-                <th scope="col">הערות</th>
+</button>
+  <button type="submit" (click)="DestinationOrder()" mdbBtn class="btn-color-2">
+  מיין לפי יעד
+</button>
+  <button type="submit" (click)="OriginOrder()" mdbBtn class="btn-color-2">
+  מיין לפי מוצא
+</button>
+  <button type="submit" (click)="showTrack()" mdbBtn class="btn-color-2">
+  הצג מסלול במפה
+</button>
+  <button type="submit" (click)="showAllTrack()" mdbBtn class="btn-color-2">
+  הצג את הנסיעות הקיימים
+</button>
+  <button type="submit" (click)="saveDrive()" mdbBtn class="btn-color-2">
+  שמור נסיעה
+</button>
+
+  <div class="col-lg-12">
+      <table class="table table-responsive">
+          <thead>
+              <th>בחר</th>
+              <th scope="col">שם</th>
+              <th scope="col">טלפון</th>
+              <th scope="col">מייל</th>
+              <th scope="col">כתובת מקור</th>
+              <th scope="col">מרחק למקור</th>
+              <th scope="col">זמן למקור</th>
+              <th scope="col">כתובת יעד</th>
+              <th scope="col">מרחק ליעד</th>
+              <th scope="col">זמן ליעד</th>
+              <th scope="col">תאריך</th>
+              <th scope="col"> יציאה </th>
+              <th scope="col"> הגעה </th>
+              <th scope="col">סוג </th>
+              <th scope="col">הערות</th>
 
 
-            </thead>
-            <tbody>
-                <tr *ngFor="let item of Package">
-                    <td> <input type="checkbox" tabindex="0" class="hidden" (change)="onSelect(item)" /></td>
+          </thead>
+          <tbody>
+              <tr *ngFor="let item of alldrives">
+                  <td> <input type="radio" name="selectD" tabindex="0"  class="hidden" (change)="onSelect(item)" /></td>
+                  <!-- [value]="item.Id" -->
+                  <td>{{ item.Name }}</td>
+                  <!-- <td>{{ item.Tz }}</td> -->
+                  <td>{{ item.Phone }}</td>
+                  <td>{{ item.Mail }}</td>
+                  <td>{{ item.OriginStreet }} &nbsp;{{ item.OriginNumBuild }} &nbsp;{{ item.OriginCity }}</td>
+                  <td>{{ item.OriginDistance }}</td>
+                  <td>{{ item.OriginDuration }}</td>
+                  <td>{{ item.DestinationStreet }}&nbsp;{{ item.DestinationNumBuild }}&nbsp;{{ item.DestinationCity }}</td>
+                  <td>{{ item.DestinationDistance }}</td>
+                  <td>{{ item.DestinationDuration }}</td>
+                  <td>{{ item.Date }}</td>
+                  <td>{{ item.ExitTime }}</td>
+                  <td>{{ item.ArrivedTime }}</td>
+                  <td>{{ item.PackageType }}</td>
+                  <td>{{ item.Remarks }}</td>
 
-                    <td>{{ item.Name }}</td>
-                    <!-- <td>{{ item.Tz }}</td> -->
-                    <td>{{ item.Phone }}</td>
-                    <td>{{ item.Mail }}</td>
-                    <td>{{ item.OriginStreet }} &nbsp;{{ item.OriginNumBuild }} &nbsp;{{ item.OriginCity }}</td>
-                    <td>{{ item.OriginDistance }}</td>
-                    <td>{{ item.OriginDuration }}</td>
-                    <td>{{ item.DestinationStreet }}&nbsp;{{ item.DestinationNumBuild }}&nbsp;{{ item.DestinationCity }}</td>
-                    <td>{{ item.DestinationDistance }}</td>
-                    <td>{{ item.DestinationDuration }}</td>
-                    <td>{{ item.Date }}</td>
-                    <td>{{ item.ExitTime }}</td>
-                    <td>{{ item.ArrivedTime }}</td>
-
-                    <td>{{ item.PackageType }}</td>
-                    <td>{{ item.Remarks }}</td>
-
-                </tr>
-            </tbody>
-        </table>
-    </div>
+              </tr>
+          </tbody>
+      </table>
+  </div>
 </div>
 <!-- <button> -->
 

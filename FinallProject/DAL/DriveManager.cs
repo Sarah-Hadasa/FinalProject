@@ -40,7 +40,32 @@ namespace DAL
                 return null;
             }
         }
+        public static COMMON.DriveC GetDrivesByIdP(int id)
+        {
+            using (ProjectDasiSariEntities1 entity = new ProjectDasiSariEntities1())
+            {
+                foreach (var item in entity.Drive.ToList())
+                {
+                    if (item.PackageId == id)
+                        return Mapper.ConvertDalDriveToDrive(item);
+                }
+                return null;
+            }
+        }
 
+        //public static List<COMMON.DriveC> GetDrivesByIdU(int id)
+        //{
+        //    using (ProjectDasiSariEntities1 entity = new ProjectDasiSariEntities1())
+        //    {
+        //        foreach (var item in entity.Drive.ToList())
+        //        {
+        //            if (item.PackageId == id)
+        //                return Mapper.ConvertDalDriveToDrive(item);
+        //        }
+        //        return null;
+        //    }
+        //}
+        
         public static void UpdateDrive(COMMON.DriveC drive)
         {
             using (ProjectDasiSariEntities1 entity = new ProjectDasiSariEntities1())

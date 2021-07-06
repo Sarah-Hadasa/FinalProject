@@ -11,22 +11,34 @@
         </div>
         <div class="col-md-4">
             <div class="md-form form-group">
-                <label for="inputArrivedTime4MD">זמן הגעה</label>
-                <input mdbInput type="time" class="form-control" id="inputArrivedTime4MD" name="ArrivedTimee" [(ngModel)]="package.ArrivedTime" />
+                <label for="inputoriginStreet2MD">רחוב</label>
+                <input mdbInput type="text" class="form-control" id="inputoriginStreet2MD" name="originStreett" [(ngModel)]="package.OriginStreet" />
             </div>
+           
+
+            <!-- <div class="md-form form-group">
+                <label for="inputExitTime4MD">זמן</label>
+                <input mdbInput type="time" class="form-control" id="inputExitTime4MD" name="ExitTimee" [(ngModel)]="package.ExitTime" />
+            </div> -->
+            
         </div>
 
         <div class="col-md-4">
             <div class="md-form form-group">
+                <label for="inputoriginNumBuildMD">מספר בניין</label>
+                <input mdbInput type="number" class="form-control" id="inputoriginNumBuildMD" name="originNumBuildd" [(ngModel)]="package.OriginNumBuild" />
+            </div>
+
+            <!-- <div class="md-form form-group">
                 <label for="inputUserId4MD">שם משתמש</label>
                 <input mdbInput type="number" class="form-control" id="inputUserId4MD" name="userid" [(ngModel)]="package.UserId" />
-            </div>
+            </div> -->
         </div>
     </div>
 
 
 
-    <div class="row">
+    <!-- <div class="row">
         <div class="col-md-4">
             <div class="md-form form-group">
                 <label for="inputoriginAreaMD">אזור</label>
@@ -35,7 +47,7 @@
         </div>
         <div class="col-md-4">
             <div class="md-form form-group">
-                <label for="inputoriginNumBuildMD">מספר בית</label>
+                <label for="inputoriginNumBuildMD">מספר בניין</label>
                 <input mdbInput type="number" class="form-control" id="inputoriginNumBuildMD" name="originNumBuildd" [(ngModel)]="package.OriginNumBuild" />
             </div>
         </div>
@@ -43,11 +55,11 @@
             <div class="md-form form-group">
                 <label for="inputoriginStreet2MD">רחוב</label>
                 <input mdbInput type="text" class="form-control" id="inputoriginStreet2MD" name="originStreett" [(ngModel)]="package.OriginStreet" />
-            </div>
-        </div>
+            </div> -->
+        <!-- </div> -->
 
 
-    </div>
+    <!-- </div>  -->
 
     <hr />
     <h3>יעד</h3>
@@ -62,40 +74,64 @@
         </div>
         <div class="col-md-4">
             <div class="md-form form-group">
-                <label for="inputExitTime4MD">זמן</label>
-                <input mdbInput type="time" class="form-control" id="inputExitTime4MD" name="ExitTimee" [(ngModel)]="package.ExitTime" />
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="md-form form-group">
-                <label for="inputDate4MD">תאריך</label>
-                <input mdbInput type="date" class="form-control" id="inputDate4MD" name="Datee" [(ngModel)]="package.Date" />
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="row">
-        <div class="col-md-4">
-            <div class="md-form form-group">
-                <label for="inputDestinationAreaMD">אזור</label>
-                <input mdbInput type="text" class="form-control" id="inputDestinationAreaMD" name="DestinationAreaa" [(ngModel)]="package.DestinationArea" />
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="md-form form-group">
-                <label for="inputDestenitationNumBuildMD">בניין</label>
+                <label for="inputDestenitationNumBuildMD">מספר ביניין</label>
                 <input mdbInput type="text" class="form-control" id="inputDestenitationNumBuildMD" name="DestenitationNumBuildd" [(ngModel)]="package.DestinationNumBuild" />
             </div>
+
+
+
+            <!-- <div class="md-form form-group">
+                <label for="inputArrivedTime4MD">זמן הגעה</label>
+                <input mdbInput type="time" class="form-control" id="inputArrivedTime4MD" name="ArrivedTimee" [(ngModel)]="package.ArrivedTime" />
+            </div> -->
         </div>
+
         <div class="col-md-4">
             <div class="md-form form-group">
                 <label for="inputDestenitationStreet2MD">רחוב</label>
-                <input mdbInput type="text" class="form-control" id="inputDestenitationStreet2MD" name="DestenitationCityy" [(ngModel)]="package.DestinationStreet" />
+                <input mdbInput type="text" class="form-control" id="inputDestenitationStreet2MD" name="DestenitationStreett" [(ngModel)]="package.DestinationStreet" />
             </div>
+            
+            
+            
+        </div>
+    </div>
+
+    
+    <h3>פרטים שונים</h3>
+    <div class="row">
+        <div class="col-md-4">
+             <div class="md-form form-group">
+
+                <label for="inputDate4MD">תאריך</label>
+                <input mdbInput type="date" class="form-control" id="inputDate4MD" name="Datee" [(ngModel)]="package.Date" />
+            </div>
+
+            <!-- <div class="md-form form-group">
+                <label for="inputDestinationAreaMD">אזור</label>
+                <input mdbInput type="text" class="form-control" id="inputDestinationAreaMD" name="DestinationAreaa" [(ngModel)]="package.DestinationArea" />
+            </div> -->
+        </div>
+
+        <div class="col-md-4">
+<div class="md-form form-group">
+                <label for="inputArrivedTime4MD">זמן הגעה</label>
+                <input mdbInput type="time" class="form-control" id="inputArrivedTime4MD" name="ArrivedTimee" [(ngModel)]="package.ArrivedTime" />
+            </div>
+            <!-- <div class="md-form form-group">
+                <label for="inputDestenitationNumBuildMD">בניין</label>
+                <input mdbInput type="text" class="form-control" id="inputDestenitationNumBuildMD" name="DestenitationNumBuildd" [(ngModel)]="package.DestinationNumBuild" />
+            </div> -->
+        </div>
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="inputExitTime4MD">זמן יציאה</label>
+                <input mdbInput type="time" class="form-control" id="inputExitTime4MD" name="ExitTimee" [(ngModel)]="package.ExitTime" />
+            </div>
+            <!-- <div class="md-form form-group">
+                <label for="inputDestenitationStreet2MD">רחוב</label>
+                <input mdbInput type="text" class="form-control" id="inputDestenitationStreet2MD" name="DestenitationStreett" [(ngModel)]="package.DestinationStreet" />
+            </div> -->
         </div>
 
 
@@ -103,37 +139,79 @@
 
 
     <div class="row">
-        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <div class="md-form form-group">
+                <label for="selectP">גודל סוג חבילה להובלה</label>
+                <select class="form-select" id="selectP" type="select" aria-label="Default select example"
+                    name="selectDrivePackageType" [(ngModel)]="package.PackageType">
+                    <option value="1">1-גודל קטן כגון שקית</option>
+                    <option value="2">2-בינוני</option>
+                    <option value="3">3-גדול</option>
+                </select>
+            </div>
+
+            <!-- <label style="font-size: 20px;font-weight: 900;">תאריך סיום</label>
+                <select style="width: 250px;margin-right: 25%;" [(ngModel)]='package.PackageType' class="form-select"  name="packagetype" >
+                <option *ngFor="let d of typepackage" [value]="d" >{{d}}</option>
+                </select> -->
+
+        </div>
 
 
 
         <div class="col-md-4">
             <div class="md-form form-group">
                 <label for="inputRemarks">הערה</label>
-                <textarea rows="2" mdbInput type="text" class="form-control" id="inputRemarks" name="DestenitationCityy" [(ngModel)]="package.Remarks"></textarea>
+                <textarea rows="2" mdbInput type="text" class="form-control" id="inputRemarks" name="packagesRemarks" [(ngModel)]="package.Remarks"></textarea>
             </div>
-
         </div>
-        <div class="col-md-4">
-            <div class="md-form form-group">
-                <label for="selectP">גודל סוג חבילה להובלה</label>
-                <select class="form-select" id="selectP" aria-label="Default select example">
+
+<!-- <div class="md-form form-group">
+                <label for="inputExitTime4MD">זמן</label>
+                <input mdbInput type="time" class="form-control" id="inputExitTime4MD" name="ExitTimee" [(ngModel)]="package.ExitTime" />
+            </div> -->
+       
+        <!-- <label style="font-size: 20px;font-weight: 900;">תאריך סיום</label>
+        <select style="width: 250px;margin-right: 25%;" [(ngModel)]='iddates' class="form-select"  name="date" (change)="applyFilter()">
+        <option *ngFor="let d of dates" [value]="d.dateDescription" >{{d.dateDescription}}</option>
+        </select>‏ -->
+  
+        <!-- <div class="col-md-4">
+            <div class="md-form form-group"> -->
+
+                <!-- <label style="font-size: 20px;font-weight: 900;">תאריך סיום</label>
+                <select style="width: 250px;margin-right: 25%;" [(ngModel)]='package.PackageType' class="form-select"  name="packagetype" >
+                <option *ngFor="let d of typepackage" [value]="d" >{{d}}</option>
+                </select> -->
+
+                <!-- <label for="selectP">גודל סוג חבילה להובלה</label>
+                <select class="form-select" id="selectP"  [(ngModel)]="package.PackageType aria-label="Default select example">
     
             <option value="1" selected>1-גודל קטן כגון שקית</option>
             <option value="2">2-בינוני</option>
             <option value="3">3-גדול</option>
-          </select> </div>
+          </select> -->
+        
+        <!-- </div> -->
 
-        </div>
+        <!-- </div> -->
     </div>
+    <!-- <div class="pac-input">
 
+    </div>
+     -->
     <br />
+    
 
     <div class="footer-wrapper">
+        <button type="submit" (click)="searchDrive()" mdbBtn class="btn-color">
+        חפש נסיעה 
+          </button>
         <button type="submit" mdbBtn (click)="updatePackages()" class="btn-nocolor">עדכן</button> &nbsp;
 
-        <button type="submit" (click)="submit()" mdbBtn class="btn-color">
+        <button type="submit" (click)="savePackage()" mdbBtn class="btn-color">
       שמור
     </button>
+    
     </div>
 </form>

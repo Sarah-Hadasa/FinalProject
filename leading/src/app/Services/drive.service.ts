@@ -12,7 +12,6 @@ export class DriveService {
   url:string="http://localhost:60320/api/";
 
   constructor(private http:HttpClient) {}
-  
   getalldrive():Observable<any>
   {
   return this.http.get(this.url+"GetDrives");
@@ -55,7 +54,15 @@ export class DriveService {
   {
     return this.http.get(this.url + "GetDrivesById?id="+id);
   }
-  
+  getIdDriveByIdP(id:number)
+  {
+    debugger
+    return this.http.get(this.url + "GetDrivesByIdP?id="+id);
+  }
+  GetDrivesByIdUser(id:number)
+  {
+    return this.http.get(this.url + "GetDrivesByIdUser?id="+id);
+  }
   // getFindDrive():Observable<any>
   // {
   //   return this.http.get(this.url+"getFindDrive?time=bbb&city=בני ברק");
@@ -64,8 +71,12 @@ export class DriveService {
   {
     return this.http.delete(this.url + "DeleteDrives?id="+id);
   }
+<<<<<<< HEAD
   GetDrivesByIdUser(id:number)
   {
     return this.http.get(this.url + "GetDrivesByIdUser?id="+id);
   }
+=======
+  
+>>>>>>> origin
 }

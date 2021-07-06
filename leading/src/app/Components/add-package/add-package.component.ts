@@ -39,12 +39,28 @@ export class AddPackageComponent implements OnInit {
   // dataresult1:DataTrack[]=[];
   //  dataresult:DataTrack =new DataTrack();
   // dataresult:DataTrack | undefined ;
+typepackage:string[]=["1","2","3"];
 
+  constructor(public active:ActivatedRoute,
+     private route: Router,
+      private PackageService: PackageService,
+       private DriveService: DriveService) { }
+  searchDrive()
+  {
+    debugger;
+    const queryParams: any = {};
+     queryParams.myArray1 = JSON.stringify(this.package);
+     const navigationExtras: NavigationExtras = {
+       queryParams
+     };
+     this.route.navigate(['showDrives'], navigationExtras);
 
-  constructor(public active:ActivatedRoute, private route: Router, private PackageService: PackageService, private DriveService: DriveService) { }
+     
+    // this.loadata();
 
+  }
 
-  submit() {
+  savePackage() {
     // this.package.OriginCity = "בני ברק"
     // this.package.OriginStreet = "גיבורי ישראל"
     // this.package.OriginNumBuild = "6"
@@ -73,8 +89,11 @@ export class AddPackageComponent implements OnInit {
   //   //this.service.addUser().subscribe(data=> sessionStorage["IDUser"]=data);
   // }
     this.package.UserId = 2;
-    this.PackageService.addPackage(this.package).subscribe(data=>{debugger; this.package.Id=Number(data);}); 
-    this.loadata();
+    this.PackageService.addPackage(this.package).subscribe(data=>{debugger; this.package.Id=Number(data);
+    Swal.fire('', 'שמירה בוצעה בהצלחה ', 'success');
+    }); 
+    //this.loadata();
+    
     //this.DriveService.getalldrive().subscribe(data=>{this.alldrives=data ;this.name =this.alldrives[0]["UserId"]  } );
     //  this.DriveService.getFindDrive().subscribe(data=>{this.alldrives=data ; this.alldrives.push(this.package);this.name =this.alldrives[0]["UserId"] ;
     //  this.DriveService.getFindDrive(this.package).subscribe(data=>{ ; this.alldrives=data ; this.alldrives.push(this.package) ;////======= 
@@ -99,31 +118,34 @@ export class AddPackageComponent implements OnInit {
   }
   updatePackages()
   {
-    debugger
-    this.PackageService.updatePackage(this.package).subscribe();
-  }
-loadata()
-{
-  this.DriveService.getFindDrive(this.package).subscribe(data => {
     debugger;
-    ; this.alldrives = data;////====
-    this.Originaddress = this.package.OriginStreet + " " + this.package.OriginNumBuild + ", " + this.package.OriginCity;
+    this.PackageService.updatePackage(this.package).subscribe();
+    Swal.fire('', 'עדכון בוצע בהצלחה ', 'success');
+    debugger
+    
+  }
+// loadata()
+// {
+//   this.DriveService.getFindDrive(this.package).subscribe(data => {
+//     debugger;
+//     ; this.alldrives = data;////====
+//     this.Originaddress = this.package.OriginStreet + " " + this.package.OriginNumBuild + ", " + this.package.OriginCity;
 
-    this.destentionaddress = this.package.DestinationStreet + " " + this.package.DestinationNumBuild + ", " + this.package.DestinationCity ///=======
-    // debugger;
-    this.alldrives.forEach(element => {        
-      this.origin.push(element['OriginStreet'] + " " + element['OriginNumBuild'] + ", " + element['OriginCity'])
+//     this.destentionaddress = this.package.DestinationStreet + " " + this.package.DestinationNumBuild + ", " + this.package.DestinationCity ///=======
+//     // debugger;
+//     this.alldrives.forEach(element => {        
+//       this.origin.push(element['OriginStreet'] + " " + element['OriginNumBuild'] + ", " + element['OriginCity'])
       
-    });
-    this.alldrives.forEach(element => {
-      this.origin.push(element['DestinationStreet'] + " " + element['DestinationNumBuild'] + ", " + element['DestinationCity']);
+//     });
+//     this.alldrives.forEach(element => {
+//       this.origin.push(element['DestinationStreet'] + " " + element['DestinationNumBuild'] + ", " + element['DestinationCity']);
    
-    });
-    this.initMap();
-  });
+//     });
+//     this.initMap();
+//   });
 
 
-}
+// }
 
 
 
@@ -139,7 +161,6 @@ loadata()
       }
     
     });
-
 
   //   this.active.params.subscribe(data=>{
   //     const myArray1 = this.active.snapshot.queryParamMap.get('myArray1');
@@ -272,7 +293,7 @@ loadata()
           let countPlace = this.alldrives.length;
           for (var i = 0; i < countPlace; i++) {
             this.resultsOrigion.push(this.results1[i]);
-            debugger;
+            //debugger;
           }
 
           for (var i = this.results1.length - countPlace; i < this.results1.length; i++) {
@@ -293,31 +314,35 @@ loadata()
           this.resultData();
           debugger;
           // Create our query parameters object
-          const queryParams: any = {};
-          queryParams.myArray = JSON.stringify(this.alldrives);
-          const navigationExtras: NavigationExtras = {
-            queryParams
-          };
-          this.route.navigate(['showDrives'], navigationExtras);
+          // const queryParams: any = {};
+          // queryParams.myArray = JSON.stringify(this.alldrives);
+          // const navigationExtras: NavigationExtras = {
+          //   queryParams
+          // };
+          // this.route.navigate(['showDrives'], navigationExtras);
         }
 
       }
     );
 
   }
+  
+
   resultData() {
 
     this.alldrives.forEach(element => {
       element.IdPackage=this.package.Id
       this.resultsOrigion.forEach(element1 => {
+        debugger;
         let o = element['OriginStreet'] + " " + element['OriginNumBuild'] + ", " + element['OriginCity'] + "," + " ישראל";
+       
         if (element1.destination == o) {
           element.OriginDuration = element1.durationminutes;
           element.OriginDistance = element1.distance;
         }
       });
       this.resultsDesttion.forEach(element2 => {
-        debugger;
+       // debugger;
         let d = element['DestinationStreet'] + " " + element['DestinationNumBuild'] + ", " + element['DestinationCity'] + "," + " ישראל";
         if (element2.destination == d) {
           element.DestinationDuration = element2.durationminutes;

@@ -16,9 +16,9 @@ let map: google.maps.Map;
   styleUrls: ['./road-map.component.css']
 })
 export class RoadMapComponent implements OnInit {
-  // deleteMarkers: any;
+   // deleteMarkers: any;
   //drivePackage: DataDriveResults = new DataDriveResults()
-   drivePackage:DataDriveResults[] = [];
+  drivePackage:DataDriveResults[] = [];
   package: Package = new Package();
   origin: string = ""
   id: number = 0;
@@ -30,49 +30,98 @@ export class RoadMapComponent implements OnInit {
 
   }
 
+  // ngOnInit(): void {
+  //   this.active.params.subscribe(data => {
+  //     const myArray1 = this.active.snapshot.queryParamMap.get('myArray1');
+  //     debugger;
+  //     if (myArray1 != null) {
+  //       this.package = JSON.parse(myArray1);
+
+  //     }
+  //     this.driveServ.getIdDrive(this.package.Id).subscribe(data => {
+  //       debugger; this.drivePackage = data as DataDriveResults[]; debugger; 
+  //       if (this.drivePackage.length==0)
+  //       Swal.fire('',"לא נמצא נסיעה",'error');
+  //       else
+  //       this.initMap();
+  //     });
+  //   });
   ngOnInit(): void {
     this.active.params.subscribe(data => {
       const myArray1 = this.active.snapshot.queryParamMap.get('myArray1');
       debugger;
       if (myArray1 != null) {
         this.package = JSON.parse(myArray1);
-
+        this.findDrive()
       }
-      this.driveServ.getIdDrive(this.package.Id).subscribe(data => {
-        debugger; this.drivePackage = data as DataDriveResults[]; debugger;
-        if (data==null)
-        Swal.fire('',"לא נמצא נסיעה",'error');
-        // this.PackageService.getAIdPackages(this.id).subscribe
-        // (  data=>{;debugger;this.package=data as Package; }); 
-
-        // debugger
-
-      });
+     
+      
     });
-   
 
-    // this.active.params.subscribe(data=>{
-    //       const myArray1 = this.active.snapshot.queryParamMap.get('myArray1');
-    //       debugger;
-    //       if(myArray1!=null)
-    //       {this.drivePackage = JSON.parse(myArray1);
-    //        //this.loadata();
-    //        //this.origin.push(this.package.OriginStreet + " " +this.package.OriginNumBuild + ", " +this.package.OriginCity);
-    //        //this.origin.push(this.package.DestinationStreet + " " + this.package.DestinationNumBuild + ", " + this.package.DestinationCity);
+    this.active.params.subscribe(data => {
+      const myArray2 = this.active.snapshot.queryParamMap.get('myArray2');
+      debugger;
+      if (myArray2 != null) {
+        this.drive = JSON.parse(myArray2);
+   this.PackageService.GetPackagesByIdDrive(this.drive.PackageId).subscribe(data=>{this.drivePackage = data as DataDriveResults[];debugger;
+ const origin1o = this.drivePackage[0].OriginStreet + " " + this.drivePackage[0].OriginNumBuild + ", " + this.drivePackage[0].OriginCity
+ debugger
+ const   destinationAd= this.drive.OriginStreet + " " + this.drive.OriginNumBuild + ", " + this.drive.OriginCity;
+ debugger
+ const origin2o = this.drivePackage[0].DestinationStreet + " " + this.drivePackage[0].DestinationNumBuild + ", " + this.drivePackage[0].DestinationCity
+ debugger
+ const destinationBd = this.drive.DestinationStreet + " " + this.drive.DestinationNumBuild + ", " + this.drive.DestinationCity;
+ debugger
+        this.initMap(origin1o,destinationAd ,origin2o ,destinationBd)
+      });
+      }
+      
+      
+    });
+  }
+  findDrive(){
+    this.driveServ.getIdDrive(this.package.Id).subscribe(data => {
+    debugger; this.drivePackage = data as DataDriveResults[]; debugger; 
+    if (this.drivePackage.length==0)
+    Swal.fire('',"לא נמצא נסיעה",'error');
+    else
+    {
+      const origin11 = this.drivePackage[0].OriginStreet + " " + this.drivePackage[0].OriginNumBuild + ", " + this.drivePackage[0].OriginCity
 
-    //       // this.PackageService.getAIdPackages(this.package.Id).subscribe
-    //       }
-    //       this.PackageService.getAIdPackages(this.drivePackage[0].IdPackage).subscribe
-    //       (  data=>{;debugger;this.package=data as Package; }); 
+const   destinationAA= this.package.OriginStreet + " " + this.package.OriginNumBuild + ", " + this.package.OriginCity;
 
-    //       debugger
-    //       // this.initMap()     
-    //     });
-   //;
-   }
+const origin22 = this.drivePackage[0].DestinationStreet + " " + this.drivePackage[0].DestinationNumBuild + ", " + this.drivePackage[0].DestinationCity
+
+const destinationBB = this.package.DestinationStreet + " " + this.package.DestinationNumBuild + ", " + this.package.DestinationCity;
+this.initMap(origin11,destinationAA ,origin22 ,destinationBB);
+    }
+    
+  });
+  
+  
+
+  // this.active.params.subscribe(data=>{
+  //       const myArray1 = this.active.snapshot.queryParamMap.get('myArray1');
+  //       debugger;
+  //       if(myArray1!=null)
+  //       {this.drivePackage = JSON.parse(myArray1);
+  //        //this.loadata();
+  //        //this.origin.push(this.package.OriginStreet + " " +this.package.OriginNumBuild + ", " +this.package.OriginCity);
+  //        //this.origin.push(this.package.DestinationStreet + " " + this.package.DestinationNumBuild + ", " + this.package.DestinationCity);
+
+  //       // this.PackageService.getAIdPackages(this.package.Id).subscribe
+  //       }
+  //       this.PackageService.getAIdPackages(this.drivePackage[0].IdPackage).subscribe
+  //       (  data=>{;debugger;this.package=data as Package; }); 
+
+  //       debugger
+  //       // this.initMap()     
+  //     });
+ //;
+ }
 
   show() {
-    this.initMap()
+    //  this.initMap()
   }
   //  initMap(): void {
   //   map = new google.maps.Map(document.getElementById("map") as HTMLElement, {
@@ -86,14 +135,15 @@ export class RoadMapComponent implements OnInit {
     this.driveServ.getIdDriveById(this.drivePackage[0].DriveId).subscribe(data => {
       debugger; this.drive = data; debugger; this.drive.PackageId=null;debugger;
       this.driveServ.updateDrive(this.drive).subscribe();
-      this.drivePackage[0]=new DataDriveResults()    
-      Swal.fire('',"לא נמצא נסיעה",'error');
+      this.ngOnInit();
+     // this.drivePackage[0]=new DataDriveResults()    
+    // Swal.fire('',"לא נמצא נסיעה",'error');
     });
     
     // this.driveServ.updateDrive(this.drive).subscribe();
     debugger
   }
-  initMap(): void {
+  initMap(origin11:any,destinationAA:any ,origin22:any ,destinationBB:any): void {
 
 
 
@@ -103,13 +153,17 @@ export class RoadMapComponent implements OnInit {
     const markersArray: google.maps.Marker[] = [];
 
     //const origin1 = { lat: 55.93, lng: -3.118 };
-    const origin1 = this.drivePackage[0].OriginStreet + " " + this.drivePackage[0].OriginNumBuild + ", " + this.drivePackage[0].OriginCity
-    // const origin2 = "Greenwich, England";
-    const   destinationA= this.package.OriginStreet + " " + this.package.OriginNumBuild + ", " + this.package.OriginCity;
+   // const origin1 = this.drivePackage[0].OriginStreet + " " + this.drivePackage[0].OriginNumBuild + ", " + this.drivePackage[0].OriginCity
+   const origin1= origin11;
+   const destinationA= destinationAA;
+   // const origin2 = "Greenwich, England";
+   const origin2= origin22;
+   const destinationB=destinationBB;
+    //const   destinationA= this.package.OriginStreet + " " + this.package.OriginNumBuild + ", " + this.package.OriginCity;
     //const destinationA = "Stockholm, Sweden";
-    const origin2 = this.drivePackage[0].DestinationStreet + " " + this.drivePackage[0].DestinationNumBuild + ", " + this.drivePackage[0].DestinationCity
+    //const origin2 = this.drivePackage[0].DestinationStreet + " " + this.drivePackage[0].DestinationNumBuild + ", " + this.drivePackage[0].DestinationCity
     // const destinationB = { lat: 50.087, lng: 14.421 };
-    const destinationB = this.package.DestinationStreet + " " + this.package.DestinationNumBuild + ", " + this.package.DestinationCity;
+    //const destinationB = this.package.DestinationStreet + " " + this.package.DestinationNumBuild + ", " + this.package.DestinationCity;
 
     const destinationIcon =
       "https://chart.googleapis.com/chart?" +

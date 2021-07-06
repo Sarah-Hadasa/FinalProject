@@ -6,6 +6,7 @@ import { Package } from 'src/app/Classes/package';
 import { DriveService } from 'src/app/Services/drive.service';
 import { PackageService } from 'src/app/Services/package.service';
 import { TravelService } from 'src/app/Services/travel.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-show-packages',
@@ -18,12 +19,16 @@ export class ShowPackagesComponent implements OnInit {
   PackageCheck:any[]=[];
   PackageDataDrive:DataDriveResults[] = [];
   // PackageDataDrive:any[]=[];
-  package:Package=new Package()
+  //package:Package=new Package()
+  package:any
+  drive:any
+  
   constructor(private route: Router, private packages:PackageService,private travelService:TravelService,private driveS:DriveService ) { }
 
   ngOnInit(): void {
     // this.packages.getAllPackages().subscribe(data=>{this.allPackages=data;});
     debugger;
+    // <reference types="@types/googlemaps" />
   }
   showMyPackage()
   {
@@ -32,6 +37,13 @@ export class ShowPackagesComponent implements OnInit {
 // this.package.UserId = sessionStorage["IDUser"];
     this.packages.getAllIdPackages(userId).subscribe(data=>{this.allPackages=data;}); 
   }
+  // showMyDrives()
+  // {
+  //   debugger;
+  //   let userId=6
+  //   this.driveS.GetDrivesByIdUser(userId).subscribe(data=>{this.allPackages=data as any;debugger;}); 
+  // }
+  
   onSelect(item:Package)
   {
     //this.travelService.getIdTravel(id).subscribe();
@@ -40,20 +52,45 @@ export class ShowPackagesComponent implements OnInit {
    debugger
    this.package=item;
   }
+
+
   deletePackages()
   {
     debugger
+  
     this.packages.deletePackages(this.package.Id).subscribe();
+    this.driveS.getIdDriveByIdP(this.package.Id).subscribe(data=>{
+      this.drive=data;debugger
+      Swal.fire('', 'נסיעה הוסרה  ', 'success');
+      if(data!=null)
+      {
+        ;this.drive.PackageId=0;
+      this.driveS.updateDrive(this.drive).subscribe();
+      } 
+      //window.location.reload();
+      this.showMyPackage()
+    });
+   
   }
   searchPackages()
   {
      // Create our query parameters object
+    //  const queryParams: any = {};
+    //  queryParams.myArray = JSON.stringify(this.package);
+    //  const navigationExtras: NavigationExtras = {
+    //    queryParams
+    //  };
+    //  this.route.navigate(['addPackage'], navigationExtras);
+
+
+    // Create our query parameters object
      const queryParams: any = {};
-     queryParams.myArray = JSON.stringify(this.package);
+     queryParams.myArray1 = JSON.stringify(this.package);
      const navigationExtras: NavigationExtras = {
        queryParams
      };
-     this.route.navigate(['addPackage'], navigationExtras);
+     this.route.navigate(['showDrives'], navigationExtras);
+
   }
   updatePackages()
   {
@@ -69,7 +106,7 @@ export class ShowPackagesComponent implements OnInit {
   showDrive()
   {
     debugger;
-    this.package.Id=153;
+    //this.package.Id=153;
     const queryParams: any = {};
       queryParams.myArray1 = JSON.stringify(this.package);
       const navigationExtras: NavigationExtras = {
